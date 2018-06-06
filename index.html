@@ -1,325 +1,64 @@
+
 <!DOCTYPE html>
-<html>
-<head lang="id-ID">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <meta name="description" content="Web milik Muhammad Hanif.">
-    <meta name="keywords" content="muhammad hanif, profil, portofolio, dan blog">
-    <meta name="author" content="Muhammad Hanif">
+  <meta name="description" content="Web milik Muhammad Hanif">
+  <meta name="keywords" content="muhammad hanif, profil, portofolio, blog, blogger, lamongan, baturono">
+  <meta name="author" content="Muhammad Hanif">
 
-    <meta property="og:locale" content="id_ID" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="hanifmu.com | Muhammad Hanif" />
-    <meta property="og:description" content="Web milik Muhammad Hanif." />
-    <meta property="og:url" content="http://hanifmu.com/" />
-    <meta property="og:site_name" content="hanifmu.com" />
-    <meta property="og:image" content="https://github.com/muhammadhanif/muhammadhanif.github.io/raw/master/assets/images/hanifmu-socmed.png" />
-    <meta property="og:image:secure_url" content="https://github.com/muhammadhanif/muhammadhanif.github.io/raw/master/assets/images/hanifmu-socmed.png" />
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Muhammad Hanif" />
+  <meta property="og:description" content="Web milik Muhammad Hanif" />
+  <meta property="og:url" content="https://hanifmu.com/" />
+  <meta property="og:site_name" content="hanifmu.com" />
+  <meta property="og:image" content="https://github.com/muhammadhanif/muhammadhanif.github.io/raw/master/assets/images/hanifmu-socmed.png" />
+  <meta property="og:image:secure_url" content="https://github.com/muhammadhanif/muhammadhanif.github.io/raw/master/assets/images/hanifmu-socmed.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:description" content="Web milik Muhammad Hanif" />
+  <meta name="twitter:title" content="Muhammad Hanif" />
+  <meta name="twitter:image" content="https://github.com/muhammadhanif/muhammadhanif.github.io/raw/master/assets/images/hanifmu-socmed.png" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description" content="Webs milik Muhammad Hanif." />
-    <meta name="twitter:title" content="hanifmu.com | Muhammad Hanif" />
-    <meta name="twitter:image" content="https://github.com/muhammadhanif/muhammadhanif.github.io/raw/master/assets/images/hanifmu-socmed.png" />
+  <title>Muhammad Hanif</title>
 
-    <title>hanifmu.com | Muhammad Hanif</title>
+  <link href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css" rel="stylesheet">
+  <link rel="canonical" href="https://hanifmu.com/" />
+  <link rel='shortcut icon' type='image/x-icon' href='https://github.com/muhammadhanif/muhammadhanif.github.io/raw/master/assets/images/hanifmu-ico.png' />
 
-    <link rel="canonical" href="http://hanifmu.com/" />
-    <link rel='shortcut icon' type='image/x-icon' href='https://github.com/muhammadhanif/muhammadhanif.github.io/raw/master/assets/images/hanifmu-ico.png' />
+  <style>
+    body, html {
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
 
-    <link href="https://rawgit.com/muhammadhanif/muhammadhanif.github.io/master/assets/css/metro.css" rel="stylesheet">
-    <link href="https://rawgit.com/muhammadhanif/muhammadhanif.github.io/master/assets/css/metro-icons.css" rel="stylesheet">
+      a:hover {
+         text-decoration:none;
+      }
+  </style>
 
-    <script src="https://rawgit.com/muhammadhanif/muhammadhanif.github.io/master/assets/js/jquery-2.1.3.min.js"></script>
-    <script src="https://rawgit.com/muhammadhanif/muhammadhanif.github.io/master/assets/js/metro.js"></script>
-
-    <style>
-        .tile-area-controls {
-            position: fixed;
-            right: 40px;
-            top: 40px;
-        }
-
-        .tile-group {
-            left: 100px;
-        }
-
-        .tile, .tile-small, .tile-sqaure, .tile-wide, .tile-large, .tile-big, .tile-super {
-            opacity: 0;
-            -webkit-transform: scale(.8);
-            transform: scale(.8);
-        }
-
-        #charmSettings .button {
-            margin: 5px;
-        }
-
-        .schemeButtons {
-            /*width: 300px;*/
-        }
-
-
-        @media screen and (max-width: 640px) {
-            .tile-area {
-                overflow-y: scroll;
-            }
-            .tile-area-controls {
-                display: none;
-            }
-        }
-
-        @media screen and (max-width: 320px) {
-            .tile-area {
-                overflow-y: scroll;
-            }
-
-            .tile-area-controls {
-                display: none;
-            }
-
-        }
-    </style>
-    <script>
-        (function($) {
-            $.StartScreen = function(){
-                var plugin = this;
-                var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-
-                plugin.init = function(){
-                    setTilesAreaSize();
-                    if (width > 640) addMouseWheel();
-                };
-
-                var setTilesAreaSize = function(){
-                    var groups = $(".tile-group");
-                    var tileAreaWidth = 80;
-                    $.each(groups, function(i, t){
-                        if (width <= 640) {
-                            tileAreaWidth = width;
-                        } else {
-                            tileAreaWidth += $(t).outerWidth() + 80;
-                        }
-                    });
-                    $(".tile-area").css({
-                        width: tileAreaWidth
-                    });
-                };
-
-                var addMouseWheel = function (){
-                    $("body").mousewheel(function(event, delta, deltaX, deltaY){
-                        var page = $(document);
-                        var scroll_value = delta * 50;
-                        page.scrollLeft(page.scrollLeft() - scroll_value);
-                        return false;
-                    });
-                };
-
-                plugin.init();
-            }
-        })(jQuery);
-
-        $(function(){
-            $.StartScreen();
-
-            var tiles = $(".tile, .tile-small, .tile-sqaure, .tile-wide, .tile-large, .tile-big, .tile-super");
-
-            $.each(tiles, function(){
-                var tile = $(this);
-                setTimeout(function(){
-                    tile.css({
-                        opacity: 1,
-                        "-webkit-transform": "scale(1)",
-                        "transform": "scale(1)",
-                        "-webkit-transition": ".3s",
-                        "transition": ".3s"
-                    });
-                }, Math.floor(Math.random()*500));
-            });
-
-            $(".tile-group").animate({
-                left: 0
-            });
-        });
-
-        function showCharms(id){
-            var  charm = $(id).data("charm");
-            if (charm.element.data("opened") === true) {
-                charm.close();
-            } else {
-                charm.open();
-            }
-        }
-
-        $(function(){
-            var current_tile_area_scheme = localStorage.getItem('tile-area-scheme') || "tile-area-scheme-dark";
-            $(".tile-area").removeClass (function (index, css) {
-                return (css.match (/(^|\s)tile-area-scheme-\S+/g) || []).join(' ');
-            }).addClass(current_tile_area_scheme);
-
-            $(".schemeButtons .button").hover(
-                    function(){
-                        var b = $(this);
-                        var scheme = "tile-area-scheme-" +  b.data('scheme');
-                        $(".tile-area").removeClass (function (index, css) {
-                            return (css.match (/(^|\s)tile-area-scheme-\S+/g) || []).join(' ');
-                        }).addClass(scheme);
-                    },
-                    function(){
-                        $(".tile-area").removeClass (function (index, css) {
-                            return (css.match (/(^|\s)tile-area-scheme-\S+/g) || []).join(' ');
-                        }).addClass(current_tile_area_scheme);
-                    }
-            );
-
-            $(".schemeButtons .button").on("click", function(){
-                var b = $(this);
-                var scheme = "tile-area-scheme-" +  b.data('scheme');
-
-                $(".tile-area").removeClass (function (index, css) {
-                    return (css.match (/(^|\s)tile-area-scheme-\S+/g) || []).join(' ');
-                }).addClass(scheme);
-
-                current_tile_area_scheme = scheme;
-                localStorage.setItem('tile-area-scheme', scheme);
-
-                showSettings();
-            });
-        });
-
-    </script>
 
 </head>
-<body style="overflow-y: hidden;">
-    <div data-role="charm" id="charmSettings" data-position="top">
-        <h1 class="text-light">Settings</h1>
-        <hr class="thin"/>
-        <br />
-        <div class="schemeButtons">
-            <div class="button square-button tile-area-scheme-dark" data-scheme="dark"></div>
-            <div class="button square-button tile-area-scheme-darkBrown" data-scheme="darkBrown"></div>
-            <div class="button square-button tile-area-scheme-darkCrimson" data-scheme="darkCrimson"></div>
-            <div class="button square-button tile-area-scheme-darkViolet" data-scheme="darkViolet"></div>
-            <div class="button square-button tile-area-scheme-darkMagenta" data-scheme="darkMagenta"></div>
-            <div class="button square-button tile-area-scheme-darkCyan" data-scheme="darkCyan"></div>
-            <div class="button square-button tile-area-scheme-darkCobalt" data-scheme="darkCobalt"></div>
-            <div class="button square-button tile-area-scheme-darkTeal" data-scheme="darkTeal"></div>
-            <div class="button square-button tile-area-scheme-darkEmerald" data-scheme="darkEmerald"></div>
-            <div class="button square-button tile-area-scheme-darkGreen" data-scheme="darkGreen"></div>
-            <div class="button square-button tile-area-scheme-darkOrange" data-scheme="darkOrange"></div>
-            <div class="button square-button tile-area-scheme-darkRed" data-scheme="darkRed"></div>
-            <div class="button square-button tile-area-scheme-darkPink" data-scheme="darkPink"></div>
-            <div class="button square-button tile-area-scheme-darkIndigo" data-scheme="darkIndigo"></div>
-            <div class="button square-button tile-area-scheme-darkBlue" data-scheme="darkBlue"></div>
-            <div class="button square-button tile-area-scheme-lightBlue" data-scheme="lightBlue"></div>
-            <div class="button square-button tile-area-scheme-lightTeal" data-scheme="lightTeal"></div>
-            <div class="button square-button tile-area-scheme-lightOlive" data-scheme="lightOlive"></div>
-            <div class="button square-button tile-area-scheme-lightOrange" data-scheme="lightOrange"></div>
-            <div class="button square-button tile-area-scheme-lightPink" data-scheme="lightPink"></div>
-            <div class="button square-button tile-area-scheme-grayed" data-scheme="grayed"></div>
-        </div>
+<body >
+  <div class="hero text-center">
+    <div>
+      <a href="#" class="d-flex flex-justify-center fg-black p-2 h1">hanifmu.com</a>
     </div>
 
-    <div class="tile-area tile-area-scheme-dark fg-white" style="height: 100%; max-height: 100% !important;">
-        <h1 class="tile-area-title">hanifmu.com</h1>
-         <div class="tile-area-controls">
-            <button class="image-button icon-right bg-transparent fg-white bg-darkRed no-border" onclick="metroDialog.toggle('#kontak')"><span class="sub-header no-margin text-light">Muhammad Hanif</span> <span class="icon mif-user bg-red"></span></button>
-             <button class="square-button bg-transparent fg-white bg-steel no-border" onclick="showCharms('#charmSettings')"><span class="mif-cog"></span></button>
-        </div>
-
-        <div class="tile-group double">
-            <span class="tile-group-title">Profil & Kontak</span>
-
-            <div class="tile-container">
-                <div class="tile bg-darkCyan fg-white" data-role="tile" onclick="document.location.href='https://www.linkedin.com/in/hanifmu'">
-                    <div class="tile-content iconic">
-                        <span class="icon mif-linkedin"></span>
-                    </div>
-                    <span class="tile-label">Profil</span>
-                </div>
-
-                <div class="tile bg-darkRed fg-white" data-role="tile" onclick="metroDialog.toggle('#kontak')">
-                    <div class="tile-content iconic">
-                        <span class="icon mif-phone"></span>
-                    </div>
-                    <span class="tile-label">Kontak</span>
-                </div>
-            </div>
-
-            <div class="tile-large bg-steel fg-white" data-role="tile">
-                <div class="tile-content image-set">
-                    <img src="https://github.com/muhammadhanif/muhammadhanif.github.io/raw/master/assets/images/hanifmu.png" data-role="fitImage" data-format="fill">
-                </div>
-            </div>
-        </div>
-
-        <div class="tile-group one">
-            <span class="tile-group-title">Portofolio</span>
-            <div class="tile-container">
-                <div class="tile bg-grayLight fg-white" data-role="tile" onclick="document.location.href='https://github.com/muhammadhanif/'">
-                    <div class="tile-content iconic">
-                        <span class="icon mif-github mif-ani-shuttle mif-ani-slow"></span>
-                    </div>
-                    <span class="tile-label">GitHub</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="tile-group one">
-            <span class="tile-group-title">Media Sosial</span>
-            <div class="tile-small bg-orange" data-role="tile" onclick="document.location.href='https://blog.hanifmu.com'">
-                <div class="tile-content iconic" data-role="hint" data-hint="Blog | https://blog.hanifmu.com" >
-                    <span class="icon mif-vpn-publ" ></span>
-                </div>
-            </div>
-
-            <div class="tile-small bg-darkBlue" data-role="tile" onclick="document.location.href='https://web.facebook.com/hanifmudotcom/'">
-                <div class="tile-content iconic">
-                    <span class="icon mif-facebook"></span>
-                </div>
-            </div>
-
-            <div class="tile-small bg-red" data-role="tile" onclick="document.location.href='https://www.youtube.com/channel/UC6KpPJMwbWW2s_wN_Ns1Itw'">
-                <div class="tile-content iconic">
-                    <span class="icon mif-youtube"></span>
-                </div>
-            </div>
-        </div>
-
-        <div data-role="dialog" data-color="fg-white" id="kontak" class="" data-close-button="true">
-            <div class="panel">
-                <div class="heading bg-red">
-                    <span class="bg-darkRed icon mif-phone"></span>
-                    <span class="title">Kontak</span>
-                </div>
-                <div class="content padding30">
-                    <div class="grid">
-                        <div class="row">
-                             <div class="cell">
-                                    <div class="listview-outlook" data-role="">
-                                        <div class="list marked">
-                                            <div class="list-content">
-                                                <span class="list-title">Telegram</span>
-                                                <span class="list-subtitle"><a href="https://t.me/muhammad_hanif" target="_blank">@muhammad_hanif</a></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="listview-outlook" data-role="listview">
-                                        <div class="list marked">
-                                            <div class="list-content">
-                                                <span class="list-title">E-mail</span>
-                                                <span class="list-subtitle">moehammadhanif@gmail.com</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+    <div class="text-center">
+      <ul class="inline-list">
+        <li><a href="https://www.linkedin.com/in/hanifmu"><span class="fg-blue mif-linkedin mif-4x"></span></a></li>
+        <li><a href="https://github.com/muhammadhanif/"><span class="fg-darkGray mif-github mif-4x"></span></a></li>
+        <li><a href="https://blog.hanifmu.com/"><span class="fg-orange mif-blogger mif-4x"></span></a></li>
+        <li><a href="https://web.facebook.com/0xhnf"><span class="fg-darkCobalt mif-facebook2 mif-4x"></span></a></li>
+        <li><a href="https://t.me/muhammad_hanif"><span class="fg-green mif-contacts-dialer mif-4x"></span></a></li>
+      </ul>
     </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
 </body>
 </html>
