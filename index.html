@@ -30,21 +30,42 @@
 
   <style>
     body, html {
-        overflow-x: hidden;
-        overflow-y: auto;
-      }
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
 
-      a:hover {
-         text-decoration:none;
-      }
+    a:hover {
+      text-decoration:none;
+    }
+
+    .line-1{
+      position: relative;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255,255,255,.75);
+      white-space: nowrap;
+      overflow: hidden;
+      transform: translateY(-50%);
+    }
+
+    .anim-typewriter{
+      animation: typewriter 4s steps(44) 1s 1 normal both,
+      blinkTextCursor 500ms steps(44) infinite normal;
+    }
+    @keyframes typewriter{
+      from{width: 0;}
+      to{width: 24em;}
+    }
+    @keyframes blinkTextCursor{
+      from{border-right-color: rgba(255,255,255,.75);}
+      to{border-right-color: transparent;}
+    }
   </style>
-
 
 </head>
 <body >
   <div class="hero text-center">
     <div>
-      <a href="#" class="d-flex flex-justify-center fg-black p-2 h1">hanifmu.com</a>
+      <a href="#" class="d-flex flex-justify-center fg-black p-2 h1"><span class="line-1 anim-typewriter">hanifmu.com</span></a>
     </div>
 
     <div class="text-center">
