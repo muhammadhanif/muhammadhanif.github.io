@@ -24,7 +24,6 @@ a:link,
 a:visited {}
 
 a:hover {
-  color: maroon;
   text-decoration: none;
 }
 
@@ -35,4 +34,21 @@ a:hover {
   align-items: center;
   text-align: center;
   min-height: 100vh;
+}
+
+/* Social media color*/
+.blogger {
+  color: #f57d00;
+}
+
+.github {
+  color: #333
+}
+
+.linkedin {
+  color: #0e76a8
+}
+
+.telegram {
+  color: #0088cc
 }
