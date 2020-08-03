@@ -1,9 +1,9 @@
 body {
-  background-color: #2E86C1;
-  }
+  background-color: #2e86c1;
+}
 
 .myname {
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
 }
 
 .list-inline {
@@ -20,7 +20,8 @@ a {
 }
 
 a:link,
-a:visited {}
+a:visited {
+}
 
 a:hover {
   text-decoration: none;
@@ -45,13 +46,13 @@ a:hover {
 }
 
 .github {
-  color: #333
+  color: #333;
 }
 
 .linkedin {
-  color: #0e76a8
+  color: #0e76a8;
 }
 
 .telegram {
-  color: #0088cc
+  color: #0088cc;
 }
