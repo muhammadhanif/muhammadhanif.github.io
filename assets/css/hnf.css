@@ -1,9 +1,10 @@
 body {
-  background-color: #343a40;
+  /*background-color: #343a40;*/
+  background-color: #7c1d0d;
 }
 
 .myname {
-  font-family: "Abel", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .list-inline {
@@ -12,6 +13,7 @@ body {
 }
 
 .list-inline-item {
+  letter-spacing: 0.5em;
   display: inline-block;
 }
 
