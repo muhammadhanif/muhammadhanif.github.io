@@ -1,0 +1,135 @@
+############################
+## GitLab CI - Docker Lab ##
+############################
+
+##### Requirement #####
+
+##1. Akun GitLab
+##2. Buat 1 project di GitLab
+##3. 1 VM Ubuntu
+
+
+##### Buat Project #####
+
+##1. Buat project di gitlab.com
+# Nama project: app
+
+##2. Clone Project
+git clone https://gitlab.com/username/app.git
+cd app
+
+##3. Buat Dockerfile, Docker Compose, GitLab CI dan HTML
+# Dockerfile
+vi Dockerfile
+
+FROM httpd:latest
+ADD . /usr/local/apache2/htdocs/
+
+# Docker Compose
+vi docker-compose.yml
+
+version: '2'
+services:
+  app:
+    container_name: app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: app:1
+    network_mode: bridge
+    restart: always
+    ports:
+      - "8070:80"
+
+# GitLab CI
+vi .gitlab-ci.yml
+
+stages:
+- deploy
+
+docker:
+  stage: deploy
+  script:
+    - docker-compose down --rmi all
+    - docker-compose up -d --build
+  only:
+    - master
+  tags:
+    - app
+
+# HTML
+vi index.html
+
+Testing....testing....testing
+
+##4. Git add, commit dan push
+git add .
+git commit -m "Initial commit"
+git push
+
+##5. Token Runner
+# Gunakan browser dan akses https://gitlab.com/username/app
+# Menu Setting > CI / CD > Runners > Setup a specific Runner manually
+# Catat Token
+
+
+##### VM Ubuntu #####
+
+##1. Install Docker
+# https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+##2. Install Docker Compose
+# https://docs.docker.com/compose/install/#install-compose
+
+##3. Install Gitlab runner
+sudo wget -O /usr/bin/gitlab-runner https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-linux-amd64
+sudo chmod +x /usr/bin/gitlab-runner
+sudo useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/bash
+sudo gitlab-runner install --user=gitlab-runner --working-directory=/home/gitlab-runner
+
+# Ganti REGISTRATION_TOKEN dengan Token Runner
+sudo gitlab-runner register -n \
+  --url https://gitlab.com/ \
+  --registration-token REGISTRATION_TOKEN \
+  --executor shell \
+  --description "app" \
+  --tag-list "app"
+
+sudo usermod -aG docker gitlab-runner
+sudo -u gitlab-runner -H docker info
+sudo cat /etc/gitlab-runner/config.toml
+sudo gitlab-runner start
+sudo gitlab-runner list
+sudo gitlab-runner status
+sudo gitlab-runner verify
+
+# Pastikan runner app statusnya running
+# Gunakan browser dan akses https://gitlab.com/username/app/settings/ci_cd
+
+
+##### Testing #####
+
+# Gunakan browser dan akses https://gitlab.com/username/app/pipelines
+# Run Pipeline > Create Pipeline
+# Tunggu sampai proses deploy selesai dan status menjadi passed
+
+# Eksekusi di VM Ubuntu
+sudo su
+docker ps
+curl -i http://localhost:8070 && echo ""
+
+
+##### Testing Lagi #####
+
+# Buat file ok.html
+vi ok.html
+
+1...2...3
+
+# Push file ok.html ke project app
+
+# Eksekusi di VM Ubuntu
+sudo su
+docker ps
+curl -i http://localhost:8070 && echo ""
+curl -i http://localhost:8070/ok.html && echo ""

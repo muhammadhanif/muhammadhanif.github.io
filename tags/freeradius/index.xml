@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FreeRADIUS on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/freeradius/</link>
+    <description>Recent content in FreeRADIUS on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 08 Oct 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/freeradius/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalasi dan Konfigurasi MikroTik Hotspot, FreeRADIUS, dan MySQL</title>
+      <link>https://hanifmu.com/posts/instalasi-dan-konfigurasi-mikrotik-hotspot-freeradius-dan-mysql/</link>
+      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-mikrotik-hotspot-freeradius-dan-mysql/</guid>
+      <description>&lt;p&gt;Ebook Instalasi dan Konfigurasi MikroTik Hotspot, FreeRADIUS dan MySQL ini saya tulis ketika saya mengambil mata kuliah keamanan jaringan.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

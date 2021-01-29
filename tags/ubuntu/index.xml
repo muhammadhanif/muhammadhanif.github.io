@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalasi GitKraken di Ubuntu 20.04 (Focal Fossa)</title>
+      <link>https://hanifmu.com/posts/instalasi-gitkraken-di-ubuntu-20-04-focal-fossa/</link>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-gitkraken-di-ubuntu-20-04-focal-fossa/</guid>
+      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi GitKraken di sistem operasi Ubuntu 20.04 (Focal Fossa). Bagi pengguna sistem operasi Ubuntu 16.04+ dan Debian 9+, anda juga bisa mengikuti tutorial ini untuk melakukan instalasi GitKraken di sistem operasi Ubuntu/Debian.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi Signal di Distro Linux Berbasis Debian</title>
+      <link>https://hanifmu.com/posts/instalasi-signal-di-distro-linux-berbasis-debian/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-signal-di-distro-linux-berbasis-debian/</guid>
+      <description>&lt;h2 id=&#34;sekilas-tentang-signal&#34;&gt;Sekilas Tentang Signal&lt;/h2&gt;
+&lt;p&gt;Signal adalah aplikasi perpesanan (messaging) sebagaimana seperti WhatsApp dan Telegram. Signal membuka sumber kode perangkat lunaknya di repositori GitHub &lt;a href=&#34;https://github.com/signalapp&#34;&gt;@signalapp&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi Zoom di Ubuntu 20.04</title>
+      <link>https://hanifmu.com/posts/instalasi-zoom-di-ubuntu-20-04/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-zoom-di-ubuntu-20-04/</guid>
+      <description>&lt;p&gt;Tutorial singkat ini menjelaskan bagaimana melakukan instalasi Zoom di Ubuntu 20.04 (Focal Fossa). Berikut ini langkah-langkahnya:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi Packet Tracer Versi 7.3.1 di Ubuntu 20.04</title>
+      <link>https://hanifmu.com/posts/instalasi-packet-tracer-versi-7.3.1-di-ubuntu-20-04/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-packet-tracer-versi-7.3.1-di-ubuntu-20-04/</guid>
+      <description>&lt;h3 id=&#34;sekilas-tentang-packer-tracer&#34;&gt;Sekilas Tentang Packer Tracer&lt;/h3&gt;
+&lt;p&gt;Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi dan Konfigurasi Knot Resolver #2</title>
+      <link>https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-2/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-2/</guid>
+      <description>&lt;p&gt;Tutorial ini merupakan kelanjutan dari &lt;a href=&#34;https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-1&#34;&gt;tutorial Instalasi dan Konfigurasi Knot Resolver #1&lt;/a&gt;. Di seri pertama sudah dibahas bagaimana melakukan instalasi dan konfigurasi dasar dari Knot Resolver serta melakukan pengujian kueri DNS. Di seri kedua ini akan dibahas bagaimana mengaktifkan DNS-over-TLS (DoT) di Knot Resolver.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi dan Konfigurasi Knot Resolver #1</title>
+      <link>https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-1/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-1/</guid>
+      <description>&lt;p&gt;Singkatnya, Knot Resolver adalah DNS resolver. Penjelasan lengkap tentang Knot Resolver bisa dibaca di &lt;a href=&#34;https://www.knot-resolver.cz/&#34;&gt;www.knot-resolver.cz&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gagal Memutar Video dan Solusinya di Ubuntu 20.04</title>
+      <link>https://hanifmu.com/posts/gagal-memutar-video-dan-solusinya-di-ubuntu-20-04/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/gagal-memutar-video-dan-solusinya-di-ubuntu-20-04/</guid>
+      <description>&lt;p&gt;Pagi ini, 6 Oktober 2020, saya mencoba memutar video menggunakan pemutar video bawaan Ubuntu 20.04. Namun, saya mendapati galat seperti yang ada di gambar di atas.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi Cockpit di Ubuntu 18.04</title>
+      <link>https://hanifmu.com/posts/instalasi-cockpit-di-ubuntu-18-04/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-cockpit-di-ubuntu-18-04/</guid>
+      <description>&lt;h2 id=&#34;sekilas-tentang-cockpit&#34;&gt;Sekilas Tentang Cockpit&lt;/h2&gt;
+&lt;p&gt;Cockpit adalah aplikasi berbasis web yang dapat kita gunakan untuk mengelola dan memantau (monitoring) sistem operasi GNU/Linux. Informasi lengkap tentang Cockpit dapat dibaca di situs &lt;a href=&#34;https://cockpit-project.org/&#34;&gt;Cockpit Project&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfigurasi DNS Resolver Permanen di Ubuntu</title>
+      <link>https://hanifmu.com/posts/konfigurasi-dns-resolver-permanen-ubuntu/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/konfigurasi-dns-resolver-permanen-ubuntu/</guid>
+      <description>&lt;p&gt;Karena DNS resolver yang disediakan ISP (menurut saya) sering bermasalah, saya kemudian menggunakan DNS resolver lainnya. Problem-nya adalah setiap kali komputer dinyalakan kembali dari restart atau shutdown, konfigurasi DNS resolver di file &lt;code&gt;/etc/resolv.conf&lt;/code&gt; yang saya buat selalu hilang.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Monitoring Server Linux Menggunakan Netdata</title>
+      <link>https://hanifmu.com/posts/monitoring-server-linux-menggunakan-netdata/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/monitoring-server-linux-menggunakan-netdata/</guid>
+      <description>&lt;p&gt;Monitoring server Linux merupakan hal sangat penting dan harus dilakukan oleh seorang administrator. Ada banyak tools yang dapat digunakan untuk membantu kita dalam memonitor server Linux. Salah satunya adalah Netdata.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Membuat Sertifikat SSL Valid untuk Localhost</title>
+      <link>https://hanifmu.com/posts/membuat-sertifikat-ssl-valid-untuk-localhost/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/membuat-sertifikat-ssl-valid-untuk-localhost/</guid>
+      <description>&lt;p&gt;Dalam tutorial ini, saya tuliskan step by step bagaimana membuat sertifikat SSL valid untuk keperluan di localhost. Untuk keperluan ini, digunakan beberapa alat sebagai berikut:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Menggunakan GitLab CI/CD dan Docker</title>
+      <link>https://hanifmu.com/posts/belajar-menggunakan-gitlab-ci-cd-dan-docker/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/belajar-menggunakan-gitlab-ci-cd-dan-docker/</guid>
+      <description>&lt;p&gt;Tutorial ini merupakan catatan belajar saya dalam menggunakan GitLab CI/CD dan Docker.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi Java di Ubuntu 18.04</title>
+      <link>https://hanifmu.com/posts/instalasi-java-di-ubuntu-18-04/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-java-di-ubuntu-18-04/</guid>
+      <description>&lt;p&gt;Di Tutoril ini dijelaskan bagaimana melakukan instalasi Java di Ubuntu 18.04.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi Docker CE di Ubuntu 18.04</title>
+      <link>https://hanifmu.com/posts/instalasi-docker-ce-di-ubuntu-18-04/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-docker-ce-di-ubuntu-18-04/</guid>
+      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi Docker CE di Ubuntu 18.04 yang dirilis pada tanggal 26 April 2018 yang lalu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Change Docker’s IP Address and Subnet</title>
+      <link>https://hanifmu.com/posts/change-docker-ip-address-and-subnet/</link>
+      <pubDate>Tue, 11 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/change-docker-ip-address-and-subnet/</guid>
+      <description>&lt;p&gt;By default, when we install Docker on our computer, Docker will create a bridge interface namely &lt;code&gt;docker0&lt;/code&gt;. Docker uses 172.17.0.1 IP address and 172.17.0.0/16 subnet for &lt;code&gt;docker0&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mengubah IP Address dan Subnet Interface Bridge docker0</title>
+      <link>https://hanifmu.com/posts/mengubah-ip-address-dan-subnet-interface-bridge-docker0/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/mengubah-ip-address-dan-subnet-interface-bridge-docker0/</guid>
+      <description>&lt;p&gt;Ketika kita melakukan instalasi Docker, Docker akan membuat interface bridge dengan nama &lt;code&gt;docker0&lt;/code&gt;. Interface &lt;code&gt;docker0&lt;/code&gt; tersebut oleh Docker diberi IP address 172.17.0.1 dengan subnet 172.17.0.0/16. Berikut ini merupakan informasi interface &lt;code&gt;docker0&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mengubah Tanggal dan Jam di Ubuntu dan CentOS</title>
+      <link>https://hanifmu.com/posts/mengubah-tanggal-dan-jam-di-ubuntu-dan-centos/</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/mengubah-tanggal-dan-jam-di-ubuntu-dan-centos/</guid>
+      <description>&lt;p&gt;Tutorial singkat ini membahas bagaimana mengubah atau menyesuaikan tanggal dan jam di Ubuntu dan CentOS. Untuk mengubah tanggal dan jam, kita dapat menggunakan perintah timedatectl.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mengubah Time Zone di Ubuntu dan CentOS</title>
+      <link>https://hanifmu.com/posts/mengubah-time-zone-ubuntu-dan-centos/</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/mengubah-time-zone-ubuntu-dan-centos/</guid>
+      <description>&lt;p&gt;Tutorial singkat ini membahas bagaimana mengubah time zone di Ubuntu dan CentOS. Pada tutorial ini, digunakan perintah &lt;code&gt;timedatectl&lt;/code&gt; untuk mengubah time zone.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi Flask dan Contoh Program Hello World</title>
+      <link>https://hanifmu.com/posts/instalasi-flask-dan-contoh-program-hello-world/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-flask-dan-contoh-program-hello-world/</guid>
+      <description>&lt;h3 id=&#34;apa-itu-flask&#34;&gt;APA ITU FLASK?&lt;/h3&gt;
+&lt;p&gt;Flask merupakan web framework (lebih tepatnya microframework) Python yang berbasis Werkzeug dan Jinja 2. Flask dilisensikan dengan BSD license. Flask dibuat oleh Armir Ronacher dan dirilis pada April 2010 dengan versi awal 0.10. Saat tutorial ini dibuat, versi terbaru dari Flask adalah versi 0.12.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Use PHP&#39;s Built-in Web Server</title>
+      <link>https://hanifmu.com/posts/how-to-use-php-built-in-web-server/</link>
+      <pubDate>Fri, 10 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/how-to-use-php-built-in-web-server/</guid>
+      <description>&lt;p&gt;Since version 5.4, PHP has a built-in web server feature. But the feature is not intended to be a full-featured web server. We can use it for application development, testing purposes and application demonstration.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfigurasi Keyboard Layout (CentOS/Red Hat/Ubuntu)</title>
+      <link>https://hanifmu.com/posts/konfigurasi-keyboard-layout-centos-redhat-ubuntu/</link>
+      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/konfigurasi-keyboard-layout-centos-redhat-ubuntu/</guid>
+      <description>&lt;p&gt;Pada tutorial sebelumnya yakni &lt;a href=&#34;https://hanifmu.com/posts/konfigurasi-system-locale-centos-redhat-ubuntu&#34;&gt;konfigurasi system locale (Ubuntu/CentOS/Red Hat)&lt;/a&gt;, saya sudah menjelaskan bagaimana mengubah system locale di disto Linux CentOS, Red Hat, dan Ubuntu. Di tutorial ini dijelaskan bagaimana melakukan konfigurasi keyboard layout.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfigurasi System Locale (CentOS/Red Hat/Ubuntu)</title>
+      <link>https://hanifmu.com/posts/konfigurasi-system-locale-centos-redhat-ubuntu/</link>
+      <pubDate>Tue, 02 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/konfigurasi-system-locale-centos-redhat-ubuntu/</guid>
+      <description>&lt;p&gt;Tutorial singkat ini membahas bagaimana melakukan konfigurasi system locale di disto Linux CentOS, Red Hat, dan Ubuntu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installing Oracle Java 8 on Ubuntu 15.10</title>
+      <link>https://hanifmu.com/posts/installing-oracle-java-8-on-ubuntu-15-10/</link>
+      <pubDate>Tue, 17 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/installing-oracle-java-8-on-ubuntu-15-10/</guid>
+      <description>&lt;p&gt;This quick tutorial will guide you to install Oracle Java 8 in Ubuntu 15.10 using WebUpd8 PPA repository.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

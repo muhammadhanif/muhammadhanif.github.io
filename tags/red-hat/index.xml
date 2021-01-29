@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Red Hat on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/red-hat/</link>
+    <description>Recent content in Red Hat on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 03 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/red-hat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ebook Red Hat Enterprise Linux 7 System Administrator’s Guide</title>
+      <link>https://hanifmu.com/posts/ebook-red-hat-enterprise-linux-7-system-administrator-guide/</link>
+      <pubDate>Sun, 03 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/ebook-red-hat-enterprise-linux-7-system-administrator-guide/</guid>
+      <description>&lt;p&gt;Ebook Red Hat Enterprise Linux 7 System Administrator&amp;rsquo;s Guide merupakan ebook yang dipublikasikan oleh Red Hat. Ebook ini layak dijadikan panduan bagi system administrator yang kesehariannya bergelut dengan sistem operasi Red Hat.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfigurasi Keyboard Layout (CentOS/Red Hat/Ubuntu)</title>
+      <link>https://hanifmu.com/posts/konfigurasi-keyboard-layout-centos-redhat-ubuntu/</link>
+      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/konfigurasi-keyboard-layout-centos-redhat-ubuntu/</guid>
+      <description>&lt;p&gt;Pada tutorial sebelumnya yakni &lt;a href=&#34;https://hanifmu.com/posts/konfigurasi-system-locale-centos-redhat-ubuntu&#34;&gt;konfigurasi system locale (Ubuntu/CentOS/Red Hat)&lt;/a&gt;, saya sudah menjelaskan bagaimana mengubah system locale di disto Linux CentOS, Red Hat, dan Ubuntu. Di tutorial ini dijelaskan bagaimana melakukan konfigurasi keyboard layout.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfigurasi System Locale (CentOS/Red Hat/Ubuntu)</title>
+      <link>https://hanifmu.com/posts/konfigurasi-system-locale-centos-redhat-ubuntu/</link>
+      <pubDate>Tue, 02 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/konfigurasi-system-locale-centos-redhat-ubuntu/</guid>
+      <description>&lt;p&gt;Tutorial singkat ini membahas bagaimana melakukan konfigurasi system locale di disto Linux CentOS, Red Hat, dan Ubuntu.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

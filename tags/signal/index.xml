@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Signal on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/signal/</link>
+    <description>Recent content in Signal on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/signal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalasi Signal di Distro Linux Berbasis Debian</title>
+      <link>https://hanifmu.com/posts/instalasi-signal-di-distro-linux-berbasis-debian/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-signal-di-distro-linux-berbasis-debian/</guid>
+      <description>&lt;h2 id=&#34;sekilas-tentang-signal&#34;&gt;Sekilas Tentang Signal&lt;/h2&gt;
+&lt;p&gt;Signal adalah aplikasi perpesanan (messaging) sebagaimana seperti WhatsApp dan Telegram. Signal membuka sumber kode perangkat lunaknya di repositori GitHub &lt;a href=&#34;https://github.com/signalapp&#34;&gt;@signalapp&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

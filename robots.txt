@@ -1,0 +1,8 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /search/
+Disallow: /download/
+
+Sitemap: https://hanifmu.com/sitemap.xml

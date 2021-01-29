@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Server on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/web-server/</link>
+    <description>Recent content in Web Server on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 23 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/web-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploying NGINX on Heroku with Docker</title>
+      <link>https://hanifmu.com/posts/deploying-nginx-on-heroku-with-docker/</link>
+      <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/deploying-nginx-on-heroku-with-docker/</guid>
+      <description>&lt;p&gt;In this tutorial, we will try to deploy NGINX on &lt;a href=&#34;https://www.heroku.com/&#34;&gt;Heroku&lt;/a&gt; with Docker. For your information, Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cara Install Nginx di Centos 7</title>
+      <link>https://hanifmu.com/posts/cara-install-nginx-di-centos-7/</link>
+      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/cara-install-nginx-di-centos-7/</guid>
+      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi Nginx di CentOS 7.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Use PHP&#39;s Built-in Web Server</title>
+      <link>https://hanifmu.com/posts/how-to-use-php-built-in-web-server/</link>
+      <pubDate>Fri, 10 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/how-to-use-php-built-in-web-server/</guid>
+      <description>&lt;p&gt;Since version 5.4, PHP has a built-in web server feature. But the feature is not intended to be a full-featured web server. We can use it for application development, testing purposes and application demonstration.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Integrasi PHP-FPM dan Nginx di CentOS</title>
+      <link>https://hanifmu.com/posts/integrasi-php-fpm-dan-nginx-di-centos/</link>
+      <pubDate>Sat, 26 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/integrasi-php-fpm-dan-nginx-di-centos/</guid>
+      <description>&lt;p&gt;Tutorial ini menjelaskan bagimana melakukan integrasi PHP-FPM dan NGINX di CentOS. Berikut ini langkah-langkahnya:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Install Apache Web Server on CentOS 7</title>
+      <link>https://hanifmu.com/posts/install-apache-web-server-on-centos-7/</link>
+      <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/install-apache-web-server-on-centos-7/</guid>
+      <description>&lt;p&gt;When you access a website, you actually access a web server. What is web server? Web server is a program that delivers web pages to you. Web server uses HTTP (Hypertext Transfer Protocol) or HTTPS (Hypertext Transfer Protocol Secure) protocol.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Enable Nginx Status Page</title>
+      <link>https://hanifmu.com/posts/enable-nginx-status-page/</link>
+      <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/enable-nginx-status-page/</guid>
+      <description>&lt;p&gt;In this tutorial, I will show you how to add Nginx status page.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

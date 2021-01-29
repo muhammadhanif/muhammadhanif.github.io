@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/devops/</link>
+    <description>Recent content in DevOps on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 03 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Peta Jalan Menjadi DevOps</title>
+      <link>https://hanifmu.com/posts/peta-jalan-menjadi-devops/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/peta-jalan-menjadi-devops/</guid>
+      <description>&lt;h2 id=&#34;apa-itu-devops&#34;&gt;Apa itu DevOps?&lt;/h2&gt;
+&lt;p&gt;Mengutip dari laman &lt;a href=&#34;https://www.atlassian.com/devops&#34;&gt;atlassian.com&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;DevOps is a set of practices that works to automate and integrate the processes between software development and IT teams, so they can build, test, and release software faster and more reliably.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Menggunakan GitLab CI/CD dan Docker</title>
+      <link>https://hanifmu.com/posts/belajar-menggunakan-gitlab-ci-cd-dan-docker/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/belajar-menggunakan-gitlab-ci-cd-dan-docker/</guid>
+      <description>&lt;p&gt;Tutorial ini merupakan catatan belajar saya dalam menggunakan GitLab CI/CD dan Docker.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

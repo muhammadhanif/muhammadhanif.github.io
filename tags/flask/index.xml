@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flask on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/flask/</link>
+    <description>Recent content in Flask on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 10 Feb 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/flask/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aplikasi CRUD Menggunakan Flask dan MySQL</title>
+      <link>https://hanifmu.com/posts/aplikasi-crud-menggunakan-flask-dan-mysql/</link>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/aplikasi-crud-menggunakan-flask-dan-mysql/</guid>
+      <description>&lt;p&gt;Kali ini saya mau sharing aplikasi CRUD (create, read, update delete) yang saya bangun dengan menggunakan Flask (microframework Python) dan juga database MySQL. Untuk tampilannya saya menggunakan AdminLTE.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi Flask dan Contoh Program Hello World</title>
+      <link>https://hanifmu.com/posts/instalasi-flask-dan-contoh-program-hello-world/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-flask-dan-contoh-program-hello-world/</guid>
+      <description>&lt;h3 id=&#34;apa-itu-flask&#34;&gt;APA ITU FLASK?&lt;/h3&gt;
+&lt;p&gt;Flask merupakan web framework (lebih tepatnya microframework) Python yang berbasis Werkzeug dan Jinja 2. Flask dilisensikan dengan BSD license. Flask dibuat oleh Armir Ronacher dan dirilis pada April 2010 dengan versi awal 0.10. Saat tutorial ini dibuat, versi terbaru dari Flask adalah versi 0.12.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

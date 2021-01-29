@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/c/</link>
+    <description>Recent content in C on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 11 Dec 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Komentar dalam Bahasa Pemrograman C</title>
+      <link>https://hanifmu.com/posts/komentar-dalam-bahasa-pemrograman-c/</link>
+      <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/komentar-dalam-bahasa-pemrograman-c/</guid>
+      <description>&lt;p&gt;Komentar dalam bahasa pemrograman umumnya berfungsi untuk menjelaskan sesuatu hal tentang program yang kita buat. Misalnya pada baris-baris perintah tertentu kita membuat komentar untuk menjelaskan kegunaan dari kode yang kita buat tersebut.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Keyword Bahasa Pemrograman C</title>
+      <link>https://hanifmu.com/posts/keyword-bahasa-pemrograman-c/</link>
+      <pubDate>Tue, 10 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/keyword-bahasa-pemrograman-c/</guid>
+      <description>&lt;p&gt;Pada postingan &lt;a href=&#34;https://hanifmu.com/post/sejarah-singkat-bahasa-pemrograman-c&#34;&gt;Sejarah Singkat Bahasa Pemgrograman C&lt;/a&gt;, sudah saya singgung mengenai keyword berjumlah 32 buah yang ada pada bahasa pemrograman C yang merupakan standar dari ANSI.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Struktur Bahasa Pemrograman C</title>
+      <link>https://hanifmu.com/posts/struktur-bahasa-pemrograman-c/</link>
+      <pubDate>Mon, 09 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/struktur-bahasa-pemrograman-c/</guid>
+      <description>&lt;p&gt;Bahasa pemrograman tak ubahnya seperti bahasa yang sering kita pakai dalam keseharian kita baik dalam bentuk tulisan maupun lisan. Tentu kita tahu bahwa setiap bahasa itu memiliki struktur (tata bahasa) yang harus dipelajari apabila kita ingin menggunakan bahasa tersebut.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sejarah Singkat Bahasa Pemrograman C</title>
+      <link>https://hanifmu.com/posts/sejarah-singkat-bahasa-pemrograman-c/</link>
+      <pubDate>Sun, 08 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/sejarah-singkat-bahasa-pemrograman-c/</guid>
+      <description>&lt;p&gt;Sebelum mempelajari bahasa C lebih lanjut, alangkah lebih baik mengetahui sejarahnya terlebih dahulu. Berikut ini adalah sejarah singkat Bahasa C.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

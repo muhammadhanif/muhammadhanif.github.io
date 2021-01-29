@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DNSMasq on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/dnsmasq/</link>
+    <description>Recent content in DNSMasq on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 29 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/dnsmasq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Membangun DNS Server Menggunakan DNSMasq</title>
+      <link>https://hanifmu.com/posts/membangun-dns-server-menggunakan-dnsmasq/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/membangun-dns-server-menggunakan-dnsmasq/</guid>
+      <description>&lt;p&gt;Dnsmasq adalah aplikasi yang memiliki sejumlah fungsi seperti dapat kita gunakan untuk membangun DNS server, DHCP server, router advertisement, TFTP dan PXE. Dalam tutorial kali ini, saya menulis step by step bagaimana membangun DNS server menggunakan dnsmasq.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

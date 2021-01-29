@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FaaS on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/faas/</link>
+    <description>Recent content in FaaS on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/faas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antarmuka Pengguna Fn Project</title>
+      <link>https://hanifmu.com/posts/antarmuka-pengguna-fn-project/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/antarmuka-pengguna-fn-project/</guid>
+      <description>&lt;p&gt;Tutorial ini adalah kelanjutan dari tutorial &lt;a href=&#34;https://hanifmu.com/posts/bermain-main-dengan-fn-project&#34;&gt;Bermain-main dengan Fn Project&lt;/a&gt;. Selain Fn server, Fn Project juga menyediakan antarmuka pengguna (user interface). Melalui antarmuka pengguna tersebut kita dapat membuat fungsi, menjalankan fungsi, melihat statistik penggunaan fungsi, dan menghapus fungsi.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bermain-Main dengan Fn Project</title>
+      <link>https://hanifmu.com/posts/bermain-main-dengan-fn-project/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/bermain-main-dengan-fn-project/</guid>
+      <description>&lt;h3 id=&#34;apa-itu-fn-project&#34;&gt;Apa itu Fn Project?&lt;/h3&gt;
+&lt;p&gt;Mengutip dari situs &lt;a href=&#34;http://fnproject.io/&#34;&gt;fnproject.io&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Fn project is an open-source container-native serverless platform that you can run anywhere &amp;ndash; any cloud or on-premise.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

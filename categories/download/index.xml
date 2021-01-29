@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Download on hanifmu.com</title>
+    <link>https://hanifmu.com/categories/download/</link>
+    <description>Recent content in Download on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/categories/download/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aplikasi Berbasis Web untuk IP Address Lookup Memanfaatkan API ipapi.co</title>
+      <link>https://hanifmu.com/posts/aplikasi-berbasis-web-untuk-ip-address-lookup-memanfaatkan-api-ipapi-co/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/aplikasi-berbasis-web-untuk-ip-address-lookup-memanfaatkan-api-ipapi-co/</guid>
+      <description>&lt;p&gt;Melanjutkan tradisi berbagi &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; hasil ngoding. Sebelumnya saya telah membagikan karya &lt;a href=&#34;https://hanifmu.com/posts/mendeteksi-ip-address-dan-lokasi-pengguna-memanfaatkan-api-ipinfo-io/&#34;&gt;Aplikasi Berbasis Web untuk Mendeteksi IP Address dan Lokasi Pengguna Memanfaatkan API ipinfo.io&lt;/a&gt;. Pada kesempatan kali ini saya membagikan aplikasi berbasis web untuk IP Address &lt;em&gt;lookup&lt;/em&gt; memanfaatkan API ipapi.co.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mendeteksi IP Address dan Lokasi Pengguna Memanfaatkan API ipinfo.io</title>
+      <link>https://hanifmu.com/posts/mendeteksi-ip-address-dan-lokasi-pengguna-memanfaatkan-api-ipinfo-io/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/mendeteksi-ip-address-dan-lokasi-pengguna-memanfaatkan-api-ipinfo-io/</guid>
+      <description>&lt;p&gt;Malam ini, 17 Januari 2021, saya kembali lagi melanjutkan tradisi berbagi &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; hasil ngoding. Di kesempatan kali ini saya berbagi aplikasi berbasis web untuk mendeteksi IP Address dan lokasi pengguna memanfaatkan API &lt;a href=&#34;https://ipinfo.io&#34;&gt;ipinfo.io&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Peta Jalan Menjadi Back-End Developer</title>
+      <link>https://hanifmu.com/posts/peta-jalan-menjadi-backend-developer/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/peta-jalan-menjadi-backend-developer/</guid>
+      <description>&lt;h2 id=&#34;apa-itu-back-end-developer&#34;&gt;Apa itu Back-End Developer?&lt;/h2&gt;
+&lt;p&gt;Back-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat arsitektur aplikasi dan logika atau alur kerja suatu aplikasi. Umumnya pekerjaan seorang Back-End Developer juga berkaitan dengan database dan server. Para Back-End Developer adalah orang-orang yang ada dibalik layar suatu aplikasi. Contoh hasil karya mereka adalah Web API (Application Programming Interface).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Peta Jalan Menjadi Front-End Developer</title>
+      <link>https://hanifmu.com/posts/peta-jalan-menjadi-frontend-developer/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/peta-jalan-menjadi-frontend-developer/</guid>
+      <description>&lt;h2 id=&#34;apa-itu-front-end-developer&#34;&gt;Apa itu Front-End Developer?&lt;/h2&gt;
+&lt;p&gt;Front-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat tampilan atau interface suatu aplikasi baik itu aplikasi berbasis web, mobile, atau yang berbasis desktop. Jadi, mereka ini, para Front-End Developer, adalah garda depan suatu aplikasi karena hasil karya mereka berkaitan langsung dengan user atau pengguna aplikasi.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Peta Jalan Menjadi DevOps</title>
+      <link>https://hanifmu.com/posts/peta-jalan-menjadi-devops/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/peta-jalan-menjadi-devops/</guid>
+      <description>&lt;h2 id=&#34;apa-itu-devops&#34;&gt;Apa itu DevOps?&lt;/h2&gt;
+&lt;p&gt;Mengutip dari laman &lt;a href=&#34;https://www.atlassian.com/devops&#34;&gt;atlassian.com&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;DevOps is a set of practices that works to automate and integrate the processes between software development and IT teams, so they can build, test, and release software faster and more reliably.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konversi Data Gempa Bumi BMKG dari XML ke JSON - Python</title>
+      <link>https://hanifmu.com/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-json-python/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-json-python/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.bmkg.go.id/&#34;&gt;BMKG&lt;/a&gt; (Badan Meteorologi, Klimatologi, dan Geofisika) menyediakan data gempa bumi yang dapat diakses di laman &lt;a href=&#34;https://data.bmkg.go.id/gempabumi/&#34;&gt;https://data.bmkg.go.id/gempabumi/&lt;/a&gt;. Data gempa bumi tersebut disediakan dengan format data XML.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Codeigniter x BMKG x Gempa x GeoJSON</title>
+      <link>https://hanifmu.com/posts/codeigniter-bmkg-gempa-geojson/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/codeigniter-bmkg-gempa-geojson/</guid>
+      <description>&lt;p&gt;Di bulan Juli kemarin saya sudah membagikan aplikasi &lt;a href=&#34;https://hanifmu.com/posts/codeigniter-bmkg-gempa/&#34;&gt;Codeigniter x BMKG x Gempa&lt;/a&gt; berbasis web yang menampilkan data gempa bumi yang bersumber dari BMKG. Tidak hanya menampilkan data gempa bumi, di aplikasi tersebut saya juga buatkan API data gempa bumi dengan format data JSON.&lt;/p&gt;
+&lt;p&gt;Nah, pada kesempatan kali ini saya kembali berbagi hasil &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; ngoding yaitu aplikasi berbasis web yang memiliki fungsi sama dengan aplikasi yang saya sebutkan di atas. Perbedaannya adalah terletak pada API data gempa bumi yang menggunakan format data GeoJSON.&lt;/p&gt;
+&lt;p&gt;Berdasarkan &lt;a href=&#34;https://tools.ietf.org/html/rfc7946&#34;&gt;RFC 7946&lt;/a&gt; tentang The GeoJSON Format, GeoJSON adalah&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents. GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Saya terjemahkan secara bebas sebagai berikut:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GeoJSON adalah format pertukaran data geospasial berbasis JSON (JavaScript Object Notation). GeoJSON mendefinisikan beberapa objek JSON dan bagaimana objek-objek tersebut digabung untuk merepresentasikan atribut atau karakteristik suatu objek geografi dan data spasialnya. GeoJSON menggunakan sistem referensi koordinat geografis World Geodetic System 1984 dan satuan yang digunakan adalah satuan derajat desimal.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konversi Data Gempa Bumi BMKG dari XML ke GeoJSON - PHP</title>
+      <link>https://hanifmu.com/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-geojson-php/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-geojson-php/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.bmkg.go.id/&#34;&gt;BMKG&lt;/a&gt; (Badan Meteorologi, Klimatologi, dan Geofisika) menyediakan data gempa bumi yang dapat diakses di laman &lt;a href=&#34;https://data.bmkg.go.id/gempabumi/&#34;&gt;data.bmkg.go.id/gempabumi/&lt;/a&gt;. Data gempa bumi tersebut disediakan dengan format data XML.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Codeigniter x BMKG x Gempa</title>
+      <link>https://hanifmu.com/posts/codeigniter-bmkg-gempa/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/codeigniter-bmkg-gempa/</guid>
+      <description>&lt;p&gt;Saya sendiri bingung bagaimana seharusnya membuat judul artikel ini 😃. Jadinya saya beri judul Codeigniter x BMKG x Gempa. Intinya, pada kesempatan kali ini saya berbagi hasil &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; ngoding yaitu aplikasi berbasis web yang menampilkan data gempa bumi yang terjadi di wilayah Indonesia.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mengirim Notifikasi Gempa Bumi ke Telegram</title>
+      <link>https://hanifmu.com/posts/mengirim-notifikasi-gempa-bumi-ke-telegram/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/mengirim-notifikasi-gempa-bumi-ke-telegram/</guid>
+      <description>&lt;p&gt;Pada kesempatan kali ini saya berbagi hasil &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; ngoding yaitu aplikasi sederhana untuk mengirim notifikasi gempa bumi yang terjadi di wilayah Indonesia ke Telegram.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Buku Panduan Instalasi Pembangkit Listrik Tenaga Surya (PLTS)</title>
+      <link>https://hanifmu.com/posts/buku-panduan-instalasi-pembangkit-listrik-tenaga-surya-plts/</link>
+      <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/buku-panduan-instalasi-pembangkit-listrik-tenaga-surya-plts/</guid>
+      <description>&lt;p&gt;Buku Instalasi Pembangkit Listrik Tenaga Surya: Dos and Don&amp;rsquo;ts ini menyajikan sekitar 600 foto instalasi PLTS off-grid yang telah dibangun, dan disertai dengan rekomendasi dan landasan teori singkat tentang kondisi di dalam foto tersebut.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Buku Pengantar Application Programming Interfaces (APIs)</title>
+      <link>https://hanifmu.com/posts/buku-pengantar-application-programming-interfaces-apis/</link>
+      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/buku-pengantar-application-programming-interfaces-apis/</guid>
+      <description>&lt;p&gt;Buku ini layak dibaca bagi yang ingin mempelajari dasar-dasar Application Programming Interfaces (APIs). Buku ini ditulis oleh Brian Cooksey dan dirilis di situs &lt;a href=&#34;https://zapier.com.&#34;&gt;zapier.com&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ebook Red Hat Enterprise Linux 7 System Administrator’s Guide</title>
+      <link>https://hanifmu.com/posts/ebook-red-hat-enterprise-linux-7-system-administrator-guide/</link>
+      <pubDate>Sun, 03 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/ebook-red-hat-enterprise-linux-7-system-administrator-guide/</guid>
+      <description>&lt;p&gt;Ebook Red Hat Enterprise Linux 7 System Administrator&amp;rsquo;s Guide merupakan ebook yang dipublikasikan oleh Red Hat. Ebook ini layak dijadikan panduan bagi system administrator yang kesehariannya bergelut dengan sistem operasi Red Hat.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Aplikasi CRUD Menggunakan Flask dan MySQL</title>
+      <link>https://hanifmu.com/posts/aplikasi-crud-menggunakan-flask-dan-mysql/</link>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/aplikasi-crud-menggunakan-flask-dan-mysql/</guid>
+      <description>&lt;p&gt;Kali ini saya mau sharing aplikasi CRUD (create, read, update delete) yang saya bangun dengan menggunakan Flask (microframework Python) dan juga database MySQL. Untuk tampilannya saya menggunakan AdminLTE.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi dan Konfigurasi MikroTik Hotspot, FreeRADIUS, dan MySQL</title>
+      <link>https://hanifmu.com/posts/instalasi-dan-konfigurasi-mikrotik-hotspot-freeradius-dan-mysql/</link>
+      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-mikrotik-hotspot-freeradius-dan-mysql/</guid>
+      <description>&lt;p&gt;Ebook Instalasi dan Konfigurasi MikroTik Hotspot, FreeRADIUS dan MySQL ini saya tulis ketika saya mengambil mata kuliah keamanan jaringan.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

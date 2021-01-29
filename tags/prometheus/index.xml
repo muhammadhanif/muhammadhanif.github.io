@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prometheus on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/prometheus/</link>
+    <description>Recent content in Prometheus on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 12 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/prometheus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalasi Node Exporter di CentOS 7</title>
+      <link>https://hanifmu.com/posts/instalasi-node-exporter-di-centos-7/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-node-exporter-di-centos-7/</guid>
+      <description>&lt;p&gt;Tutorial ini merupakan kelanjutan dari tutorial &lt;a href=&#34;https://hanifmu.com/posts/instalasi-prometheus-server-di-centos-7&#34;&gt;Instalasi Prometheus Server di CentOS 7&lt;/a&gt; yang saya tulis beberapa waktu yang lalu. Di tutorial tersebut saya jelaskan bagaimana melakukan instalasi Prometheus Server di CentOS 7.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi Prometheus Server di CentOS 7</title>
+      <link>https://hanifmu.com/posts/instalasi-prometheus-server-di-centos-7/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-prometheus-server-di-centos-7/</guid>
+      <description>&lt;p&gt;Tutorial ini menjelaskan step by step instalasi Prometheus Server di CentOS 7. Komponen Prometheus Server ini bertugas melakukan scraping data monitoring yang di-expose oleh target host dan menyimpan data tersebut dalam bentuk time series.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sekilas Tentang Prometheus</title>
+      <link>https://hanifmu.com/posts/sekilas-tentang-prometheus/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/sekilas-tentang-prometheus/</guid>
+      <description>&lt;p&gt;Prometheus merupakan sistem berbasis open source dan berlisensi Apache 2.0 yang dapat kita gunakan untuk keperluan monitoring dan alerting. Prometheus mulai dikembangkan pada tahun 2012 di &lt;a href=&#34;https://soundcloud.com/&#34;&gt;SoundCloud&lt;/a&gt;. Pada Januari 2015, Prometheus secara resmi dirilis ke publik dan pada bulan Mei 2016, Prometheus bergabung ke &lt;a href=&#34;https://www.cncf.io/&#34;&gt;Cloud Native Computing Foundation&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/python/</link>
+    <description>Recent content in Python on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 13 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hackinscience: Platform Interaktif untuk Belajar Pemrograman Python</title>
+      <link>https://hanifmu.com/posts/hackinscience-platform-interaktif-untuk-belajar-pemrograman-python/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/hackinscience-platform-interaktif-untuk-belajar-pemrograman-python/</guid>
+      <description>&lt;p&gt;Pagi ini, 13 Januari 2021, saya me-review secara singkat sebuah situs yang menurut saya bagus untuk mengasah skill pemrograman Python. Situs yang saya maksud tersebut adalah &lt;a href=&#34;https://www.hackinscience.org/&#34;&gt;Hackinscience&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sekilas-tentang-hackinscience&#34;&gt;Sekilas Tentang Hackinscience&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Hackinscience&lt;/strong&gt; adalah sebuah platform daring interaktif berbasis web untuk mengasah skill pemrograman Python. Platform latihan pemrograman Python tersebut menyediakan banyak soal-soal latihan pemrograman Python. Dari soal latihan &amp;ldquo;Hello world!&amp;rdquo; sampai dengan soal latihan yang masuk kategori &lt;em&gt;advanced&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konversi Data Gempa Bumi BMKG dari XML ke JSON - Python</title>
+      <link>https://hanifmu.com/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-json-python/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-json-python/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.bmkg.go.id/&#34;&gt;BMKG&lt;/a&gt; (Badan Meteorologi, Klimatologi, dan Geofisika) menyediakan data gempa bumi yang dapat diakses di laman &lt;a href=&#34;https://data.bmkg.go.id/gempabumi/&#34;&gt;https://data.bmkg.go.id/gempabumi/&lt;/a&gt;. Data gempa bumi tersebut disediakan dengan format data XML.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mengirim Notifikasi Gempa Bumi ke Telegram</title>
+      <link>https://hanifmu.com/posts/mengirim-notifikasi-gempa-bumi-ke-telegram/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/mengirim-notifikasi-gempa-bumi-ke-telegram/</guid>
+      <description>&lt;p&gt;Pada kesempatan kali ini saya berbagi hasil &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; ngoding yaitu aplikasi sederhana untuk mengirim notifikasi gempa bumi yang terjadi di wilayah Indonesia ke Telegram.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Script Python untuk Kirim Email</title>
+      <link>https://hanifmu.com/posts/script-python-untuk-kirim-email/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/script-python-untuk-kirim-email/</guid>
+      <description>&lt;p&gt;Mau kirim email pakai Python? Dengan memanfaatkan pustaka Python &lt;code&gt;smtplib&lt;/code&gt; kita dapat mengirim email dengan menggunakan Python.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>NAPALM: Library Python Untuk Network Automation Dan Programmability</title>
+      <link>https://hanifmu.com/posts/napalm-library-python-untuk-network-automation-dan-programmability/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/napalm-library-python-untuk-network-automation-dan-programmability/</guid>
+      <description>&lt;p&gt;NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support) adalah sebuah library atau pustaka Python yang dapat kita gunakan untuk keperluan Network Automation dan Programmability perangkat jaringan. NAPALM memiliki sejumlah fungsi yang dapat digunakan untuk memanipulasi konfigurasi atau untuk mengambil data dari perangkat jaringan.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cek IP Address Server Menggunakan Python</title>
+      <link>https://hanifmu.com/posts/cek-ip-address-server-menggunakan-python/</link>
+      <pubDate>Fri, 10 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/cek-ip-address-server-menggunakan-python/</guid>
+      <description>&lt;p&gt;Di tutorial ini saya membuat script Python untuk mengetahui IP address suatu server. Untuk menjalankan aplikasi ini, kita membutuhkan Python (2 atau 3) dan library &lt;code&gt;socket&lt;/code&gt;. Anda cukup menginputkan domain dari suatu server. Selanjutnya aplikasi akan menampilkan IP address dari server tersebut.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Aplikasi CRUD Menggunakan Flask dan MySQL</title>
+      <link>https://hanifmu.com/posts/aplikasi-crud-menggunakan-flask-dan-mysql/</link>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/aplikasi-crud-menggunakan-flask-dan-mysql/</guid>
+      <description>&lt;p&gt;Kali ini saya mau sharing aplikasi CRUD (create, read, update delete) yang saya bangun dengan menggunakan Flask (microframework Python) dan juga database MySQL. Untuk tampilannya saya menggunakan AdminLTE.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi Flask dan Contoh Program Hello World</title>
+      <link>https://hanifmu.com/posts/instalasi-flask-dan-contoh-program-hello-world/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-flask-dan-contoh-program-hello-world/</guid>
+      <description>&lt;h3 id=&#34;apa-itu-flask&#34;&gt;APA ITU FLASK?&lt;/h3&gt;
+&lt;p&gt;Flask merupakan web framework (lebih tepatnya microframework) Python yang berbasis Werkzeug dan Jinja 2. Flask dilisensikan dengan BSD license. Flask dibuat oleh Armir Ronacher dan dirilis pada April 2010 dengan versi awal 0.10. Saat tutorial ini dibuat, versi terbaru dari Flask adalah versi 0.12.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

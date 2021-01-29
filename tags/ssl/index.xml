@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SSL on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/ssl/</link>
+    <description>Recent content in SSL on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 16 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Membuat Sertifikat SSL Valid untuk Localhost</title>
+      <link>https://hanifmu.com/posts/membuat-sertifikat-ssl-valid-untuk-localhost/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/membuat-sertifikat-ssl-valid-untuk-localhost/</guid>
+      <description>&lt;p&gt;Dalam tutorial ini, saya tuliskan step by step bagaimana membuat sertifikat SSL valid untuk keperluan di localhost. Untuk keperluan ini, digunakan beberapa alat sebagai berikut:&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

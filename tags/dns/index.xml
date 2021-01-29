@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DNS on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/dns/</link>
+    <description>Recent content in DNS on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalasi dan Konfigurasi Knot Resolver #2</title>
+      <link>https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-2/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-2/</guid>
+      <description>&lt;p&gt;Tutorial ini merupakan kelanjutan dari &lt;a href=&#34;https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-1&#34;&gt;tutorial Instalasi dan Konfigurasi Knot Resolver #1&lt;/a&gt;. Di seri pertama sudah dibahas bagaimana melakukan instalasi dan konfigurasi dasar dari Knot Resolver serta melakukan pengujian kueri DNS. Di seri kedua ini akan dibahas bagaimana mengaktifkan DNS-over-TLS (DoT) di Knot Resolver.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalasi dan Konfigurasi Knot Resolver #1</title>
+      <link>https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-1/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-1/</guid>
+      <description>&lt;p&gt;Singkatnya, Knot Resolver adalah DNS resolver. Penjelasan lengkap tentang Knot Resolver bisa dibaca di &lt;a href=&#34;https://www.knot-resolver.cz/&#34;&gt;www.knot-resolver.cz&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfigurasi DNS Resolver Permanen di Ubuntu</title>
+      <link>https://hanifmu.com/posts/konfigurasi-dns-resolver-permanen-ubuntu/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/konfigurasi-dns-resolver-permanen-ubuntu/</guid>
+      <description>&lt;p&gt;Karena DNS resolver yang disediakan ISP (menurut saya) sering bermasalah, saya kemudian menggunakan DNS resolver lainnya. Problem-nya adalah setiap kali komputer dinyalakan kembali dari restart atau shutdown, konfigurasi DNS resolver di file &lt;code&gt;/etc/resolv.conf&lt;/code&gt; yang saya buat selalu hilang.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Membangun DNS Server Menggunakan DNSMasq</title>
+      <link>https://hanifmu.com/posts/membangun-dns-server-menggunakan-dnsmasq/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/membangun-dns-server-menggunakan-dnsmasq/</guid>
+      <description>&lt;p&gt;Dnsmasq adalah aplikasi yang memiliki sejumlah fungsi seperti dapat kita gunakan untuk membangun DNS server, DHCP server, router advertisement, TFTP dan PXE. Dalam tutorial kali ini, saya menulis step by step bagaimana membangun DNS server menggunakan dnsmasq.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

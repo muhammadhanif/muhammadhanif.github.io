@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Galat on hanifmu.com</title>
+    <link>https://hanifmu.com/tags/galat/</link>
+    <description>Recent content in Galat on hanifmu.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/galat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gagal Memutar Video dan Solusinya di Ubuntu 20.04</title>
+      <link>https://hanifmu.com/posts/gagal-memutar-video-dan-solusinya-di-ubuntu-20-04/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/gagal-memutar-video-dan-solusinya-di-ubuntu-20-04/</guid>
+      <description>&lt;p&gt;Pagi ini, 6 Oktober 2020, saya mencoba memutar video menggunakan pemutar video bawaan Ubuntu 20.04. Namun, saya mendapati galat seperti yang ada di gambar di atas.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Solved! OpenSUSE Tumbleweed Instance on OpenStack Failed to Get IP Address</title>
+      <link>https://hanifmu.com/posts/solved-opensuse-tumbleweed-instance-on-openstack-failed-to-get-ip-address/</link>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/solved-opensuse-tumbleweed-instance-on-openstack-failed-to-get-ip-address/</guid>
+      <description>&lt;p&gt;I have an openSUSE Tumbleweed instance on OpenStack. I got a problem which is the instance failed to get an IP Address for eth0 interface at boot.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
