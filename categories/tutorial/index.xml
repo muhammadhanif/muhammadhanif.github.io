@@ -490,9 +490,8 @@
 
 
 
-
 &lt;div class=&#34;pic-center&#34;&gt;
-    &lt;img data-sizes=&#34;auto&#34; data-src=&#34;https://hanifmu.com/images/lftc_evolution_sysadmin.webp&#34; src=&#34;https://hanifmu.com/images/bg-hanifmu.com.webp&#34; class=&#34;lazyload pic-fluid&#34; /&gt;
+    &lt;img data-sizes=&#34;auto&#34; data-src=&#34;https://hanifmu.com/images/lftc_evolution_sysadmin.webp&#34; src=&#34;https://hanifmu.com/images/bg-hanifmu.com.webp&#34; class=&#34;lazyload pic-fluid&#34; alt=&#34; Image by Linux Foundation via linuxfoundation.org&#34; /&gt;
     &lt;p&gt;
         Image by Linux Foundation via linuxfoundation.org
     &lt;/p&gt;
