@@ -4,17 +4,52 @@
   
   <url>
     <loc>https://hanifmu.com/categories/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hanifmu.com/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hanifmu.com/posts/instalasi-libreoffice-di-ubuntu-20-04/</loc>
+    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hanifmu.com/tags/libreoffice/</loc>
+    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hanifmu.com/tags/linux/</loc>
+    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hanifmu.com/tags/office/</loc>
+    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hanifmu.com/posts/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hanifmu.com/tags/</loc>
+    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hanifmu.com/categories/tutorial/</loc>
+    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hanifmu.com/tags/ubuntu/</loc>
+    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -24,16 +59,6 @@
   
   <url>
     <loc>https://hanifmu.com/tags/programming/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hanifmu.com/tags/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hanifmu.com/categories/tutorial/</loc>
     <lastmod>2021-01-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -49,16 +74,6 @@
   
   <url>
     <loc>https://hanifmu.com/posts/instalasi-gitkraken-di-ubuntu-20-04-focal-fossa/</loc>
-    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hanifmu.com/tags/linux/</loc>
-    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hanifmu.com/tags/ubuntu/</loc>
     <lastmod>2021-01-23T00:00:00+00:00</lastmod>
   </url>
   
