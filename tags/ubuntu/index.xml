@@ -5,7 +5,16 @@
     <link>https://hanifmu.com/tags/ubuntu/</link>
     <description>Recent content in Ubuntu on hanifmu.com</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalasi draw.io di Ubuntu 20.04</title>
+      <link>https://hanifmu.com/posts/instalasi-draw.io-di-ubuntu-20-04/</link>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-draw.io-di-ubuntu-20-04/</guid>
+      <description>&lt;p&gt;Tutorial singkat ini menjelaskan bagaimana melakukan instalasi draw.io di sistem operasi Ubuntu 20.04&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Instalasi LibreOffice di Ubuntu 20.04</title>
       <link>https://hanifmu.com/posts/instalasi-libreoffice-di-ubuntu-20-04/</link>
