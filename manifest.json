@@ -1,0 +1,16 @@
+{
+    "short_name": "hanifmu.com",
+    "name": "hanifmu.com",
+    "description": "A personal website of Muhammad Hanif.",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#f5f5f5",
+    "theme_color": "#2e2e33"
+}
