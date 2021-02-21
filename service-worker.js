@@ -5,6 +5,8 @@ const urlsToCache = [
   "/js/lazysizes.min.js",
   "/hanifmu-ico.png",
   "/android-chrome-192x192.png",
+  "/android-chrome-512x512.png",
+  "/images/bg-hanifmu.com.webp",
   "/manifest.json",
 ];
 self.addEventListener("install", function (event) {
