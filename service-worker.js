@@ -4,6 +4,7 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
       return cache.addAll([
+        "/",
         "/assets/css/stylesheet.min.css",
         "/assets/js/highlight.min.js",
         "/js/lazysizes.min.js",
@@ -11,7 +12,7 @@ self.addEventListener('install', e => {
         "/android-chrome-192x192.png",
         "/android-chrome-512x512.png",
         "/images/bg-hanifmu.com.webp",
-        "/manifest.json"
+        "/manifest.json",
       ])
           .then(() => self.skipWaiting());
     })
