@@ -5,7 +5,17 @@
     <link>https://hanifmu.com/tags/ubuntu/</link>
     <description>Recent content in Ubuntu on hanifmu.com</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalasi Packet Tracer Versi 8.0.0 di Ubuntu 20.04</title>
+      <link>https://hanifmu.com/posts/instalasi-packet-tracer-versi-8.0.0-di-ubuntu-20-04/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/instalasi-packet-tracer-versi-8.0.0-di-ubuntu-20-04/</guid>
+      <description>&lt;h2 id=&#34;sekilas-tentang-packer-tracer&#34;&gt;Sekilas Tentang Packer Tracer&lt;/h2&gt;
+&lt;p&gt;Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Instalasi Sweet Home 3D di Ubuntu 20.04</title>
       <link>https://hanifmu.com/posts/instalasi-sweet-home-3d-di-ubuntu-20.04/</link>
@@ -67,7 +77,7 @@
       <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-packet-tracer-versi-7.3.1-di-ubuntu-20-04/</guid>
-      <description>&lt;h3 id=&#34;sekilas-tentang-packer-tracer&#34;&gt;Sekilas Tentang Packer Tracer&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;sekilas-tentang-packer-tracer&#34;&gt;Sekilas Tentang Packer Tracer&lt;/h2&gt;
 &lt;p&gt;Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.&lt;/p&gt;</description>
     </item>
     
