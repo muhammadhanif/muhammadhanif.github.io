@@ -4,6 +4,10 @@
     <title>Cisco on hanifmu.com</title>
     <link>https://hanifmu.com/tags/cisco/</link>
     <description>Recent content in Cisco on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,8 +16,7 @@
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-packet-tracer-versi-8.0.0-di-ubuntu-20-04/</guid>
-      <description>&lt;h2 id=&#34;sekilas-tentang-packer-tracer&#34;&gt;Sekilas Tentang Packer Tracer&lt;/h2&gt;
-&lt;p&gt;Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.&lt;/p&gt;</description>
+      <description>Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.</description>
     </item>
     
     <item>
@@ -22,8 +25,7 @@
       <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-packet-tracer-versi-7.3.1-di-ubuntu-20-04/</guid>
-      <description>&lt;h2 id=&#34;sekilas-tentang-packer-tracer&#34;&gt;Sekilas Tentang Packer Tracer&lt;/h2&gt;
-&lt;p&gt;Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.&lt;/p&gt;</description>
+      <description>Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.</description>
     </item>
     
     <item>
@@ -32,7 +34,7 @@
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/membatasi-akses-ke-perangkat-switch-dan-router-cisco/</guid>
-      <description>&lt;p&gt;Pada tutorial sebelumnya, &lt;a href=&#34;https://hanifmu.com/posts/konfigurasi-hostname-perangkat-cisco/&#34;&gt;Konfigurasi Hostname Perangkat Jaringan cisco&lt;/a&gt;, kita sudah mengetahui bagaimana memberi hostname pada perangkat jaringan seperti switch dan router yang dibuat oleh Cisco. Pada tutorial kali ini, kita akan mencoba untuk bagaimana mengamankan switch ataupun router buatan Cisco dari akses ilegal ke perangkat.&lt;/p&gt;</description>
+      <description>Di tutorial dijelaskan bagaimana mengamankan switch ataupun router buatan Cisco dari akses ilegal ke perangkat.</description>
     </item>
     
     <item>
@@ -41,7 +43,7 @@
       <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-hostname-perangkat-cisco/</guid>
-      <description>&lt;p&gt;Tutorial singkat ini menjelaskan bagaimana melakukan konfigurasi hostname pada perangkat jaringan Cisco.&lt;/p&gt;</description>
+      <description>Tutorial singkat ini menjelaskan bagaimana melakukan konfigurasi hostname pada perangkat jaringan Cisco.</description>
     </item>
     
     <item>
@@ -50,7 +52,7 @@
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mode-perintah-perangkat-jaringan-cisco-switch-dan-router/</guid>
-      <description>&lt;p&gt;Pada perangkat jaringan buatan CISCO seperti router dan switch, terdapat mode-mode prompt yang pasti kita gunakan saat mengkonfigurasi perangkat tersebut melalui mode CLI. Mode perintah pada perangkat jaringan cisco adalah sebagai berikut:&lt;/p&gt;</description>
+      <description>Pada perangkat jaringan buatan CISCO seperti router dan switch, terdapat mode-mode prompt yang pasti kita gunakan saat mengkonfigurasi perangkat tersebut melalui mode CLI.</description>
     </item>
     
   </channel>

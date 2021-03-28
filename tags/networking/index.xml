@@ -4,6 +4,10 @@
     <title>Networking on hanifmu.com</title>
     <link>https://hanifmu.com/tags/networking/</link>
     <description>Recent content in Networking on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/networking/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,8 +16,7 @@
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-packet-tracer-versi-8.0.0-di-ubuntu-20-04/</guid>
-      <description>&lt;h2 id=&#34;sekilas-tentang-packer-tracer&#34;&gt;Sekilas Tentang Packer Tracer&lt;/h2&gt;
-&lt;p&gt;Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.&lt;/p&gt;</description>
+      <description>Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.</description>
     </item>
     
     <item>
@@ -22,8 +25,7 @@
       <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-packet-tracer-versi-7.3.1-di-ubuntu-20-04/</guid>
-      <description>&lt;h2 id=&#34;sekilas-tentang-packer-tracer&#34;&gt;Sekilas Tentang Packer Tracer&lt;/h2&gt;
-&lt;p&gt;Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.&lt;/p&gt;</description>
+      <description>Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.</description>
     </item>
     
     <item>
@@ -32,7 +34,7 @@
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/napalm-library-python-untuk-network-automation-dan-programmability/</guid>
-      <description>&lt;p&gt;NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support) adalah sebuah library atau pustaka Python yang dapat kita gunakan untuk keperluan Network Automation dan Programmability perangkat jaringan. NAPALM memiliki sejumlah fungsi yang dapat digunakan untuk memanipulasi konfigurasi atau untuk mengambil data dari perangkat jaringan.&lt;/p&gt;</description>
+      <description>NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support) adalah sebuah library atau pustaka Python yang dapat kita gunakan untuk keperluan Network Automation dan Programmability perangkat jaringan</description>
     </item>
     
     <item>
@@ -41,7 +43,7 @@
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/membatasi-akses-ke-perangkat-switch-dan-router-cisco/</guid>
-      <description>&lt;p&gt;Pada tutorial sebelumnya, &lt;a href=&#34;https://hanifmu.com/posts/konfigurasi-hostname-perangkat-cisco/&#34;&gt;Konfigurasi Hostname Perangkat Jaringan cisco&lt;/a&gt;, kita sudah mengetahui bagaimana memberi hostname pada perangkat jaringan seperti switch dan router yang dibuat oleh Cisco. Pada tutorial kali ini, kita akan mencoba untuk bagaimana mengamankan switch ataupun router buatan Cisco dari akses ilegal ke perangkat.&lt;/p&gt;</description>
+      <description>Di tutorial dijelaskan bagaimana mengamankan switch ataupun router buatan Cisco dari akses ilegal ke perangkat.</description>
     </item>
     
     <item>
@@ -50,7 +52,7 @@
       <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-hostname-perangkat-cisco/</guid>
-      <description>&lt;p&gt;Tutorial singkat ini menjelaskan bagaimana melakukan konfigurasi hostname pada perangkat jaringan Cisco.&lt;/p&gt;</description>
+      <description>Tutorial singkat ini menjelaskan bagaimana melakukan konfigurasi hostname pada perangkat jaringan Cisco.</description>
     </item>
     
     <item>
@@ -59,7 +61,7 @@
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mode-perintah-perangkat-jaringan-cisco-switch-dan-router/</guid>
-      <description>&lt;p&gt;Pada perangkat jaringan buatan CISCO seperti router dan switch, terdapat mode-mode prompt yang pasti kita gunakan saat mengkonfigurasi perangkat tersebut melalui mode CLI. Mode perintah pada perangkat jaringan cisco adalah sebagai berikut:&lt;/p&gt;</description>
+      <description>Pada perangkat jaringan buatan CISCO seperti router dan switch, terdapat mode-mode prompt yang pasti kita gunakan saat mengkonfigurasi perangkat tersebut melalui mode CLI.</description>
     </item>
     
     <item>
@@ -68,7 +70,7 @@
       <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-mikrotik-hotspot-freeradius-dan-mysql/</guid>
-      <description>&lt;p&gt;Ebook Instalasi dan Konfigurasi MikroTik Hotspot, FreeRADIUS dan MySQL ini saya tulis ketika saya mengambil mata kuliah keamanan jaringan.&lt;/p&gt;</description>
+      <description>Ebook ini berisi step by step membuat Hotspot pada perangkat Mikrotik, instalasi dan konfigurasi FreeRADIUS dan MySQL serta bagaimana melakukan integrasi MikroTik dengan FreeRADIUS.</description>
     </item>
     
     <item>
@@ -77,7 +79,7 @@
       <pubDate>Tue, 22 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/configure-hostname-on-junos-os/</guid>
-      <description>&lt;p&gt;Below step by step to edit or change hostname of Junos OS:&lt;/p&gt;</description>
+      <description>How to change hostname on Junos OS? Here is the answer.</description>
     </item>
     
     <item>
@@ -86,7 +88,7 @@
       <pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cara-mengganti-hostname-mikrotik/</guid>
-      <description>&lt;p&gt;Setiap perangkat router MikroTik hendaknya kita beri identitas atau hostname agar memudahkan kita dalam mengenali router tersebut. Selain itu, dengan memberi hostname tentu akan memudahkan kita untuk membedakan router yang satu dengan router yang lainnya.&lt;/p&gt;</description>
+      <description>Setiap perangkat router MikroTik hendaknya kita beri identitas atau hostname agar memudahkan kita dalam mengenali router tersebut.</description>
     </item>
     
     <item>
@@ -95,7 +97,7 @@
       <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-dns-server-mikrotik/</guid>
-      <description>&lt;p&gt;DNS (Domain Name System) merupakan suatu sistem yang memiliki fungsi untuk memetakan hostname atau domain dari situs-situs yang ada di internet menjadi IP Address. Apa yang terjadi  jika kita tidak menggunakan DNS? Kita perlu mengetahui IP Address dari situs-situs yang ingin kita akses tersebut.&lt;/p&gt;</description>
+      <description>DNS (Domain Name System) merupakan suatu sistem yang memiliki fungsi untuk memetakan hostname atau domain dari situs-situs yang ada di internet menjadi IP Address.</description>
     </item>
     
     <item>
@@ -104,8 +106,7 @@
       <pubDate>Sun, 05 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/menonaktifkan-hotspot-mikrotik-pada-jam-jam-tertentu/</guid>
-      <description>&lt;h3 id=&#34;persoalan&#34;&gt;Persoalan&lt;/h3&gt;
-&lt;p&gt;Saya kemarin membuat WiFi hotspot mengggunakan MikroTik. WiFi hotspot yang saya bangun juga dilengkapi fitur autentikasi. Jadi, client yang ingin menggunakan Wi-Fi hotspot yang saya bangun, harus punya username dan password.&lt;/p&gt;</description>
+      <description>Saya kemarin membuat WiFi hotspot mengggunakan MikroTik. WiFi hotspot yang saya bangun juga dilengkapi fitur autentikasi. Jadi, client yang ingin menggunakan Wi-Fi hotspot yang saya bangun, harus punya username dan password.</description>
     </item>
     
     <item>
@@ -114,7 +115,7 @@
       <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-bridging-di-mikrotik/</guid>
-      <description>&lt;p&gt;Bridging adalah teknik yang digunakan untuk menggabungkan dua atau lebih interface router sehingga interface yang di-bridge tersebut akan berada pada satu segmen jaringan yang sama. Dengan menerapkan teknik brigding pada interface router, maka kita telah memfungsikan interface yang di-bridge tersebut layaknya sebagai switch.&lt;/p&gt;</description>
+      <description>Bridging adalah teknik yang digunakan untuk menggabungkan dua atau lebih interface router sehingga interface yang di-bridge tersebut akan berada pada satu segmen jaringan yang sama.</description>
     </item>
     
     <item>
@@ -123,7 +124,7 @@
       <pubDate>Sat, 07 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-ip-address-di-mikrotik/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan step by step konfigurasi IP Address di perangkat MikroTik. Di tutorial ini disajikan dua cara untuk konfigurasi IP Address yakni menggunakan WinBox dan CLI.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan step by step konfigurasi IP Address di perangkat MikroTik.</description>
     </item>
     
     <item>
@@ -132,7 +133,7 @@
       <pubDate>Sat, 03 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/apa-itu-mikrotik/</guid>
-      <description>&lt;p&gt;Bagi yang sudah lama bergelut di dunia networking tentu tidak asing lagi ketika mendengar kata MikroTik. MikroTik merupakan sebuah perusahan yang berbasis di kota bernama Riga di negara Latvia yang memproduksi hardware dan software yang berkaitan dengan sistem jaringan komputer.&lt;/p&gt;</description>
+      <description>MikroTik merupakan sebuah perusahan yang berbasis di kota bernama Riga di negara Latvia yang memproduksi hardware dan software yang berkaitan dengan sistem jaringan komputer.</description>
     </item>
     
   </channel>

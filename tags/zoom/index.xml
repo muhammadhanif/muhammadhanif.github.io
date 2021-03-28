@@ -4,6 +4,10 @@
     <title>Zoom on hanifmu.com</title>
     <link>https://hanifmu.com/tags/zoom/</link>
     <description>Recent content in Zoom on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 24 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/zoom/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-zoom-di-ubuntu-20-04/</guid>
-      <description>&lt;p&gt;Tutorial singkat ini menjelaskan bagaimana melakukan instalasi Zoom di Ubuntu 20.04 (Focal Fossa). Berikut ini langkah-langkahnya:&lt;/p&gt;</description>
+      <description>Bagaimana melakukan instalasi Zoom di Ubuntu 20.04 (Focal Fossa)? Ini caranya!</description>
     </item>
     
   </channel>

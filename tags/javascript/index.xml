@@ -4,6 +4,10 @@
     <title>JavaScript on hanifmu.com</title>
     <link>https://hanifmu.com/tags/javascript/</link>
     <description>Recent content in JavaScript on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/aplikasi-berbasis-web-untuk-ip-address-lookup-memanfaatkan-api-ipapi-co/</guid>
-      <description>&lt;p&gt;Melanjutkan tradisi berbagi &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; hasil ngoding. Sebelumnya saya telah membagikan karya &lt;a href=&#34;https://hanifmu.com/posts/mendeteksi-ip-address-dan-lokasi-pengguna-memanfaatkan-api-ipinfo-io/&#34;&gt;Aplikasi Berbasis Web untuk Mendeteksi IP Address dan Lokasi Pengguna Memanfaatkan API ipinfo.io&lt;/a&gt;. Pada kesempatan kali ini saya membagikan aplikasi berbasis web untuk IP Address &lt;em&gt;lookup&lt;/em&gt; memanfaatkan API ipapi.co.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali ini saya membagikan aplikasi berbasis web untuk IP Address lookup memanfaatkan API ipapi.co.</description>
     </item>
     
     <item>
@@ -21,7 +25,7 @@
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mendeteksi-ip-address-dan-lokasi-pengguna-memanfaatkan-api-ipinfo-io/</guid>
-      <description>&lt;p&gt;Malam ini, 17 Januari 2021, saya kembali lagi melanjutkan tradisi berbagi &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; hasil ngoding. Di kesempatan kali ini saya berbagi aplikasi berbasis web untuk mendeteksi IP Address dan lokasi pengguna memanfaatkan API &lt;a href=&#34;https://ipinfo.io&#34;&gt;ipinfo.io&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Malam ini, 17 Januari 2021, saya membagikan tutorial bagaimana membuat aplikasi berbasis web untuk mendeteksi IP Address dan lokasi pengguna memanfaatkan API ipinfo.io.</description>
     </item>
     
   </channel>

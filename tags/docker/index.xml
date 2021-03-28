@@ -4,6 +4,10 @@
     <title>Docker on hanifmu.com</title>
     <link>https://hanifmu.com/tags/docker/</link>
     <description>Recent content in Docker on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/antarmuka-pengguna-fn-project/</guid>
-      <description>&lt;p&gt;Tutorial ini adalah kelanjutan dari tutorial &lt;a href=&#34;https://hanifmu.com/posts/bermain-main-dengan-fn-project&#34;&gt;Bermain-main dengan Fn Project&lt;/a&gt;. Selain Fn server, Fn Project juga menyediakan antarmuka pengguna (user interface). Melalui antarmuka pengguna tersebut kita dapat membuat fungsi, menjalankan fungsi, melihat statistik penggunaan fungsi, dan menghapus fungsi.&lt;/p&gt;</description>
+      <description>Selain Fn server, Fn Project juga menyediakan antarmuka pengguna (user interface). Melalui antarmuka pengguna tersebut kita dapat membuat fungsi, menjalankan fungsi, melihat statistik penggunaan fungsi, dan menghapus fungsi.</description>
     </item>
     
     <item>
@@ -21,11 +25,7 @@
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/bermain-main-dengan-fn-project/</guid>
-      <description>&lt;h3 id=&#34;apa-itu-fn-project&#34;&gt;Apa itu Fn Project?&lt;/h3&gt;
-&lt;p&gt;Mengutip dari situs &lt;a href=&#34;http://fnproject.io/&#34;&gt;fnproject.io&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The Fn project is an open-source container-native serverless platform that you can run anywhere &amp;ndash; any cloud or on-premise.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>The Fn project is an open-source container-native serverless platform that you can run anywhere -- any cloud or on-premise.</description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/deploying-nginx-on-heroku-with-docker/</guid>
-      <description>&lt;p&gt;In this tutorial, we will try to deploy NGINX on &lt;a href=&#34;https://www.heroku.com/&#34;&gt;Heroku&lt;/a&gt; with Docker. For your information, Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.&lt;/p&gt;</description>
+      <description>We will try to deploy NGINX on Heroku with Docker. Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.</description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/monitoring-docker-with-cadvisor/</guid>
-      <description>&lt;p&gt;In this tutorial we will install &lt;a href=&#34;https://github.com/google/cadvisor&#34;&gt;cAdvisor&lt;/a&gt; and use it for monitoring Docker container.&lt;/p&gt;</description>
+      <description>cAdvisor is a monitoring tool which is built and open sourced by Google for monitoring resource usage and performance characteristics of running containers.</description>
     </item>
     
     <item>
@@ -52,7 +52,7 @@
       <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/belajar-menggunakan-gitlab-ci-cd-dan-docker/</guid>
-      <description>&lt;p&gt;Tutorial ini merupakan catatan belajar saya dalam menggunakan GitLab CI/CD dan Docker.&lt;/p&gt;</description>
+      <description>Tutorial ini merupakan catatan belajar saya dalam menggunakan GitLab CI/CD dan Docker.</description>
     </item>
     
     <item>
@@ -61,8 +61,7 @@
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-docker-compose-di-centos-7/</guid>
-      <description>&lt;h3 id=&#34;apa-itu-docker-compose&#34;&gt;Apa itu Docker Compose?&lt;/h3&gt;
-&lt;p&gt;Sebelum kita melakukan instalasi Docker Compose di CentOS 7, kita perlu tahu apa itu Docker Compose.&lt;/p&gt;</description>
+      <description>Docker Compose adalah alat yang dapat kita gunakan untuk mendefinisikan dan menjalankan suatu aplikasi dalam beberapa container. Misal seperti ini, kita memiliki aplikasi web lengkap dengan database-nya.</description>
     </item>
     
     <item>
@@ -71,7 +70,7 @@
       <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-docker-ce-di-centos-7/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi Docker CE di CentOS 7.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagaimana melakukan instalasi Docker CE di CentOS 7.</description>
     </item>
     
     <item>
@@ -80,7 +79,7 @@
       <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-docker-ce-di-ubuntu-18-04/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi Docker CE di Ubuntu 18.04 yang dirilis pada tanggal 26 April 2018 yang lalu.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagaimana melakukan instalasi Docker CE di Ubuntu 18.04.</description>
     </item>
     
     <item>
@@ -89,7 +88,7 @@
       <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/menjalankan-dokumentasi-docker-secara-luring/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://docs.docker.com/&#34;&gt;Dokumentasi Docker&lt;/a&gt; adalah tempat dimana kita mendapat petunjuk tentang apa atau bagaimana mengoperasikan &lt;a href=&#34;https://hanifmu.com/posts/docker&#34;&gt;Docker&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Dokumentasi Docker adalah tempat dimana kita mendapat petunjuk tentang apa atau bagaimana mengoperasikan Docker.</description>
     </item>
     
     <item>
@@ -98,7 +97,7 @@
       <pubDate>Tue, 11 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/change-docker-ip-address-and-subnet/</guid>
-      <description>&lt;p&gt;By default, when we install Docker on our computer, Docker will create a bridge interface namely &lt;code&gt;docker0&lt;/code&gt;. Docker uses 172.17.0.1 IP address and 172.17.0.0/16 subnet for &lt;code&gt;docker0&lt;/code&gt;.&lt;/p&gt;</description>
+      <description>By default, when we install Docker on our computer, Docker will create a bridge interface namely docker0. Docker uses 172.17.0.1 IP address and 172.17.0.0/16 subnet for docker0.</description>
     </item>
     
     <item>
@@ -107,7 +106,7 @@
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mengubah-ip-address-dan-subnet-interface-bridge-docker0/</guid>
-      <description>&lt;p&gt;Ketika kita melakukan instalasi Docker, Docker akan membuat interface bridge dengan nama &lt;code&gt;docker0&lt;/code&gt;. Interface &lt;code&gt;docker0&lt;/code&gt; tersebut oleh Docker diberi IP address 172.17.0.1 dengan subnet 172.17.0.0/16. Berikut ini merupakan informasi interface &lt;code&gt;docker0&lt;/code&gt;:&lt;/p&gt;</description>
+      <description>Ketika kita melakukan instalasi Docker, Docker akan membuat interface bridge dengan nama docker0. Interface docker0 tersebut oleh Docker diberi IP address 172.17.0.1 dengan subnet 172.17.0.0/16.</description>
     </item>
     
     <item>
@@ -116,7 +115,7 @@
       <pubDate>Fri, 07 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/perintah-pause-dan-unpause-docker/</guid>
-      <description>&lt;p&gt;Di tutorial ini, kita akan membahas sekaligus mempraktikkan penggunaan dua perintah yang ada di Docker yakni &lt;code&gt;pause&lt;/code&gt; dan &lt;code&gt;unpause&lt;/code&gt;.&lt;/p&gt;</description>
+      <description>Di tutorial ini, kita akan membahas sekaligus mempraktikkan penggunaan dua perintah yang ada di Docker yakni pause dan unpause.</description>
     </item>
     
     <item>
@@ -125,7 +124,7 @@
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/removing-image-from-docker/</guid>
-      <description>&lt;p&gt;In this simple tutorial, I write a tutorial about how to remove image from Docker. Follow these steps to remove image from Docker.&lt;/p&gt;</description>
+      <description>In this simple tutorial, I write a tutorial about how to remove image from Docker.</description>
     </item>
     
     <item>
@@ -134,7 +133,7 @@
       <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/running-a-hello-world-docker-container/</guid>
-      <description>&lt;p&gt;After installing Docker Engine, the next simple step is running a hello world Docker container to ensure that docker engine is working properly. To do that, we download a &lt;code&gt;hello-world&lt;/code&gt; image and create a container from it.&lt;/p&gt;</description>
+      <description>After installing Docker Engine, the next simple step is running a hello world Docker container to ensure that docker engine is working properly.</description>
     </item>
     
     <item>
@@ -143,7 +142,7 @@
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/installing-docker-on-centos-7/</guid>
-      <description>&lt;p&gt;In this tutorial, we are going to install Docker on CentOS 7. Let&amp;rsquo;s follow the following steps to install Docker on CentOS 7.&lt;/p&gt;</description>
+      <description>In this tutorial, we are going to install Docker on CentOS 7</description>
     </item>
     
     <item>
@@ -152,9 +151,7 @@
       <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/sekilas-tentang-docker/</guid>
-      <description>&lt;h3 id=&#34;apa-itu-docker&#34;&gt;Apa itu Docker?&lt;/h3&gt;
-&lt;p&gt;Dalam beberapa tahun terakhir ini, telinga kita sering mendengar kata &lt;a href=&#34;https://hanifmu.com/tags/docker&#34;&gt;Docker&lt;/a&gt;. Apa itu Docker?&lt;/p&gt;
-&lt;p&gt;Docker dapat dikatakan sebagai salah satu bentuk virtualisasi modern yang sedang naik daun. Docker diperkenalkan kepada publik pada tahun 2013 oleh developer dari perusahaan dotCloud (sekarang bernama Docker Inc.).&lt;/p&gt;</description>
+      <description>Docker dapat dikatakan sebagai salah satu bentuk virtualisasi modern yang sedang naik daun. Docker diperkenalkan kepada publik pada tahun 2013 oleh developer dari perusahaan dotCloud (sekarang bernama Docker Inc.).</description>
     </item>
     
   </channel>

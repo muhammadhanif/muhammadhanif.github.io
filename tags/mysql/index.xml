@@ -4,6 +4,10 @@
     <title>MySQL on hanifmu.com</title>
     <link>https://hanifmu.com/tags/mysql/</link>
     <description>Recent content in MySQL on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 08 Oct 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-mikrotik-hotspot-freeradius-dan-mysql/</guid>
-      <description>&lt;p&gt;Ebook Instalasi dan Konfigurasi MikroTik Hotspot, FreeRADIUS dan MySQL ini saya tulis ketika saya mengambil mata kuliah keamanan jaringan.&lt;/p&gt;</description>
+      <description>Ebook ini berisi step by step membuat Hotspot pada perangkat Mikrotik, instalasi dan konfigurasi FreeRADIUS dan MySQL serta bagaimana melakukan integrasi MikroTik dengan FreeRADIUS.</description>
     </item>
     
   </channel>

@@ -4,6 +4,10 @@
     <title>WordPress on hanifmu.com</title>
     <link>https://hanifmu.com/tags/wordpress/</link>
     <description>Recent content in WordPress on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 26 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/wp-masjid-tema-wordpress-gratis-untuk-website/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://wpmasjid.com/&#34;&gt;WP Masjid&lt;/a&gt; merupakan tema wordpress gratis yang bisa kita gunakan untuk keperluan website masjid.&lt;/p&gt;</description>
+      <description>WP Masjid merupakan tema wordpress gratis yang bisa kita gunakan untuk keperluan website masjid</description>
     </item>
     
     <item>
@@ -21,7 +25,7 @@
       <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/menonaktifkan-fitur-rest-api-wordpress/</guid>
-      <description>&lt;p&gt;Fitur REST API telah diintegrasikan pada core WordPress sejak versi 4.4. Fitur tersebut memungkinkan siapapun terutama developer untuk mengembangkan aplikasi dengan memanfaatkan fitur REST API tersebut. Akan tetapi, dalam beberapa laporan disebutkan bahwa fitur tersebut rentan untuk dieksploitasi.&lt;/p&gt;</description>
+      <description>Fitur REST API telah diintegrasikan pada core WordPress sejak versi 4.4. Fitur tersebut memungkinkan siapapun terutama developer untuk mengembangkan aplikasi dengan memanfaatkan fitur REST API tersebut.</description>
     </item>
     
     <item>
@@ -30,7 +34,7 @@
       <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cara-update-wordpress-secara-manual/</guid>
-      <description>&lt;p&gt;Pada kesempatan ini saya membagikan tutorial bagaimana meng-update WordPress dari versi lama ke versi yang terbaru. Update wordpress bisa dilakukan dengan dua cara yakni update secara otomatis melalui halaman administrator dan update secara manual.&lt;/p&gt;</description>
+      <description>Pada kesempatan ini saya membagikan tutorial bagaimana meng-update WordPress dari versi lama ke versi yang terbaru. </description>
     </item>
     
   </channel>

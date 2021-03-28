@@ -4,6 +4,10 @@
     <title>Nginx on hanifmu.com</title>
     <link>https://hanifmu.com/tags/nginx/</link>
     <description>Recent content in Nginx on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 23 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/deploying-nginx-on-heroku-with-docker/</guid>
-      <description>&lt;p&gt;In this tutorial, we will try to deploy NGINX on &lt;a href=&#34;https://www.heroku.com/&#34;&gt;Heroku&lt;/a&gt; with Docker. For your information, Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.&lt;/p&gt;</description>
+      <description>We will try to deploy NGINX on Heroku with Docker. Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.</description>
     </item>
     
     <item>
@@ -21,7 +25,7 @@
       <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cara-install-nginx-di-centos-7/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi Nginx di CentOS 7.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagaimana melakukan instalasi Nginx di CentOS 7.</description>
     </item>
     
     <item>
@@ -30,7 +34,7 @@
       <pubDate>Sat, 26 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/integrasi-php-fpm-dan-nginx-di-centos/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan bagimana melakukan integrasi PHP-FPM dan NGINX di CentOS. Berikut ini langkah-langkahnya:&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagimana melakukan integrasi PHP-FPM dan NGINX di CentOS.</description>
     </item>
     
     <item>
@@ -39,7 +43,7 @@
       <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/enable-nginx-status-page/</guid>
-      <description>&lt;p&gt;In this tutorial, I will show you how to add Nginx status page.&lt;/p&gt;</description>
+      <description>In this tutorial, I will show you how to add Nginx status page.</description>
     </item>
     
   </channel>

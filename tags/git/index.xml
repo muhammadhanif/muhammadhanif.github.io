@@ -4,6 +4,10 @@
     <title>Git on hanifmu.com</title>
     <link>https://hanifmu.com/tags/git/</link>
     <description>Recent content in Git on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-gitkraken-di-ubuntu-20-04-focal-fossa/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi GitKraken di sistem operasi Ubuntu 20.04 (Focal Fossa). Bagi pengguna sistem operasi Ubuntu 16.04+ dan Debian 9+, anda juga bisa mengikuti tutorial ini untuk melakukan instalasi GitKraken di sistem operasi Ubuntu/Debian.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagaimana melakukan instalasi GitKraken di sistem operasi Ubuntu 20.04 (Focal Fossa). Bagi pengguna sistem operasi Ubuntu 16.04&#43; dan Debian 9&#43;, anda juga bisa mengikuti tutorial ini.</description>
     </item>
     
     <item>
@@ -21,7 +25,7 @@
       <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-json-python/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.bmkg.go.id/&#34;&gt;BMKG&lt;/a&gt; (Badan Meteorologi, Klimatologi, dan Geofisika) menyediakan data gempa bumi yang dapat diakses di laman &lt;a href=&#34;https://data.bmkg.go.id/gempabumi/&#34;&gt;https://data.bmkg.go.id/gempabumi/&lt;/a&gt;. Data gempa bumi tersebut disediakan dengan format data XML.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali saya kembali berbagi hasil karya ngoding yaitu pustaka python untuk konversi data gempa bumi BMKG dari XML ke JSON.</description>
     </item>
     
     <item>
@@ -30,16 +34,7 @@
       <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/codeigniter-bmkg-gempa-geojson/</guid>
-      <description>&lt;p&gt;Di bulan Juli kemarin saya sudah membagikan aplikasi &lt;a href=&#34;https://hanifmu.com/posts/codeigniter-bmkg-gempa/&#34;&gt;Codeigniter x BMKG x Gempa&lt;/a&gt; berbasis web yang menampilkan data gempa bumi yang bersumber dari BMKG. Tidak hanya menampilkan data gempa bumi, di aplikasi tersebut saya juga buatkan API data gempa bumi dengan format data JSON.&lt;/p&gt;
-&lt;p&gt;Nah, pada kesempatan kali ini saya kembali berbagi hasil &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; ngoding yaitu aplikasi berbasis web yang memiliki fungsi sama dengan aplikasi yang saya sebutkan di atas. Perbedaannya adalah terletak pada API data gempa bumi yang menggunakan format data GeoJSON.&lt;/p&gt;
-&lt;p&gt;Berdasarkan &lt;a href=&#34;https://tools.ietf.org/html/rfc7946&#34;&gt;RFC 7946&lt;/a&gt; tentang The GeoJSON Format, GeoJSON adalah&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents. GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Saya terjemahkan secara bebas sebagai berikut:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;GeoJSON adalah format pertukaran data geospasial berbasis JSON (JavaScript Object Notation). GeoJSON mendefinisikan beberapa objek JSON dan bagaimana objek-objek tersebut digabung untuk merepresentasikan atribut atau karakteristik suatu objek geografi dan data spasialnya. GeoJSON menggunakan sistem referensi koordinat geografis World Geodetic System 1984 dan satuan yang digunakan adalah satuan derajat desimal.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>Pada kesempatan kali ini saya kembali berbagi hasil karya ngoding yaitu aplikasi berbasis web yang menampilkan data gempa bumi yang terjadi di wilayah Indonesia dan API data gempa bumi dengan format data GeoJSON.</description>
     </item>
     
     <item>
@@ -48,7 +43,7 @@
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-geojson-php/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.bmkg.go.id/&#34;&gt;BMKG&lt;/a&gt; (Badan Meteorologi, Klimatologi, dan Geofisika) menyediakan data gempa bumi yang dapat diakses di laman &lt;a href=&#34;https://data.bmkg.go.id/gempabumi/&#34;&gt;data.bmkg.go.id/gempabumi/&lt;/a&gt;. Data gempa bumi tersebut disediakan dengan format data XML.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali ini saya berbagi hasil karya ngoding yaitu aplikasi berbasis PHP yang digunakan untuk konversi data gempa bumi yang bersumber dari BMKG dari XML ke GeoJSON.</description>
     </item>
     
     <item>
@@ -57,7 +52,7 @@
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/codeigniter-bmkg-gempa/</guid>
-      <description>&lt;p&gt;Saya sendiri bingung bagaimana seharusnya membuat judul artikel ini 😃. Jadinya saya beri judul Codeigniter x BMKG x Gempa. Intinya, pada kesempatan kali ini saya berbagi hasil &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; ngoding yaitu aplikasi berbasis web yang menampilkan data gempa bumi yang terjadi di wilayah Indonesia.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali ini saya berbagi hasil karya ngoding yaitu aplikasi berbasis web yang menampilkan data gempa bumi yang terjadi di wilayah Indonesia.</description>
     </item>
     
     <item>
@@ -66,7 +61,7 @@
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mengirim-notifikasi-gempa-bumi-ke-telegram/</guid>
-      <description>&lt;p&gt;Pada kesempatan kali ini saya berbagi hasil &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; ngoding yaitu aplikasi sederhana untuk mengirim notifikasi gempa bumi yang terjadi di wilayah Indonesia ke Telegram.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali ini saya berbagi hasil karya yaitu aplikasi sederhana untuk mengirim notifikasi gempa bumi yang terjadi di wilayah Indonesia ke Telegram</description>
     </item>
     
   </channel>

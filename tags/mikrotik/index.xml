@@ -4,6 +4,10 @@
     <title>MikroTik on hanifmu.com</title>
     <link>https://hanifmu.com/tags/mikrotik/</link>
     <description>Recent content in MikroTik on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 08 Oct 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/mikrotik/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-mikrotik-hotspot-freeradius-dan-mysql/</guid>
-      <description>&lt;p&gt;Ebook Instalasi dan Konfigurasi MikroTik Hotspot, FreeRADIUS dan MySQL ini saya tulis ketika saya mengambil mata kuliah keamanan jaringan.&lt;/p&gt;</description>
+      <description>Ebook ini berisi step by step membuat Hotspot pada perangkat Mikrotik, instalasi dan konfigurasi FreeRADIUS dan MySQL serta bagaimana melakukan integrasi MikroTik dengan FreeRADIUS.</description>
     </item>
     
     <item>
@@ -21,7 +25,7 @@
       <pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cara-mengganti-hostname-mikrotik/</guid>
-      <description>&lt;p&gt;Setiap perangkat router MikroTik hendaknya kita beri identitas atau hostname agar memudahkan kita dalam mengenali router tersebut. Selain itu, dengan memberi hostname tentu akan memudahkan kita untuk membedakan router yang satu dengan router yang lainnya.&lt;/p&gt;</description>
+      <description>Setiap perangkat router MikroTik hendaknya kita beri identitas atau hostname agar memudahkan kita dalam mengenali router tersebut.</description>
     </item>
     
     <item>
@@ -30,7 +34,7 @@
       <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-dns-server-mikrotik/</guid>
-      <description>&lt;p&gt;DNS (Domain Name System) merupakan suatu sistem yang memiliki fungsi untuk memetakan hostname atau domain dari situs-situs yang ada di internet menjadi IP Address. Apa yang terjadi  jika kita tidak menggunakan DNS? Kita perlu mengetahui IP Address dari situs-situs yang ingin kita akses tersebut.&lt;/p&gt;</description>
+      <description>DNS (Domain Name System) merupakan suatu sistem yang memiliki fungsi untuk memetakan hostname atau domain dari situs-situs yang ada di internet menjadi IP Address.</description>
     </item>
     
     <item>
@@ -39,8 +43,7 @@
       <pubDate>Sun, 05 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/menonaktifkan-hotspot-mikrotik-pada-jam-jam-tertentu/</guid>
-      <description>&lt;h3 id=&#34;persoalan&#34;&gt;Persoalan&lt;/h3&gt;
-&lt;p&gt;Saya kemarin membuat WiFi hotspot mengggunakan MikroTik. WiFi hotspot yang saya bangun juga dilengkapi fitur autentikasi. Jadi, client yang ingin menggunakan Wi-Fi hotspot yang saya bangun, harus punya username dan password.&lt;/p&gt;</description>
+      <description>Saya kemarin membuat WiFi hotspot mengggunakan MikroTik. WiFi hotspot yang saya bangun juga dilengkapi fitur autentikasi. Jadi, client yang ingin menggunakan Wi-Fi hotspot yang saya bangun, harus punya username dan password.</description>
     </item>
     
     <item>
@@ -49,7 +52,7 @@
       <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-bridging-di-mikrotik/</guid>
-      <description>&lt;p&gt;Bridging adalah teknik yang digunakan untuk menggabungkan dua atau lebih interface router sehingga interface yang di-bridge tersebut akan berada pada satu segmen jaringan yang sama. Dengan menerapkan teknik brigding pada interface router, maka kita telah memfungsikan interface yang di-bridge tersebut layaknya sebagai switch.&lt;/p&gt;</description>
+      <description>Bridging adalah teknik yang digunakan untuk menggabungkan dua atau lebih interface router sehingga interface yang di-bridge tersebut akan berada pada satu segmen jaringan yang sama.</description>
     </item>
     
     <item>
@@ -58,7 +61,7 @@
       <pubDate>Sat, 07 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-ip-address-di-mikrotik/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan step by step konfigurasi IP Address di perangkat MikroTik. Di tutorial ini disajikan dua cara untuk konfigurasi IP Address yakni menggunakan WinBox dan CLI.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan step by step konfigurasi IP Address di perangkat MikroTik.</description>
     </item>
     
     <item>
@@ -67,7 +70,7 @@
       <pubDate>Sat, 03 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/apa-itu-mikrotik/</guid>
-      <description>&lt;p&gt;Bagi yang sudah lama bergelut di dunia networking tentu tidak asing lagi ketika mendengar kata MikroTik. MikroTik merupakan sebuah perusahan yang berbasis di kota bernama Riga di negara Latvia yang memproduksi hardware dan software yang berkaitan dengan sistem jaringan komputer.&lt;/p&gt;</description>
+      <description>MikroTik merupakan sebuah perusahan yang berbasis di kota bernama Riga di negara Latvia yang memproduksi hardware dan software yang berkaitan dengan sistem jaringan komputer.</description>
     </item>
     
   </channel>

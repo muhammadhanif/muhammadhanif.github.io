@@ -4,6 +4,10 @@
     <title>Profesi on hanifmu.com</title>
     <link>https://hanifmu.com/tags/profesi/</link>
     <description>Recent content in Profesi on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/profesi/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,8 +16,7 @@
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/peta-jalan-menjadi-backend-developer/</guid>
-      <description>&lt;h2 id=&#34;apa-itu-back-end-developer&#34;&gt;Apa itu Back-End Developer?&lt;/h2&gt;
-&lt;p&gt;Back-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat arsitektur aplikasi dan logika atau alur kerja suatu aplikasi. Umumnya pekerjaan seorang Back-End Developer juga berkaitan dengan database dan server. Para Back-End Developer adalah orang-orang yang ada dibalik layar suatu aplikasi. Contoh hasil karya mereka adalah Web API (Application Programming Interface).&lt;/p&gt;</description>
+      <description>Back-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat arsitektur aplikasi dan logika atau alur kerja suatu aplikasi.</description>
     </item>
     
     <item>
@@ -22,8 +25,7 @@
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/peta-jalan-menjadi-frontend-developer/</guid>
-      <description>&lt;h2 id=&#34;apa-itu-front-end-developer&#34;&gt;Apa itu Front-End Developer?&lt;/h2&gt;
-&lt;p&gt;Front-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat tampilan atau interface suatu aplikasi baik itu aplikasi berbasis web, mobile, atau yang berbasis desktop. Jadi, mereka ini, para Front-End Developer, adalah garda depan suatu aplikasi karena hasil karya mereka berkaitan langsung dengan user atau pengguna aplikasi.&lt;/p&gt;</description>
+      <description>Front-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat tampilan atau interface suatu aplikasi baik itu aplikasi berbasis web, mobile, atau yang berbasis desktop.</description>
     </item>
     
     <item>
@@ -32,11 +34,7 @@
       <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/peta-jalan-menjadi-devops/</guid>
-      <description>&lt;h2 id=&#34;apa-itu-devops&#34;&gt;Apa itu DevOps?&lt;/h2&gt;
-&lt;p&gt;Mengutip dari laman &lt;a href=&#34;https://www.atlassian.com/devops&#34;&gt;atlassian.com&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;DevOps is a set of practices that works to automate and integrate the processes between software development and IT teams, so they can build, test, and release software faster and more reliably.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>DevOps adalah sekumpulan praktik yang berfungsi untuk mengotomatiskan dan mengintegrasikan proses antara pengembangan perangkat lunak dan tim IT, sehingga mereka dapat membangun, menguji, dan merilis perangkat lunak dengan lebih cepat dan lebih andal.</description>
     </item>
     
   </channel>

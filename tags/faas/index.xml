@@ -4,6 +4,10 @@
     <title>FaaS on hanifmu.com</title>
     <link>https://hanifmu.com/tags/faas/</link>
     <description>Recent content in FaaS on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/faas/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/antarmuka-pengguna-fn-project/</guid>
-      <description>&lt;p&gt;Tutorial ini adalah kelanjutan dari tutorial &lt;a href=&#34;https://hanifmu.com/posts/bermain-main-dengan-fn-project&#34;&gt;Bermain-main dengan Fn Project&lt;/a&gt;. Selain Fn server, Fn Project juga menyediakan antarmuka pengguna (user interface). Melalui antarmuka pengguna tersebut kita dapat membuat fungsi, menjalankan fungsi, melihat statistik penggunaan fungsi, dan menghapus fungsi.&lt;/p&gt;</description>
+      <description>Selain Fn server, Fn Project juga menyediakan antarmuka pengguna (user interface). Melalui antarmuka pengguna tersebut kita dapat membuat fungsi, menjalankan fungsi, melihat statistik penggunaan fungsi, dan menghapus fungsi.</description>
     </item>
     
     <item>
@@ -21,11 +25,7 @@
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/bermain-main-dengan-fn-project/</guid>
-      <description>&lt;h3 id=&#34;apa-itu-fn-project&#34;&gt;Apa itu Fn Project?&lt;/h3&gt;
-&lt;p&gt;Mengutip dari situs &lt;a href=&#34;http://fnproject.io/&#34;&gt;fnproject.io&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The Fn project is an open-source container-native serverless platform that you can run anywhere &amp;ndash; any cloud or on-premise.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>The Fn project is an open-source container-native serverless platform that you can run anywhere -- any cloud or on-premise.</description>
     </item>
     
   </channel>

@@ -4,6 +4,10 @@
     <title>Management on hanifmu.com</title>
     <link>https://hanifmu.com/tags/management/</link>
     <description>Recent content in Management on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/management/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,8 +16,7 @@
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-cockpit-di-ubuntu-18-04/</guid>
-      <description>&lt;h2 id=&#34;sekilas-tentang-cockpit&#34;&gt;Sekilas Tentang Cockpit&lt;/h2&gt;
-&lt;p&gt;Cockpit adalah aplikasi berbasis web yang dapat kita gunakan untuk mengelola dan memantau (monitoring) sistem operasi GNU/Linux. Informasi lengkap tentang Cockpit dapat dibaca di situs &lt;a href=&#34;https://cockpit-project.org/&#34;&gt;Cockpit Project&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Cockpit adalah aplikasi berbasis web yang dapat kita gunakan untuk mengelola dan memantau (monitoring) sistem operasi GNU/Linux.</description>
     </item>
     
   </channel>

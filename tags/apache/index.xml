@@ -4,6 +4,10 @@
     <title>Apache on hanifmu.com</title>
     <link>https://hanifmu.com/tags/apache/</link>
     <description>Recent content in Apache on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 15 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/apache/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/install-apache-web-server-on-centos-7/</guid>
-      <description>&lt;p&gt;When you access a website, you actually access a web server. What is web server? Web server is a program that delivers web pages to you. Web server uses HTTP (Hypertext Transfer Protocol) or HTTPS (Hypertext Transfer Protocol Secure) protocol.&lt;/p&gt;</description>
+      <description>When you access a website, you actually access a web server. What is web server? Web server is a program that delivers web pages to you.</description>
     </item>
     
   </channel>

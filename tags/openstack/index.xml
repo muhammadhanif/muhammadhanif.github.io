@@ -4,6 +4,10 @@
     <title>OpenStack on hanifmu.com</title>
     <link>https://hanifmu.com/tags/openstack/</link>
     <description>Recent content in OpenStack on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 07 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/openstack/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,8 +16,7 @@
       <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mengenal-openstack/</guid>
-      <description>&lt;h3 id=&#34;apa-itu-openstack&#34;&gt;Apa itu OpenStack?&lt;/h3&gt;
-&lt;p&gt;OpenStack adalah adalah sistem operasi cloud yang digunakan untuk mengelola sumber daya seperti komputasi (compute), penyimpanan (storage), dan jaringan (networking) yang ada dalam suatu data center. OpenStack menyediakan dashboard yang memberikan kontrol penuh kepada administrator untuk memberdayakan sumber daya tersebut.&lt;/p&gt;</description>
+      <description>OpenStack adalah adalah sistem operasi cloud yang digunakan untuk mengelola sumber daya seperti komputasi (compute), penyimpanan (storage), dan jaringan (networking) yang ada dalam suatu data center.</description>
     </item>
     
   </channel>

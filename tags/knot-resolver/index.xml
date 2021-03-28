@@ -4,6 +4,10 @@
     <title>Knot Resolver on hanifmu.com</title>
     <link>https://hanifmu.com/tags/knot-resolver/</link>
     <description>Recent content in Knot Resolver on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/knot-resolver/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-2/</guid>
-      <description>&lt;p&gt;Tutorial ini merupakan kelanjutan dari &lt;a href=&#34;https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-1&#34;&gt;tutorial Instalasi dan Konfigurasi Knot Resolver #1&lt;/a&gt;. Di seri pertama sudah dibahas bagaimana melakukan instalasi dan konfigurasi dasar dari Knot Resolver serta melakukan pengujian kueri DNS. Di seri kedua ini akan dibahas bagaimana mengaktifkan DNS-over-TLS (DoT) di Knot Resolver.&lt;/p&gt;</description>
+      <description>Di tutorial ini dibahas bagaimana mengaktifkan DNS-over-TLS (DoT) di Knot Resolver.</description>
     </item>
     
     <item>
@@ -21,7 +25,7 @@
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-1/</guid>
-      <description>&lt;p&gt;Singkatnya, Knot Resolver adalah DNS resolver. Penjelasan lengkap tentang Knot Resolver bisa dibaca di &lt;a href=&#34;https://www.knot-resolver.cz/&#34;&gt;www.knot-resolver.cz&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Di tutorial ini dibahas step by step instalasi dan konfigurasi dasar Knot Resolver.</description>
     </item>
     
   </channel>

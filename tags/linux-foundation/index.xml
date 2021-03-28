@@ -4,6 +4,10 @@
     <title>Linux Foundation on hanifmu.com</title>
     <link>https://hanifmu.com/tags/linux-foundation/</link>
     <description>Recent content in Linux Foundation on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 03 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/linux-foundation/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,16 +16,7 @@
       <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/evolution-of-a-sysadmin/</guid>
-      <description>&lt;p&gt;I got the picture Evolution of a Sysadmin from &lt;a href=&#34;http://www.linuxfoundation.org&#34;&gt;Linux Foundation&lt;/a&gt;. Click &lt;a href=&#34;https://hanifmu.com/download/lftc_evolution_sysadmin.jpg&#34;&gt;here&lt;/a&gt; to enlarge the picture.&lt;/p&gt;
-
-
-
-&lt;div class=&#34;pic-center&#34;&gt;
-    &lt;img data-sizes=&#34;auto&#34; data-src=&#34;https://hanifmu.com/images/lftc_evolution_sysadmin.webp&#34; src=&#34;https://hanifmu.com/images/bg-hanifmu.com.webp&#34; class=&#34;lazyload pic-fluid&#34; alt=&#34; Image by Linux Foundation via linuxfoundation.org&#34; /&gt;
-    &lt;p&gt;
-        Image by Linux Foundation via linuxfoundation.org
-    &lt;/p&gt;
-&lt;/div&gt;</description>
+      <description>Evolution of a Sysadmin by Linux Foundation.</description>
     </item>
     
   </channel>

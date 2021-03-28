@@ -4,6 +4,10 @@
     <title>resolvconf on hanifmu.com</title>
     <link>https://hanifmu.com/tags/resolvconf/</link>
     <description>Recent content in resolvconf on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/resolvconf/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-dns-resolver-permanen-ubuntu/</guid>
-      <description>&lt;p&gt;Karena DNS resolver yang disediakan ISP (menurut saya) sering bermasalah, saya kemudian menggunakan DNS resolver lainnya. Problem-nya adalah setiap kali komputer dinyalakan kembali dari restart atau shutdown, konfigurasi DNS resolver di file &lt;code&gt;/etc/resolv.conf&lt;/code&gt; yang saya buat selalu hilang.&lt;/p&gt;</description>
+      <description>Di tutorial singkat ini dijelaskan bagaimana melakukan konfigurasi DNS resolver secara permanen di sistem operasi Ubuntu.</description>
     </item>
     
   </channel>

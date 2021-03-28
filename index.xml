@@ -4,6 +4,10 @@
     <title>hanifmu.com</title>
     <link>https://hanifmu.com/</link>
     <description>Recent content on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,8 +16,7 @@
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-packet-tracer-versi-8.0.0-di-ubuntu-20-04/</guid>
-      <description>&lt;h2 id=&#34;sekilas-tentang-packer-tracer&#34;&gt;Sekilas Tentang Packer Tracer&lt;/h2&gt;
-&lt;p&gt;Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.&lt;/p&gt;</description>
+      <description>Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.</description>
     </item>
     
     <item>
@@ -22,7 +25,7 @@
       <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-sweet-home-3d-di-ubuntu-20.04/</guid>
-      <description>&lt;p&gt;Sweet Home 3D adalah aplikasi desain interior gratis yang dapat kita manfaatkan untuk membuat gambar denah rumah, mengatur furnitur, dan melihat hasilnya dalam bentuk 3D (3 dimensi). Sweet Home 3D didistribusikan di bawah bendera GNU General Public License dan merupakan salah satu proyek &lt;em&gt;open source&lt;/em&gt; yang ada di &lt;a href=&#34;https://sourceforge.net/projects/sweethome3d/&#34;&gt;SourceForge.net&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Sweet Home 3D adalah aplikasi desain interior gratis yang dapat kita manfaatkan untuk membuat gambar denah rumah, mengatur furnitur , dan melihat hasilnya dalam bentuk 3D (3 dimensi).</description>
     </item>
     
     <item>
@@ -31,7 +34,7 @@
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-draw.io-di-ubuntu-20-04/</guid>
-      <description>&lt;p&gt;Tutorial singkat ini menjelaskan bagaimana melakukan instalasi draw.io di sistem operasi Ubuntu 20.04&lt;/p&gt;</description>
+      <description>Tutorial singkat ini menjelaskan bagaimana melakukan instalasi draw.io di sistem operasi Ubuntu 20.04.</description>
     </item>
     
     <item>
@@ -40,7 +43,7 @@
       <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-libreoffice-di-ubuntu-20-04/</guid>
-      <description>&lt;p&gt;Tutorial singkat ini menjelaskan bagaimana melakukan instalasi LibreOffice di sistem operasi Ubuntu 20.04 memanfaatkan &lt;em&gt;Personal Package Archives&lt;/em&gt; (PPA).&lt;/p&gt;</description>
+      <description>Tutorial singkat ini menjelaskan bagaimana melakukan instalasi LibreOffice di sistem operasi Ubuntu 20.04 memanfaatkan Personal Package Archives (PPA).</description>
     </item>
     
     <item>
@@ -49,7 +52,7 @@
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/program-hello-world-di-beberapa-bahasa-pemrograman/</guid>
-      <description>&lt;p&gt;Saya yakin, bagi anda yang &lt;a href=&#34;https://hanifmu.com/tags/profesi/&#34;&gt;berprofesi&lt;/a&gt; sebagai &lt;em&gt;Programmer&lt;/em&gt; atau saat ini sedang &lt;a href=&#34;https://hanifmu.com/posts/tips-belajar-bahasa-pemrograman-1/&#34;&gt;belajar bahasa pemrograman&lt;/a&gt; tentu tidak asing dengan program &lt;em&gt;Hello, World!&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>Program Hello, World! adalah program komputer yang sangat sederhana yang menampilkan tulisan atau pesan &amp;#39;Hello, World!&amp;#39;.</description>
     </item>
     
     <item>
@@ -58,7 +61,7 @@
       <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-gitkraken-di-ubuntu-20-04-focal-fossa/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi GitKraken di sistem operasi Ubuntu 20.04 (Focal Fossa). Bagi pengguna sistem operasi Ubuntu 16.04+ dan Debian 9+, anda juga bisa mengikuti tutorial ini untuk melakukan instalasi GitKraken di sistem operasi Ubuntu/Debian.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagaimana melakukan instalasi GitKraken di sistem operasi Ubuntu 20.04 (Focal Fossa). Bagi pengguna sistem operasi Ubuntu 16.04&#43; dan Debian 9&#43;, anda juga bisa mengikuti tutorial ini.</description>
     </item>
     
     <item>
@@ -67,7 +70,7 @@
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/aplikasi-berbasis-web-untuk-ip-address-lookup-memanfaatkan-api-ipapi-co/</guid>
-      <description>&lt;p&gt;Melanjutkan tradisi berbagi &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; hasil ngoding. Sebelumnya saya telah membagikan karya &lt;a href=&#34;https://hanifmu.com/posts/mendeteksi-ip-address-dan-lokasi-pengguna-memanfaatkan-api-ipinfo-io/&#34;&gt;Aplikasi Berbasis Web untuk Mendeteksi IP Address dan Lokasi Pengguna Memanfaatkan API ipinfo.io&lt;/a&gt;. Pada kesempatan kali ini saya membagikan aplikasi berbasis web untuk IP Address &lt;em&gt;lookup&lt;/em&gt; memanfaatkan API ipapi.co.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali ini saya membagikan aplikasi berbasis web untuk IP Address lookup memanfaatkan API ipapi.co.</description>
     </item>
     
     <item>
@@ -76,7 +79,7 @@
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mendeteksi-ip-address-dan-lokasi-pengguna-memanfaatkan-api-ipinfo-io/</guid>
-      <description>&lt;p&gt;Malam ini, 17 Januari 2021, saya kembali lagi melanjutkan tradisi berbagi &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; hasil ngoding. Di kesempatan kali ini saya berbagi aplikasi berbasis web untuk mendeteksi IP Address dan lokasi pengguna memanfaatkan API &lt;a href=&#34;https://ipinfo.io&#34;&gt;ipinfo.io&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Malam ini, 17 Januari 2021, saya membagikan tutorial bagaimana membuat aplikasi berbasis web untuk mendeteksi IP Address dan lokasi pengguna memanfaatkan API ipinfo.io.</description>
     </item>
     
     <item>
@@ -85,9 +88,7 @@
       <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/hackinscience-platform-interaktif-untuk-belajar-pemrograman-python/</guid>
-      <description>&lt;p&gt;Pagi ini, 13 Januari 2021, saya me-review secara singkat sebuah situs yang menurut saya bagus untuk mengasah skill pemrograman Python. Situs yang saya maksud tersebut adalah &lt;a href=&#34;https://www.hackinscience.org/&#34;&gt;Hackinscience&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;sekilas-tentang-hackinscience&#34;&gt;Sekilas Tentang Hackinscience&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Hackinscience&lt;/strong&gt; adalah sebuah platform daring interaktif berbasis web untuk mengasah skill pemrograman Python. Platform latihan pemrograman Python tersebut menyediakan banyak soal-soal latihan pemrograman Python. Dari soal latihan &amp;ldquo;Hello world!&amp;rdquo; sampai dengan soal latihan yang masuk kategori &lt;em&gt;advanced&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>Hackinscience adalah sebuah platform daring interaktif berbasis web untuk mengasah skill pemrograman Python.</description>
     </item>
     
     <item>
@@ -96,8 +97,7 @@
       <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-signal-di-distro-linux-berbasis-debian/</guid>
-      <description>&lt;h2 id=&#34;sekilas-tentang-signal&#34;&gt;Sekilas Tentang Signal&lt;/h2&gt;
-&lt;p&gt;Signal adalah aplikasi perpesanan (messaging) sebagaimana seperti WhatsApp dan Telegram. Signal membuka sumber kode perangkat lunaknya di repositori GitHub &lt;a href=&#34;https://github.com/signalapp&#34;&gt;@signalapp&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Signal adalah aplikasi perpesanan (messaging) sebagaimana seperti WhatsApp dan Telegram. Signal membuka sumber kode perangkat lunaknya di repositori GitHub https://github.com/signalapp.</description>
     </item>
     
     <item>
@@ -106,8 +106,7 @@
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/peta-jalan-menjadi-backend-developer/</guid>
-      <description>&lt;h2 id=&#34;apa-itu-back-end-developer&#34;&gt;Apa itu Back-End Developer?&lt;/h2&gt;
-&lt;p&gt;Back-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat arsitektur aplikasi dan logika atau alur kerja suatu aplikasi. Umumnya pekerjaan seorang Back-End Developer juga berkaitan dengan database dan server. Para Back-End Developer adalah orang-orang yang ada dibalik layar suatu aplikasi. Contoh hasil karya mereka adalah Web API (Application Programming Interface).&lt;/p&gt;</description>
+      <description>Back-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat arsitektur aplikasi dan logika atau alur kerja suatu aplikasi.</description>
     </item>
     
     <item>
@@ -116,7 +115,7 @@
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/menampilkan-kalender-di-terminal-linux/</guid>
-      <description>&lt;p&gt;Perintah &lt;code&gt;cal&lt;/code&gt; adalah perintah yang dapat kita gunakan untuk menampilkan kalender di terminal Linux.&lt;/p&gt;</description>
+      <description>Perintah cal adalah perintah yang dapat kita gunakan untuk menampilkan kalender di terminal Linux.</description>
     </item>
     
     <item>
@@ -125,8 +124,7 @@
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/peta-jalan-menjadi-frontend-developer/</guid>
-      <description>&lt;h2 id=&#34;apa-itu-front-end-developer&#34;&gt;Apa itu Front-End Developer?&lt;/h2&gt;
-&lt;p&gt;Front-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat tampilan atau interface suatu aplikasi baik itu aplikasi berbasis web, mobile, atau yang berbasis desktop. Jadi, mereka ini, para Front-End Developer, adalah garda depan suatu aplikasi karena hasil karya mereka berkaitan langsung dengan user atau pengguna aplikasi.&lt;/p&gt;</description>
+      <description>Front-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat tampilan atau interface suatu aplikasi baik itu aplikasi berbasis web, mobile, atau yang berbasis desktop.</description>
     </item>
     
     <item>
@@ -135,11 +133,7 @@
       <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/peta-jalan-menjadi-devops/</guid>
-      <description>&lt;h2 id=&#34;apa-itu-devops&#34;&gt;Apa itu DevOps?&lt;/h2&gt;
-&lt;p&gt;Mengutip dari laman &lt;a href=&#34;https://www.atlassian.com/devops&#34;&gt;atlassian.com&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;DevOps is a set of practices that works to automate and integrate the processes between software development and IT teams, so they can build, test, and release software faster and more reliably.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>DevOps adalah sekumpulan praktik yang berfungsi untuk mengotomatiskan dan mengintegrasikan proses antara pengembangan perangkat lunak dan tim IT, sehingga mereka dapat membangun, menguji, dan merilis perangkat lunak dengan lebih cepat dan lebih andal.</description>
     </item>
     
     <item>
@@ -148,7 +142,7 @@
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-visual-studio-code-di-linux/</guid>
-      <description>&lt;p&gt;Visual Studio Code adalah sebuah text editor yang dikembangkan oleh Microsoft. Kita tidak perlu membayar untuk menggunakannya karena Visual Studio Code is free. Siapapun bisa menggunakannya.&lt;/p&gt;</description>
+      <description>Visual Studio Code adalah sebuah text editor buatan Microsoft. </description>
     </item>
     
     <item>
@@ -157,7 +151,7 @@
       <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-golang-di-linux/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi bahasa pemrograman Golang di Linux. Berikut ini step by step instalasi Go di Linux:&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagaimana melakukan instalasi bahasa pemrograman Golang di Linux.</description>
     </item>
     
     <item>
@@ -166,7 +160,7 @@
       <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-zoom-di-ubuntu-20-04/</guid>
-      <description>&lt;p&gt;Tutorial singkat ini menjelaskan bagaimana melakukan instalasi Zoom di Ubuntu 20.04 (Focal Fossa). Berikut ini langkah-langkahnya:&lt;/p&gt;</description>
+      <description>Bagaimana melakukan instalasi Zoom di Ubuntu 20.04 (Focal Fossa)? Ini caranya!</description>
     </item>
     
     <item>
@@ -175,8 +169,7 @@
       <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-packet-tracer-versi-7.3.1-di-ubuntu-20-04/</guid>
-      <description>&lt;h2 id=&#34;sekilas-tentang-packer-tracer&#34;&gt;Sekilas Tentang Packer Tracer&lt;/h2&gt;
-&lt;p&gt;Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.&lt;/p&gt;</description>
+      <description>Packet Tracer adalah alat simulasi konfigurasi jaringan buatan Cisco yang dapat anda gunakan untuk mengasah ketrampilan anda dalam melakukan konfigurasi perangkat jaringan buatan Cisco.</description>
     </item>
     
     <item>
@@ -185,7 +178,7 @@
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-text-editor-atom-di-linux/</guid>
-      <description>&lt;p&gt;Anda sedang mencari teks editor? Jika anda sedang mencarinya, saya sarankan untuk menggunakan teks editor Atom. &lt;a href=&#34;https://atom.io/&#34;&gt;Atom&lt;/a&gt; adalah text editor yang powerful, berbasis open source, dan berlisensi MIT.&lt;/p&gt;</description>
+      <description>Tutorial cara instalasi text editor Atom di berbagai distro Linux.</description>
     </item>
     
     <item>
@@ -194,7 +187,7 @@
       <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-json-python/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.bmkg.go.id/&#34;&gt;BMKG&lt;/a&gt; (Badan Meteorologi, Klimatologi, dan Geofisika) menyediakan data gempa bumi yang dapat diakses di laman &lt;a href=&#34;https://data.bmkg.go.id/gempabumi/&#34;&gt;https://data.bmkg.go.id/gempabumi/&lt;/a&gt;. Data gempa bumi tersebut disediakan dengan format data XML.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali saya kembali berbagi hasil karya ngoding yaitu pustaka python untuk konversi data gempa bumi BMKG dari XML ke JSON.</description>
     </item>
     
     <item>
@@ -203,7 +196,7 @@
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-2/</guid>
-      <description>&lt;p&gt;Tutorial ini merupakan kelanjutan dari &lt;a href=&#34;https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-1&#34;&gt;tutorial Instalasi dan Konfigurasi Knot Resolver #1&lt;/a&gt;. Di seri pertama sudah dibahas bagaimana melakukan instalasi dan konfigurasi dasar dari Knot Resolver serta melakukan pengujian kueri DNS. Di seri kedua ini akan dibahas bagaimana mengaktifkan DNS-over-TLS (DoT) di Knot Resolver.&lt;/p&gt;</description>
+      <description>Di tutorial ini dibahas bagaimana mengaktifkan DNS-over-TLS (DoT) di Knot Resolver.</description>
     </item>
     
     <item>
@@ -212,7 +205,7 @@
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-knot-resolver-1/</guid>
-      <description>&lt;p&gt;Singkatnya, Knot Resolver adalah DNS resolver. Penjelasan lengkap tentang Knot Resolver bisa dibaca di &lt;a href=&#34;https://www.knot-resolver.cz/&#34;&gt;www.knot-resolver.cz&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Di tutorial ini dibahas step by step instalasi dan konfigurasi dasar Knot Resolver.</description>
     </item>
     
     <item>
@@ -221,7 +214,7 @@
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/gagal-memutar-video-dan-solusinya-di-ubuntu-20-04/</guid>
-      <description>&lt;p&gt;Pagi ini, 6 Oktober 2020, saya mencoba memutar video menggunakan pemutar video bawaan Ubuntu 20.04. Namun, saya mendapati galat seperti yang ada di gambar di atas.&lt;/p&gt;</description>
+      <description>Pagi ini, 6 Oktober 2020, saya mencoba memutar video menggunakan pemutar video bawaan Ubuntu 20.04. Namun, saya mendapati galat seperti yang ada di gambar di atas.</description>
     </item>
     
     <item>
@@ -230,16 +223,7 @@
       <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/codeigniter-bmkg-gempa-geojson/</guid>
-      <description>&lt;p&gt;Di bulan Juli kemarin saya sudah membagikan aplikasi &lt;a href=&#34;https://hanifmu.com/posts/codeigniter-bmkg-gempa/&#34;&gt;Codeigniter x BMKG x Gempa&lt;/a&gt; berbasis web yang menampilkan data gempa bumi yang bersumber dari BMKG. Tidak hanya menampilkan data gempa bumi, di aplikasi tersebut saya juga buatkan API data gempa bumi dengan format data JSON.&lt;/p&gt;
-&lt;p&gt;Nah, pada kesempatan kali ini saya kembali berbagi hasil &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; ngoding yaitu aplikasi berbasis web yang memiliki fungsi sama dengan aplikasi yang saya sebutkan di atas. Perbedaannya adalah terletak pada API data gempa bumi yang menggunakan format data GeoJSON.&lt;/p&gt;
-&lt;p&gt;Berdasarkan &lt;a href=&#34;https://tools.ietf.org/html/rfc7946&#34;&gt;RFC 7946&lt;/a&gt; tentang The GeoJSON Format, GeoJSON adalah&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents. GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Saya terjemahkan secara bebas sebagai berikut:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;GeoJSON adalah format pertukaran data geospasial berbasis JSON (JavaScript Object Notation). GeoJSON mendefinisikan beberapa objek JSON dan bagaimana objek-objek tersebut digabung untuk merepresentasikan atribut atau karakteristik suatu objek geografi dan data spasialnya. GeoJSON menggunakan sistem referensi koordinat geografis World Geodetic System 1984 dan satuan yang digunakan adalah satuan derajat desimal.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>Pada kesempatan kali ini saya kembali berbagi hasil karya ngoding yaitu aplikasi berbasis web yang menampilkan data gempa bumi yang terjadi di wilayah Indonesia dan API data gempa bumi dengan format data GeoJSON.</description>
     </item>
     
     <item>
@@ -248,7 +232,7 @@
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-geojson-php/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.bmkg.go.id/&#34;&gt;BMKG&lt;/a&gt; (Badan Meteorologi, Klimatologi, dan Geofisika) menyediakan data gempa bumi yang dapat diakses di laman &lt;a href=&#34;https://data.bmkg.go.id/gempabumi/&#34;&gt;data.bmkg.go.id/gempabumi/&lt;/a&gt;. Data gempa bumi tersebut disediakan dengan format data XML.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali ini saya berbagi hasil karya ngoding yaitu aplikasi berbasis PHP yang digunakan untuk konversi data gempa bumi yang bersumber dari BMKG dari XML ke GeoJSON.</description>
     </item>
     
     <item>
@@ -257,7 +241,7 @@
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/codeigniter-bmkg-gempa/</guid>
-      <description>&lt;p&gt;Saya sendiri bingung bagaimana seharusnya membuat judul artikel ini 😃. Jadinya saya beri judul Codeigniter x BMKG x Gempa. Intinya, pada kesempatan kali ini saya berbagi hasil &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; ngoding yaitu aplikasi berbasis web yang menampilkan data gempa bumi yang terjadi di wilayah Indonesia.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali ini saya berbagi hasil karya ngoding yaitu aplikasi berbasis web yang menampilkan data gempa bumi yang terjadi di wilayah Indonesia.</description>
     </item>
     
     <item>
@@ -266,7 +250,7 @@
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/jadi-korban-data-breach-cek-di-sini/</guid>
-      <description>&lt;p&gt;Menurut situs &lt;a href=&#34;https://www.kaspersky.com/resource-center/definitions/data-breach&#34;&gt;kaspersky.com&lt;/a&gt;, data breach atau pelanggaran data adalah suatu kejadian dimana informasi yang bersifat rahasia, sensitif, atau dilindungi dapat diakses dan/atau dibagikan (tanpa adanya izin) oleh orang yang tidak berwenang.&lt;/p&gt;</description>
+      <description>Data breach atau pelanggaran data adalah suatu kejadian dimana informasi yang bersifat rahasia, sensitif, atau dilindungi dapat diakses dan / atau dibagikan (tanpa adanya izin) oleh orang yang tidak berwenang.</description>
     </item>
     
     <item>
@@ -275,8 +259,7 @@
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-cockpit-di-ubuntu-18-04/</guid>
-      <description>&lt;h2 id=&#34;sekilas-tentang-cockpit&#34;&gt;Sekilas Tentang Cockpit&lt;/h2&gt;
-&lt;p&gt;Cockpit adalah aplikasi berbasis web yang dapat kita gunakan untuk mengelola dan memantau (monitoring) sistem operasi GNU/Linux. Informasi lengkap tentang Cockpit dapat dibaca di situs &lt;a href=&#34;https://cockpit-project.org/&#34;&gt;Cockpit Project&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Cockpit adalah aplikasi berbasis web yang dapat kita gunakan untuk mengelola dan memantau (monitoring) sistem operasi GNU/Linux.</description>
     </item>
     
     <item>
@@ -285,7 +268,7 @@
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-dns-resolver-permanen-ubuntu/</guid>
-      <description>&lt;p&gt;Karena DNS resolver yang disediakan ISP (menurut saya) sering bermasalah, saya kemudian menggunakan DNS resolver lainnya. Problem-nya adalah setiap kali komputer dinyalakan kembali dari restart atau shutdown, konfigurasi DNS resolver di file &lt;code&gt;/etc/resolv.conf&lt;/code&gt; yang saya buat selalu hilang.&lt;/p&gt;</description>
+      <description>Di tutorial singkat ini dijelaskan bagaimana melakukan konfigurasi DNS resolver secara permanen di sistem operasi Ubuntu.</description>
     </item>
     
     <item>
@@ -294,7 +277,7 @@
       <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/monitoring-server-linux-menggunakan-netdata/</guid>
-      <description>&lt;p&gt;Monitoring server Linux merupakan hal sangat penting dan harus dilakukan oleh seorang administrator. Ada banyak tools yang dapat digunakan untuk membantu kita dalam memonitor server Linux. Salah satunya adalah Netdata.&lt;/p&gt;</description>
+      <description>Ada banyak tools yang dapat digunakan untuk membantu kita dalam memonitor server Linux. Salah satunya adalah Netdata.</description>
     </item>
     
     <item>
@@ -303,7 +286,7 @@
       <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/background-menggunakan-hero-patterns/</guid>
-      <description>&lt;p&gt;Background adalah salah satu bagian yang paling penting untuk diperhatikan dalam desain website. Mengapa penting? Karena background memberikan pengaruh terhadap keseluruhan desain dari sebuah website.&lt;/p&gt;</description>
+      <description>Background adalah salah satu bagian yang paling penting untuk diperhatikan dalam desain website. Mengapa penting?</description>
     </item>
     
     <item>
@@ -312,7 +295,7 @@
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mengirim-notifikasi-gempa-bumi-ke-telegram/</guid>
-      <description>&lt;p&gt;Pada kesempatan kali ini saya berbagi hasil &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; ngoding yaitu aplikasi sederhana untuk mengirim notifikasi gempa bumi yang terjadi di wilayah Indonesia ke Telegram.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali ini saya berbagi hasil karya yaitu aplikasi sederhana untuk mengirim notifikasi gempa bumi yang terjadi di wilayah Indonesia ke Telegram</description>
     </item>
     
     <item>
@@ -321,7 +304,7 @@
       <pubDate>Sat, 14 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/pembangkit-listrik-tenaga-surya-plts/</guid>
-      <description>&lt;p&gt;Berawal dari rasa ingin tahu saya terhadap listrik tenaga surya, saya membeli beberapa komponen untuk membuat Pembangkit Listrik Tenaga Surya (PLTS) sederhana. Pembangkit Listrik Tenaga Surya (PLTS) atau sistem fotovoltaik adalah sistem yang mengubah energi elektromagnetik dari sinar matahari menjadi energi listrik.&lt;/p&gt;</description>
+      <description>Pembangkit Listrik Tenaga Surya (PLTS) atau sistem fotovoltaik adalah sistem yang mengubah energi elektromagnetik dari sinar matahari menjadi energi listrik</description>
     </item>
     
     <item>
@@ -330,7 +313,7 @@
       <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cara-cek-status-imei-ponsel-di-situs-kemenperin/</guid>
-      <description>&lt;p&gt;Kementerian Perindustrian Republik Indonesia (Kemenperin) dalam waktu dekat ini akan memberlakukan kebijakan baru berkaitan dengan International Mobile Equipment Identity (IMEI) ponsel yang ada di Indonesia. Kebijakan tersebut dibuat agar ponsel black market (BM) tidak beredar di masyarakat. Jika IMEI ponsel tidak terdaftar sebagai ponsel yang legal, maka ponsel akan diblokir sehingga tidak dapat menggunakan layanan telekomunikasi.&lt;/p&gt;</description>
+      <description>Kementerian Perindustrian Republik Indonesia (Kemenperin) dalam waktu dekat ini akan memberlakukan kebijakan baru berkaitan dengan International Mobile Equipment Identity (IMEI) ponsel yang ada di Indonesia.</description>
     </item>
     
     <item>
@@ -339,7 +322,7 @@
       <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/buku-panduan-instalasi-pembangkit-listrik-tenaga-surya-plts/</guid>
-      <description>&lt;p&gt;Buku Instalasi Pembangkit Listrik Tenaga Surya: Dos and Don&amp;rsquo;ts ini menyajikan sekitar 600 foto instalasi PLTS off-grid yang telah dibangun, dan disertai dengan rekomendasi dan landasan teori singkat tentang kondisi di dalam foto tersebut.&lt;/p&gt;</description>
+      <description>Buku Instalasi Pembangkit Listrik Tenaga Surya: Dos and Don&amp;#39;ts ini menyajikan sekitar 600 foto instalasi PLTS off-grid yang telah dibangun, dan disertai dengan rekomendasi dan landasan teori singkat tentang kondisi di dalam foto tersebut.</description>
     </item>
     
     <item>
@@ -348,7 +331,7 @@
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/antarmuka-pengguna-fn-project/</guid>
-      <description>&lt;p&gt;Tutorial ini adalah kelanjutan dari tutorial &lt;a href=&#34;https://hanifmu.com/posts/bermain-main-dengan-fn-project&#34;&gt;Bermain-main dengan Fn Project&lt;/a&gt;. Selain Fn server, Fn Project juga menyediakan antarmuka pengguna (user interface). Melalui antarmuka pengguna tersebut kita dapat membuat fungsi, menjalankan fungsi, melihat statistik penggunaan fungsi, dan menghapus fungsi.&lt;/p&gt;</description>
+      <description>Selain Fn server, Fn Project juga menyediakan antarmuka pengguna (user interface). Melalui antarmuka pengguna tersebut kita dapat membuat fungsi, menjalankan fungsi, melihat statistik penggunaan fungsi, dan menghapus fungsi.</description>
     </item>
     
     <item>
@@ -357,11 +340,7 @@
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/bermain-main-dengan-fn-project/</guid>
-      <description>&lt;h3 id=&#34;apa-itu-fn-project&#34;&gt;Apa itu Fn Project?&lt;/h3&gt;
-&lt;p&gt;Mengutip dari situs &lt;a href=&#34;http://fnproject.io/&#34;&gt;fnproject.io&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The Fn project is an open-source container-native serverless platform that you can run anywhere &amp;ndash; any cloud or on-premise.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>The Fn project is an open-source container-native serverless platform that you can run anywhere -- any cloud or on-premise.</description>
     </item>
     
     <item>
@@ -370,7 +349,7 @@
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/buku-pengantar-application-programming-interfaces-apis/</guid>
-      <description>&lt;p&gt;Buku ini layak dibaca bagi yang ingin mempelajari dasar-dasar Application Programming Interfaces (APIs). Buku ini ditulis oleh Brian Cooksey dan dirilis di situs &lt;a href=&#34;https://zapier.com.&#34;&gt;zapier.com&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Buku ini layak dibaca bagi yang ingin mempelajari dasar-dasar Application Programming Interfaces (APIs).</description>
     </item>
     
     <item>
@@ -379,7 +358,7 @@
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/deploying-nginx-on-heroku-with-docker/</guid>
-      <description>&lt;p&gt;In this tutorial, we will try to deploy NGINX on &lt;a href=&#34;https://www.heroku.com/&#34;&gt;Heroku&lt;/a&gt; with Docker. For your information, Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.&lt;/p&gt;</description>
+      <description>We will try to deploy NGINX on Heroku with Docker. Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.</description>
     </item>
     
     <item>
@@ -388,7 +367,7 @@
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/monitoring-docker-with-cadvisor/</guid>
-      <description>&lt;p&gt;In this tutorial we will install &lt;a href=&#34;https://github.com/google/cadvisor&#34;&gt;cAdvisor&lt;/a&gt; and use it for monitoring Docker container.&lt;/p&gt;</description>
+      <description>cAdvisor is a monitoring tool which is built and open sourced by Google for monitoring resource usage and performance characteristics of running containers.</description>
     </item>
     
     <item>
@@ -397,7 +376,7 @@
       <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/script-python-untuk-kirim-email/</guid>
-      <description>&lt;p&gt;Mau kirim email pakai Python? Dengan memanfaatkan pustaka Python &lt;code&gt;smtplib&lt;/code&gt; kita dapat mengirim email dengan menggunakan Python.&lt;/p&gt;</description>
+      <description>Mau kirim email pakai Python? Dengan memanfaatkan pustaka Python smtplib kita dapat mengirim email dengan menggunakan Python.</description>
     </item>
     
     <item>
@@ -406,7 +385,7 @@
       <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/membuat-sertifikat-ssl-valid-untuk-localhost/</guid>
-      <description>&lt;p&gt;Dalam tutorial ini, saya tuliskan step by step bagaimana membuat sertifikat SSL valid untuk keperluan di localhost. Untuk keperluan ini, digunakan beberapa alat sebagai berikut:&lt;/p&gt;</description>
+      <description>Dalam tutorial ini, saya tuliskan step by step bagaimana membuat sertifikat SSL valid untuk keperluan di localhost.</description>
     </item>
     
     <item>
@@ -415,7 +394,7 @@
       <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/wp-masjid-tema-wordpress-gratis-untuk-website/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://wpmasjid.com/&#34;&gt;WP Masjid&lt;/a&gt; merupakan tema wordpress gratis yang bisa kita gunakan untuk keperluan website masjid.&lt;/p&gt;</description>
+      <description>WP Masjid merupakan tema wordpress gratis yang bisa kita gunakan untuk keperluan website masjid</description>
     </item>
     
     <item>
@@ -424,7 +403,7 @@
       <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/membangun-dns-server-menggunakan-dnsmasq/</guid>
-      <description>&lt;p&gt;Dnsmasq adalah aplikasi yang memiliki sejumlah fungsi seperti dapat kita gunakan untuk membangun DNS server, DHCP server, router advertisement, TFTP dan PXE. Dalam tutorial kali ini, saya menulis step by step bagaimana membangun DNS server menggunakan dnsmasq.&lt;/p&gt;</description>
+      <description>Dnsmasq adalah aplikasi yang memiliki sejumlah fungsi seperti dapat kita gunakan untuk membangun DNS server, DHCP server, router advertisement, TFTP dan PXE.</description>
     </item>
     
     <item>
@@ -433,7 +412,7 @@
       <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/belajar-menggunakan-gitlab-ci-cd-dan-docker/</guid>
-      <description>&lt;p&gt;Tutorial ini merupakan catatan belajar saya dalam menggunakan GitLab CI/CD dan Docker.&lt;/p&gt;</description>
+      <description>Tutorial ini merupakan catatan belajar saya dalam menggunakan GitLab CI/CD dan Docker.</description>
     </item>
     
     <item>
@@ -442,7 +421,7 @@
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-node-exporter-di-centos-7/</guid>
-      <description>&lt;p&gt;Tutorial ini merupakan kelanjutan dari tutorial &lt;a href=&#34;https://hanifmu.com/posts/instalasi-prometheus-server-di-centos-7&#34;&gt;Instalasi Prometheus Server di CentOS 7&lt;/a&gt; yang saya tulis beberapa waktu yang lalu. Di tutorial tersebut saya jelaskan bagaimana melakukan instalasi Prometheus Server di CentOS 7.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagaimana melakukan instalasi Node Exporter di CentOS 7.</description>
     </item>
     
     <item>
@@ -451,7 +430,7 @@
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-prometheus-server-di-centos-7/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan step by step instalasi Prometheus Server di CentOS 7. Komponen Prometheus Server ini bertugas melakukan scraping data monitoring yang di-expose oleh target host dan menyimpan data tersebut dalam bentuk time series.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan step by step instalasi Prometheus Server di CentOS 7.</description>
     </item>
     
     <item>
@@ -460,7 +439,7 @@
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/solved-opensuse-tumbleweed-instance-on-openstack-failed-to-get-ip-address/</guid>
-      <description>&lt;p&gt;I have an openSUSE Tumbleweed instance on OpenStack. I got a problem which is the instance failed to get an IP Address for eth0 interface at boot.&lt;/p&gt;</description>
+      <description>I have an openSUSE Tumbleweed instance on OpenStack. I got problem which is the instance failed to get an IP Address for eth0 interface at boot.</description>
     </item>
     
     <item>
@@ -469,8 +448,7 @@
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-docker-compose-di-centos-7/</guid>
-      <description>&lt;h3 id=&#34;apa-itu-docker-compose&#34;&gt;Apa itu Docker Compose?&lt;/h3&gt;
-&lt;p&gt;Sebelum kita melakukan instalasi Docker Compose di CentOS 7, kita perlu tahu apa itu Docker Compose.&lt;/p&gt;</description>
+      <description>Docker Compose adalah alat yang dapat kita gunakan untuk mendefinisikan dan menjalankan suatu aplikasi dalam beberapa container. Misal seperti ini, kita memiliki aplikasi web lengkap dengan database-nya.</description>
     </item>
     
     <item>
@@ -479,7 +457,7 @@
       <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-docker-ce-di-centos-7/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi Docker CE di CentOS 7.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagaimana melakukan instalasi Docker CE di CentOS 7.</description>
     </item>
     
     <item>
@@ -488,7 +466,7 @@
       <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cara-detach-interface-dari-kvm-guest/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan step by step bagaimana melakukan detach interface dari KVM Guest. Apa itu detach interface? Bahasa mudahnya sih mencopot network interface dari virtual machine (guest) yang kita jalankan di atas KVM.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan step by step bagaimana melakukan detach interface dari KVM Guest.</description>
     </item>
     
     <item>
@@ -497,7 +475,7 @@
       <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cara-ganti-hostname-di-linux/</guid>
-      <description>&lt;p&gt;Hostname di Linux merupakan nama yang melekat pada host. Biasanya kita menentukan hostname saat kita melakukan proses instalasi Linux pada host. Hostname digunakan mengindentifikasi host serta untuk membedakan dengan host lainnya jika memiliki banyak host yang kita kelola.&lt;/p&gt;</description>
+      <description>Hostname di Linux merupakan nama yang melekat pada host. Biasanya kita menentukan hostname saat kita melakukan proses instalasi Linux pada host. </description>
     </item>
     
     <item>
@@ -506,7 +484,7 @@
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-java-di-ubuntu-18-04/</guid>
-      <description>&lt;p&gt;Di Tutoril ini dijelaskan bagaimana melakukan instalasi Java di Ubuntu 18.04.&lt;/p&gt;</description>
+      <description>Tutoril ini menjelaskan bagaimana melakukan instalasi Java di Ubuntu 18.04.</description>
     </item>
     
     <item>
@@ -515,7 +493,7 @@
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/sekilas-tentang-prometheus/</guid>
-      <description>&lt;p&gt;Prometheus merupakan sistem berbasis open source dan berlisensi Apache 2.0 yang dapat kita gunakan untuk keperluan monitoring dan alerting. Prometheus mulai dikembangkan pada tahun 2012 di &lt;a href=&#34;https://soundcloud.com/&#34;&gt;SoundCloud&lt;/a&gt;. Pada Januari 2015, Prometheus secara resmi dirilis ke publik dan pada bulan Mei 2016, Prometheus bergabung ke &lt;a href=&#34;https://www.cncf.io/&#34;&gt;Cloud Native Computing Foundation&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Prometheus merupakan sistem berbasis open source dan berlisensi Apache 2.0 yang dapat kita gunakan untuk keperluan monitoring dan alerting.</description>
     </item>
     
     <item>
@@ -524,8 +502,7 @@
       <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mengenal-openstack/</guid>
-      <description>&lt;h3 id=&#34;apa-itu-openstack&#34;&gt;Apa itu OpenStack?&lt;/h3&gt;
-&lt;p&gt;OpenStack adalah adalah sistem operasi cloud yang digunakan untuk mengelola sumber daya seperti komputasi (compute), penyimpanan (storage), dan jaringan (networking) yang ada dalam suatu data center. OpenStack menyediakan dashboard yang memberikan kontrol penuh kepada administrator untuk memberdayakan sumber daya tersebut.&lt;/p&gt;</description>
+      <description>OpenStack adalah adalah sistem operasi cloud yang digunakan untuk mengelola sumber daya seperti komputasi (compute), penyimpanan (storage), dan jaringan (networking) yang ada dalam suatu data center.</description>
     </item>
     
     <item>
@@ -534,7 +511,7 @@
       <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cara-cek-versi-kernel-linux/</guid>
-      <description>&lt;p&gt;Berikut beberapa perintah yang dapat digunakan untuk melihat versi kernel linux:&lt;/p&gt;</description>
+      <description>Beberapa perintah yang digunakan untuk mengecek versi kernel linux.</description>
     </item>
     
     <item>
@@ -543,7 +520,7 @@
       <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-docker-ce-di-ubuntu-18-04/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi Docker CE di Ubuntu 18.04 yang dirilis pada tanggal 26 April 2018 yang lalu.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagaimana melakukan instalasi Docker CE di Ubuntu 18.04.</description>
     </item>
     
     <item>
@@ -552,7 +529,7 @@
       <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/menjalankan-dokumentasi-docker-secara-luring/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://docs.docker.com/&#34;&gt;Dokumentasi Docker&lt;/a&gt; adalah tempat dimana kita mendapat petunjuk tentang apa atau bagaimana mengoperasikan &lt;a href=&#34;https://hanifmu.com/posts/docker&#34;&gt;Docker&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Dokumentasi Docker adalah tempat dimana kita mendapat petunjuk tentang apa atau bagaimana mengoperasikan Docker.</description>
     </item>
     
     <item>
@@ -561,7 +538,7 @@
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/napalm-library-python-untuk-network-automation-dan-programmability/</guid>
-      <description>&lt;p&gt;NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support) adalah sebuah library atau pustaka Python yang dapat kita gunakan untuk keperluan Network Automation dan Programmability perangkat jaringan. NAPALM memiliki sejumlah fungsi yang dapat digunakan untuk memanipulasi konfigurasi atau untuk mengambil data dari perangkat jaringan.&lt;/p&gt;</description>
+      <description>NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support) adalah sebuah library atau pustaka Python yang dapat kita gunakan untuk keperluan Network Automation dan Programmability perangkat jaringan</description>
     </item>
     
     <item>
@@ -570,7 +547,7 @@
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/membatasi-akses-ke-perangkat-switch-dan-router-cisco/</guid>
-      <description>&lt;p&gt;Pada tutorial sebelumnya, &lt;a href=&#34;https://hanifmu.com/posts/konfigurasi-hostname-perangkat-cisco/&#34;&gt;Konfigurasi Hostname Perangkat Jaringan cisco&lt;/a&gt;, kita sudah mengetahui bagaimana memberi hostname pada perangkat jaringan seperti switch dan router yang dibuat oleh Cisco. Pada tutorial kali ini, kita akan mencoba untuk bagaimana mengamankan switch ataupun router buatan Cisco dari akses ilegal ke perangkat.&lt;/p&gt;</description>
+      <description>Di tutorial dijelaskan bagaimana mengamankan switch ataupun router buatan Cisco dari akses ilegal ke perangkat.</description>
     </item>
     
     <item>
@@ -579,7 +556,7 @@
       <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-hostname-perangkat-cisco/</guid>
-      <description>&lt;p&gt;Tutorial singkat ini menjelaskan bagaimana melakukan konfigurasi hostname pada perangkat jaringan Cisco.&lt;/p&gt;</description>
+      <description>Tutorial singkat ini menjelaskan bagaimana melakukan konfigurasi hostname pada perangkat jaringan Cisco.</description>
     </item>
     
     <item>
@@ -588,7 +565,7 @@
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mode-perintah-perangkat-jaringan-cisco-switch-dan-router/</guid>
-      <description>&lt;p&gt;Pada perangkat jaringan buatan CISCO seperti router dan switch, terdapat mode-mode prompt yang pasti kita gunakan saat mengkonfigurasi perangkat tersebut melalui mode CLI. Mode perintah pada perangkat jaringan cisco adalah sebagai berikut:&lt;/p&gt;</description>
+      <description>Pada perangkat jaringan buatan CISCO seperti router dan switch, terdapat mode-mode prompt yang pasti kita gunakan saat mengkonfigurasi perangkat tersebut melalui mode CLI.</description>
     </item>
     
     <item>
@@ -597,16 +574,7 @@
       <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/evolution-of-a-sysadmin/</guid>
-      <description>&lt;p&gt;I got the picture Evolution of a Sysadmin from &lt;a href=&#34;http://www.linuxfoundation.org&#34;&gt;Linux Foundation&lt;/a&gt;. Click &lt;a href=&#34;https://hanifmu.com/download/lftc_evolution_sysadmin.jpg&#34;&gt;here&lt;/a&gt; to enlarge the picture.&lt;/p&gt;
-
-
-
-&lt;div class=&#34;pic-center&#34;&gt;
-    &lt;img data-sizes=&#34;auto&#34; data-src=&#34;https://hanifmu.com/images/lftc_evolution_sysadmin.webp&#34; src=&#34;https://hanifmu.com/images/bg-hanifmu.com.webp&#34; class=&#34;lazyload pic-fluid&#34; alt=&#34; Image by Linux Foundation via linuxfoundation.org&#34; /&gt;
-    &lt;p&gt;
-        Image by Linux Foundation via linuxfoundation.org
-    &lt;/p&gt;
-&lt;/div&gt;</description>
+      <description>Evolution of a Sysadmin by Linux Foundation.</description>
     </item>
     
     <item>
@@ -615,7 +583,7 @@
       <pubDate>Fri, 10 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cek-ip-address-server-menggunakan-python/</guid>
-      <description>&lt;p&gt;Di tutorial ini saya membuat script Python untuk mengetahui IP address suatu server. Untuk menjalankan aplikasi ini, kita membutuhkan Python (2 atau 3) dan library &lt;code&gt;socket&lt;/code&gt;. Anda cukup menginputkan domain dari suatu server. Selanjutnya aplikasi akan menampilkan IP address dari server tersebut.&lt;/p&gt;</description>
+      <description>Script Python untuk mengetahui IP address suatu server.</description>
     </item>
     
     <item>
@@ -624,7 +592,7 @@
       <pubDate>Sun, 03 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/ebook-red-hat-enterprise-linux-7-system-administrator-guide/</guid>
-      <description>&lt;p&gt;Ebook Red Hat Enterprise Linux 7 System Administrator&amp;rsquo;s Guide merupakan ebook yang dipublikasikan oleh Red Hat. Ebook ini layak dijadikan panduan bagi system administrator yang kesehariannya bergelut dengan sistem operasi Red Hat.&lt;/p&gt;</description>
+      <description>Ebook Red Hat Enterprise Linux 7 System Administrator&amp;#39;s Guide merupakan ebook yang dipublikasikan oleh Red Hat. Ebook ini layak dijadikan panduan bagi system administrator yang kesehariannya bergelut dengan sistem operasi Red Hat.</description>
     </item>
     
     <item>
@@ -633,7 +601,7 @@
       <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cara-install-nginx-di-centos-7/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi Nginx di CentOS 7.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagaimana melakukan instalasi Nginx di CentOS 7.</description>
     </item>
     
     <item>
@@ -642,7 +610,7 @@
       <pubDate>Tue, 11 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/change-docker-ip-address-and-subnet/</guid>
-      <description>&lt;p&gt;By default, when we install Docker on our computer, Docker will create a bridge interface namely &lt;code&gt;docker0&lt;/code&gt;. Docker uses 172.17.0.1 IP address and 172.17.0.0/16 subnet for &lt;code&gt;docker0&lt;/code&gt;.&lt;/p&gt;</description>
+      <description>By default, when we install Docker on our computer, Docker will create a bridge interface namely docker0. Docker uses 172.17.0.1 IP address and 172.17.0.0/16 subnet for docker0.</description>
     </item>
     
     <item>
@@ -651,7 +619,7 @@
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mengubah-ip-address-dan-subnet-interface-bridge-docker0/</guid>
-      <description>&lt;p&gt;Ketika kita melakukan instalasi Docker, Docker akan membuat interface bridge dengan nama &lt;code&gt;docker0&lt;/code&gt;. Interface &lt;code&gt;docker0&lt;/code&gt; tersebut oleh Docker diberi IP address 172.17.0.1 dengan subnet 172.17.0.0/16. Berikut ini merupakan informasi interface &lt;code&gt;docker0&lt;/code&gt;:&lt;/p&gt;</description>
+      <description>Ketika kita melakukan instalasi Docker, Docker akan membuat interface bridge dengan nama docker0. Interface docker0 tersebut oleh Docker diberi IP address 172.17.0.1 dengan subnet 172.17.0.0/16.</description>
     </item>
     
     <item>
@@ -660,7 +628,7 @@
       <pubDate>Fri, 07 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/perintah-pause-dan-unpause-docker/</guid>
-      <description>&lt;p&gt;Di tutorial ini, kita akan membahas sekaligus mempraktikkan penggunaan dua perintah yang ada di Docker yakni &lt;code&gt;pause&lt;/code&gt; dan &lt;code&gt;unpause&lt;/code&gt;.&lt;/p&gt;</description>
+      <description>Di tutorial ini, kita akan membahas sekaligus mempraktikkan penggunaan dua perintah yang ada di Docker yakni pause dan unpause.</description>
     </item>
     
     <item>
@@ -669,7 +637,7 @@
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/removing-image-from-docker/</guid>
-      <description>&lt;p&gt;In this simple tutorial, I write a tutorial about how to remove image from Docker. Follow these steps to remove image from Docker.&lt;/p&gt;</description>
+      <description>In this simple tutorial, I write a tutorial about how to remove image from Docker.</description>
     </item>
     
     <item>
@@ -678,7 +646,7 @@
       <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/running-a-hello-world-docker-container/</guid>
-      <description>&lt;p&gt;After installing Docker Engine, the next simple step is running a hello world Docker container to ensure that docker engine is working properly. To do that, we download a &lt;code&gt;hello-world&lt;/code&gt; image and create a container from it.&lt;/p&gt;</description>
+      <description>After installing Docker Engine, the next simple step is running a hello world Docker container to ensure that docker engine is working properly.</description>
     </item>
     
     <item>
@@ -687,7 +655,7 @@
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/installing-docker-on-centos-7/</guid>
-      <description>&lt;p&gt;In this tutorial, we are going to install Docker on CentOS 7. Let&amp;rsquo;s follow the following steps to install Docker on CentOS 7.&lt;/p&gt;</description>
+      <description>In this tutorial, we are going to install Docker on CentOS 7</description>
     </item>
     
     <item>
@@ -696,9 +664,7 @@
       <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/sekilas-tentang-docker/</guid>
-      <description>&lt;h3 id=&#34;apa-itu-docker&#34;&gt;Apa itu Docker?&lt;/h3&gt;
-&lt;p&gt;Dalam beberapa tahun terakhir ini, telinga kita sering mendengar kata &lt;a href=&#34;https://hanifmu.com/tags/docker&#34;&gt;Docker&lt;/a&gt;. Apa itu Docker?&lt;/p&gt;
-&lt;p&gt;Docker dapat dikatakan sebagai salah satu bentuk virtualisasi modern yang sedang naik daun. Docker diperkenalkan kepada publik pada tahun 2013 oleh developer dari perusahaan dotCloud (sekarang bernama Docker Inc.).&lt;/p&gt;</description>
+      <description>Docker dapat dikatakan sebagai salah satu bentuk virtualisasi modern yang sedang naik daun. Docker diperkenalkan kepada publik pada tahun 2013 oleh developer dari perusahaan dotCloud (sekarang bernama Docker Inc.).</description>
     </item>
     
     <item>
@@ -707,7 +673,7 @@
       <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/menonaktifkan-fitur-rest-api-wordpress/</guid>
-      <description>&lt;p&gt;Fitur REST API telah diintegrasikan pada core WordPress sejak versi 4.4. Fitur tersebut memungkinkan siapapun terutama developer untuk mengembangkan aplikasi dengan memanfaatkan fitur REST API tersebut. Akan tetapi, dalam beberapa laporan disebutkan bahwa fitur tersebut rentan untuk dieksploitasi.&lt;/p&gt;</description>
+      <description>Fitur REST API telah diintegrasikan pada core WordPress sejak versi 4.4. Fitur tersebut memungkinkan siapapun terutama developer untuk mengembangkan aplikasi dengan memanfaatkan fitur REST API tersebut.</description>
     </item>
     
     <item>
@@ -716,7 +682,7 @@
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konversi-mp4-menjadi-mp3-menggunakan-vlc/</guid>
-      <description>&lt;p&gt;VLC merupakan aplikasi yang free dan open source dibuat oleh VideoLAN community yang digunakan untuk memutar audio/video berbagai format. Selain berfungsi sebagai media player, VLC juga memiliki fungsi lainnya diantaranya: encoder, streamer, network stream dan convert.&lt;/p&gt;</description>
+      <description>VLC merupakan aplikasi yang free dan open source dibuat oleh VideoLAN community yang digunakan untuk memutar audio/video berbagai format. </description>
     </item>
     
     <item>
@@ -725,7 +691,7 @@
       <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cara-update-wordpress-secara-manual/</guid>
-      <description>&lt;p&gt;Pada kesempatan ini saya membagikan tutorial bagaimana meng-update WordPress dari versi lama ke versi yang terbaru. Update wordpress bisa dilakukan dengan dua cara yakni update secara otomatis melalui halaman administrator dan update secara manual.&lt;/p&gt;</description>
+      <description>Pada kesempatan ini saya membagikan tutorial bagaimana meng-update WordPress dari versi lama ke versi yang terbaru. </description>
     </item>
     
     <item>
@@ -734,7 +700,7 @@
       <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mengubah-tanggal-dan-jam-di-ubuntu-dan-centos/</guid>
-      <description>&lt;p&gt;Tutorial singkat ini membahas bagaimana mengubah atau menyesuaikan tanggal dan jam di Ubuntu dan CentOS. Untuk mengubah tanggal dan jam, kita dapat menggunakan perintah timedatectl.&lt;/p&gt;</description>
+      <description>Tutorial singkat ini membahas bagaimana mengubah atau menyesuaikan tanggal dan jam di Ubuntu dan CentOS</description>
     </item>
     
     <item>
@@ -743,7 +709,7 @@
       <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mengubah-time-zone-ubuntu-dan-centos/</guid>
-      <description>&lt;p&gt;Tutorial singkat ini membahas bagaimana mengubah time zone di Ubuntu dan CentOS. Pada tutorial ini, digunakan perintah &lt;code&gt;timedatectl&lt;/code&gt; untuk mengubah time zone.&lt;/p&gt;</description>
+      <description>Tutorial singkat ini membahas bagaimana mengubah atau menyesuaikan time zone di Ubuntu dan CentOS</description>
     </item>
     
     <item>
@@ -752,7 +718,7 @@
       <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/aplikasi-crud-menggunakan-flask-dan-mysql/</guid>
-      <description>&lt;p&gt;Kali ini saya mau sharing aplikasi CRUD (create, read, update delete) yang saya bangun dengan menggunakan Flask (microframework Python) dan juga database MySQL. Untuk tampilannya saya menggunakan AdminLTE.&lt;/p&gt;</description>
+      <description>Kali ini saya mau sharing aplikasi CRUD (create, read, update delete) yang saya bangun dengan menggunakan Flask (microframework Python) dan juga database MySQL.</description>
     </item>
     
     <item>
@@ -761,8 +727,7 @@
       <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-flask-dan-contoh-program-hello-world/</guid>
-      <description>&lt;h3 id=&#34;apa-itu-flask&#34;&gt;APA ITU FLASK?&lt;/h3&gt;
-&lt;p&gt;Flask merupakan web framework (lebih tepatnya microframework) Python yang berbasis Werkzeug dan Jinja 2. Flask dilisensikan dengan BSD license. Flask dibuat oleh Armir Ronacher dan dirilis pada April 2010 dengan versi awal 0.10. Saat tutorial ini dibuat, versi terbaru dari Flask adalah versi 0.12.&lt;/p&gt;</description>
+      <description>Flask merupakan web framework (lebih tepatnya microframework) Python yang berbasis Werkzeug dan Jinja 2.</description>
     </item>
     
     <item>
@@ -771,7 +736,7 @@
       <pubDate>Fri, 10 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/how-to-use-php-built-in-web-server/</guid>
-      <description>&lt;p&gt;Since version 5.4, PHP has a built-in web server feature. But the feature is not intended to be a full-featured web server. We can use it for application development, testing purposes and application demonstration.&lt;/p&gt;</description>
+      <description>Since version 5.4, PHP has a built-in web server feature.</description>
     </item>
     
     <item>
@@ -780,7 +745,7 @@
       <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-keyboard-layout-centos-redhat-ubuntu/</guid>
-      <description>&lt;p&gt;Pada tutorial sebelumnya yakni &lt;a href=&#34;https://hanifmu.com/posts/konfigurasi-system-locale-centos-redhat-ubuntu&#34;&gt;konfigurasi system locale (Ubuntu/CentOS/Red Hat)&lt;/a&gt;, saya sudah menjelaskan bagaimana mengubah system locale di disto Linux CentOS, Red Hat, dan Ubuntu. Di tutorial ini dijelaskan bagaimana melakukan konfigurasi keyboard layout.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagaimana melakukan konfigurasi keyboard layout di disto Linux CentOS, Red Hat, dan Ubuntu.</description>
     </item>
     
     <item>
@@ -789,7 +754,7 @@
       <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/koin-1-dinar-produksi-pt-antam/</guid>
-      <description>&lt;p&gt;Kali ini saya sharing mengenai bentuk koin 1 dinar yang diproduksi oleh PT Antam. Koin 1 dinar yang dicetak oleh perusahaan tersebut menggunakan bahan baku emas dengan kadar 22 karat dan perak. Prosentase untuk emas yakni 91,7 % sedangkan untuk perak adalah 8,3 %. Koin 1 dinar tersebut memiliki berat 4,25 gram.&lt;/p&gt;</description>
+      <description>Kali ini saya sharing mengenai bentuk koin 1 dinar yang diproduksi oleh PT Antam.</description>
     </item>
     
     <item>
@@ -798,7 +763,7 @@
       <pubDate>Tue, 02 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-system-locale-centos-redhat-ubuntu/</guid>
-      <description>&lt;p&gt;Tutorial singkat ini membahas bagaimana melakukan konfigurasi system locale di disto Linux CentOS, Red Hat, dan Ubuntu.&lt;/p&gt;</description>
+      <description>Tutorial singkat ini membahas bagaimana melakukan konfigurasi system locale di disto Linux CentOS, Red Hat, dan Ubuntu.</description>
     </item>
     
     <item>
@@ -807,9 +772,7 @@
       <pubDate>Sun, 24 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/how-to-change-time-zone-on-centos-7/</guid>
-      <description>In this tutorial, I am going to show you a quick explaination how to change time zone on CentOS 7. Follow these steps to change time zone on Centos 7:
-I use Asia/Jakarta for time zone. To do that, we create a symbolic link from Jakarta file to /etc/localtime.
-rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s /usr/share/zoneinfo/Asia/Jakarta /etc/localtime date </description>
+      <description>In this tutorial, I am going to show you a quick explaination how to change time zone on CentOS 7.</description>
     </item>
     
     <item>
@@ -818,7 +781,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Sat, 26 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/integrasi-php-fpm-dan-nginx-di-centos/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan bagimana melakukan integrasi PHP-FPM dan NGINX di CentOS. Berikut ini langkah-langkahnya:&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagimana melakukan integrasi PHP-FPM dan NGINX di CentOS.</description>
     </item>
     
     <item>
@@ -827,7 +790,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Tue, 17 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/installing-oracle-java-8-on-ubuntu-15-10/</guid>
-      <description>&lt;p&gt;This quick tutorial will guide you to install Oracle Java 8 in Ubuntu 15.10 using WebUpd8 PPA repository.&lt;/p&gt;</description>
+      <description>This quick tutorial will guide you to install Oracle Java 8 in Ubuntu 15.10 using WebUpd8 PPA repository.</description>
     </item>
     
     <item>
@@ -836,7 +799,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-dan-konfigurasi-mikrotik-hotspot-freeradius-dan-mysql/</guid>
-      <description>&lt;p&gt;Ebook Instalasi dan Konfigurasi MikroTik Hotspot, FreeRADIUS dan MySQL ini saya tulis ketika saya mengambil mata kuliah keamanan jaringan.&lt;/p&gt;</description>
+      <description>Ebook ini berisi step by step membuat Hotspot pada perangkat Mikrotik, instalasi dan konfigurasi FreeRADIUS dan MySQL serta bagaimana melakukan integrasi MikroTik dengan FreeRADIUS.</description>
     </item>
     
     <item>
@@ -845,7 +808,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Tue, 22 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/configure-hostname-on-junos-os/</guid>
-      <description>&lt;p&gt;Below step by step to edit or change hostname of Junos OS:&lt;/p&gt;</description>
+      <description>How to change hostname on Junos OS? Here is the answer.</description>
     </item>
     
     <item>
@@ -854,8 +817,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/read-unix-timestamp-in-squid-access-log/</guid>
-      <description>&lt;p&gt;When we use Squid to optimize web delivery, by default squid will log our network traffic. So, when we visit a site for example &lt;a href=&#34;https://hanifmu.com&#34;&gt;hanifmu.com&lt;/a&gt;, Squid will log our IP Address, date and time and URL of &lt;a href=&#34;https://hanifmu.com&#34;&gt;hanifmu.com&lt;/a&gt; that we access. Squid’s access log can be found at &lt;code&gt;/var/log/squid&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Below example of squid’s access log:&lt;/p&gt;</description>
+      <description>When we use Squid to optimize web delivery, by default squid will log our network traffic.</description>
     </item>
     
     <item>
@@ -864,7 +826,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/install-apache-web-server-on-centos-7/</guid>
-      <description>&lt;p&gt;When you access a website, you actually access a web server. What is web server? Web server is a program that delivers web pages to you. Web server uses HTTP (Hypertext Transfer Protocol) or HTTPS (Hypertext Transfer Protocol Secure) protocol.&lt;/p&gt;</description>
+      <description>When you access a website, you actually access a web server. What is web server? Web server is a program that delivers web pages to you.</description>
     </item>
     
     <item>
@@ -873,7 +835,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/enable-nginx-status-page/</guid>
-      <description>&lt;p&gt;In this tutorial, I will show you how to add Nginx status page.&lt;/p&gt;</description>
+      <description>In this tutorial, I will show you how to add Nginx status page.</description>
     </item>
     
     <item>
@@ -882,7 +844,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cara-mengganti-hostname-mikrotik/</guid>
-      <description>&lt;p&gt;Setiap perangkat router MikroTik hendaknya kita beri identitas atau hostname agar memudahkan kita dalam mengenali router tersebut. Selain itu, dengan memberi hostname tentu akan memudahkan kita untuk membedakan router yang satu dengan router yang lainnya.&lt;/p&gt;</description>
+      <description>Setiap perangkat router MikroTik hendaknya kita beri identitas atau hostname agar memudahkan kita dalam mengenali router tersebut.</description>
     </item>
     
     <item>
@@ -891,7 +853,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-dns-server-mikrotik/</guid>
-      <description>&lt;p&gt;DNS (Domain Name System) merupakan suatu sistem yang memiliki fungsi untuk memetakan hostname atau domain dari situs-situs yang ada di internet menjadi IP Address. Apa yang terjadi  jika kita tidak menggunakan DNS? Kita perlu mengetahui IP Address dari situs-situs yang ingin kita akses tersebut.&lt;/p&gt;</description>
+      <description>DNS (Domain Name System) merupakan suatu sistem yang memiliki fungsi untuk memetakan hostname atau domain dari situs-situs yang ada di internet menjadi IP Address.</description>
     </item>
     
     <item>
@@ -900,8 +862,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Sun, 05 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/menonaktifkan-hotspot-mikrotik-pada-jam-jam-tertentu/</guid>
-      <description>&lt;h3 id=&#34;persoalan&#34;&gt;Persoalan&lt;/h3&gt;
-&lt;p&gt;Saya kemarin membuat WiFi hotspot mengggunakan MikroTik. WiFi hotspot yang saya bangun juga dilengkapi fitur autentikasi. Jadi, client yang ingin menggunakan Wi-Fi hotspot yang saya bangun, harus punya username dan password.&lt;/p&gt;</description>
+      <description>Saya kemarin membuat WiFi hotspot mengggunakan MikroTik. WiFi hotspot yang saya bangun juga dilengkapi fitur autentikasi. Jadi, client yang ingin menggunakan Wi-Fi hotspot yang saya bangun, harus punya username dan password.</description>
     </item>
     
     <item>
@@ -910,7 +871,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-bridging-di-mikrotik/</guid>
-      <description>&lt;p&gt;Bridging adalah teknik yang digunakan untuk menggabungkan dua atau lebih interface router sehingga interface yang di-bridge tersebut akan berada pada satu segmen jaringan yang sama. Dengan menerapkan teknik brigding pada interface router, maka kita telah memfungsikan interface yang di-bridge tersebut layaknya sebagai switch.&lt;/p&gt;</description>
+      <description>Bridging adalah teknik yang digunakan untuk menggabungkan dua atau lebih interface router sehingga interface yang di-bridge tersebut akan berada pada satu segmen jaringan yang sama.</description>
     </item>
     
     <item>
@@ -919,7 +880,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Sat, 07 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konfigurasi-ip-address-di-mikrotik/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan step by step konfigurasi IP Address di perangkat MikroTik. Di tutorial ini disajikan dua cara untuk konfigurasi IP Address yakni menggunakan WinBox dan CLI.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan step by step konfigurasi IP Address di perangkat MikroTik.</description>
     </item>
     
     <item>
@@ -928,7 +889,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Sat, 03 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/apa-itu-mikrotik/</guid>
-      <description>&lt;p&gt;Bagi yang sudah lama bergelut di dunia networking tentu tidak asing lagi ketika mendengar kata MikroTik. MikroTik merupakan sebuah perusahan yang berbasis di kota bernama Riga di negara Latvia yang memproduksi hardware dan software yang berkaitan dengan sistem jaringan komputer.&lt;/p&gt;</description>
+      <description>MikroTik merupakan sebuah perusahan yang berbasis di kota bernama Riga di negara Latvia yang memproduksi hardware dan software yang berkaitan dengan sistem jaringan komputer.</description>
     </item>
     
     <item>
@@ -937,7 +898,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/apa-itu-proxy-server/</guid>
-      <description>&lt;p&gt;Dalam dunia jaringan komputer, proxy server merupakan suatu sistem komputer yang menjadi perantara antara client (yang meminta suatu layanan) dan server (yang menjadi pelayan). Dengan kata lain, proxy server bertindak sebagai gateway antara jaringan publik (internet) dengan jaringan privat. Dengan demikian, setiap permintaan yang dilakukan oleh client akan diteruskan oleh proxy server ke tempat tujuan.&lt;/p&gt;</description>
+      <description>Proxy server merupakan suatu sistem komputer yang menjadi perantara antara client (yang meminta suatu layanan) dan server (yang menjadi pelayan)</description>
     </item>
     
     <item>
@@ -946,7 +907,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/sistem-komputer/</guid>
-      <description>&lt;p&gt;Sistem komputer merupakan kumpulan elemen-elemen komputer yang saling berhubungan dan saling berinteraksi satu sama lain. Elemen-elemen sistem komputer terdiri hardware, software, dan brainware. Ketiga elemen tersebut saling bekerja sama untuk melakukan pengolahan data sehingga dari pengolahan tersebut akan didapatkan informasi yang dibutuhkan.&lt;/p&gt;</description>
+      <description>Sistem komputer merupakan kumpulan elemen-elemen komputer yang saling berhubungan dan saling berinteraksi satu sama lain. Elemen-elemen sistem komputer terdiri hardware, software, dan brainware.</description>
     </item>
     
     <item>
@@ -955,7 +916,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/komentar-dalam-bahasa-pemrograman-c/</guid>
-      <description>&lt;p&gt;Komentar dalam bahasa pemrograman umumnya berfungsi untuk menjelaskan sesuatu hal tentang program yang kita buat. Misalnya pada baris-baris perintah tertentu kita membuat komentar untuk menjelaskan kegunaan dari kode yang kita buat tersebut.&lt;/p&gt;</description>
+      <description>Komentar dalam bahasa pemrograman umumnya berfungsi untuk menjelaskan sesuatu hal tentang program yang kita buat. Misalnya pada baris-baris perintah tertentu kita membuat komentar untuk menjelaskan kegunaan dari kode yang kita buat tersebut.</description>
     </item>
     
     <item>
@@ -964,7 +925,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Tue, 10 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/keyword-bahasa-pemrograman-c/</guid>
-      <description>&lt;p&gt;Pada postingan &lt;a href=&#34;https://hanifmu.com/post/sejarah-singkat-bahasa-pemrograman-c&#34;&gt;Sejarah Singkat Bahasa Pemgrograman C&lt;/a&gt;, sudah saya singgung mengenai keyword berjumlah 32 buah yang ada pada bahasa pemrograman C yang merupakan standar dari ANSI.&lt;/p&gt;</description>
+      <description>Keyword merupakan kata-kata yang digunakan oleh kompiler yang mempunyai kegunaan tertentu. Semua kata-kata kunci tersebut tidak boleh digunakan untuk nama pengenal (identifier name) contohnya seperti nama variabel dan nama fungsi.</description>
     </item>
     
     <item>
@@ -973,7 +934,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Mon, 09 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/struktur-bahasa-pemrograman-c/</guid>
-      <description>&lt;p&gt;Bahasa pemrograman tak ubahnya seperti bahasa yang sering kita pakai dalam keseharian kita baik dalam bentuk tulisan maupun lisan. Tentu kita tahu bahwa setiap bahasa itu memiliki struktur (tata bahasa) yang harus dipelajari apabila kita ingin menggunakan bahasa tersebut.&lt;/p&gt;</description>
+      <description>Bahasa C memiliki ciri khas yakni adanya kumpulan dari satu atau lebih fungsi-fungsi. Fungsi yang harus ada dalam setiap program C ialah fungsi yang bernama main().</description>
     </item>
     
     <item>
@@ -982,7 +943,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Sun, 08 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/sejarah-singkat-bahasa-pemrograman-c/</guid>
-      <description>&lt;p&gt;Sebelum mempelajari bahasa C lebih lanjut, alangkah lebih baik mengetahui sejarahnya terlebih dahulu. Berikut ini adalah sejarah singkat Bahasa C.&lt;/p&gt;</description>
+      <description>Sebelum mempelajari bahasa C lebih lanjut, alangkah lebih baik mengetahui sejarahnya terlebih dahulu. Berikut ini adalah sejarah singkat bahasa pemrograman C.</description>
     </item>
     
     <item>
@@ -991,8 +952,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Wed, 05 Jun 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/tips-belajar-bahasa-pemrograman-2/</guid>
-      <description>&lt;p&gt;Melanjutkan tulisan &lt;a href=&#34;https://hanifmu.com/posts/tips-belajar-bahasa-pemrograman-1&#34;&gt;Tips Belajar Bahasa Pemrograman #1&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Di tulisan &lt;a href=&#34;https://hanifmu.com/posts/tips-belajar-bahasa-pemrograman-1&#34;&gt;Tips Belajar Bahasa Pemrograman #1&lt;/a&gt; sudah saya tulis bahwa mempelajari sebuah bahasa pemrograman itu seperti mempelajari suatu bahasa. Masing-masing bahasa memilik aturan-aturan atau yang biasa disebut &lt;em&gt;grammar&lt;/em&gt; yang berisi pedoman-pedoman bagaimana bahasa tersebut dipakai.&lt;/p&gt;</description>
+      <description>Di tulisan Tips Belajar Bahasa Pemrograman #1 sudah saya tulis bahwa mempelajari sebuah bahasa pemrograman itu seperti mempelajari suatu bahasa.</description>
     </item>
     
     <item>
@@ -1001,7 +961,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Sat, 01 Jun 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/tips-belajar-bahasa-pemrograman-1/</guid>
-      <description>&lt;p&gt;Mempelajari suatu bahasa pemrograman itu tak ubahnya seperi kita mempelajari sebuah bahasa. Dalam mempelajari suatu bahasa, misalnya bahasa Inggris, kita dituntut paling tidak mempelajari &lt;em&gt;grammar&lt;/em&gt; atau tata bahasa yang ada di bahasa tersebut. Begitu juga bila kita mempelajari bahasa pemrograman, kita harus mengetahui &lt;em&gt;&amp;ldquo;grammar&amp;rdquo;&lt;/em&gt; atau kaidah-kaidah penulisan kode yang ada di bahasa pemrograman tersebut.&lt;/p&gt;</description>
+      <description>Mempelajari suatu bahasa pemrograman itu tak ubahnya seperi kita mempelajari sebuah bahasa.</description>
     </item>
     
     <item>
@@ -1010,17 +970,9 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Mon, 08 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/program-penjumlahan-dua-buah-matriks-java/</guid>
-      <description>&lt;p&gt;Di tutorial ini saya berbagi contoh program atau aplikasi program penjumlahan dua buah matriks dengan menggunakan bahasa pemrograman Java.&lt;/p&gt;</description>
+      <description>Contoh program atau aplikasi program penjumlahan dua buah matriks dengan menggunakan bahasa pemrograman Java.</description>
     </item>
     
-    <item>
-      <title>Archives</title>
-      <link>https://hanifmu.com/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hanifmu.com/archives/</guid>
-      <description>Daftar arsip tutorial yang ada di hanifmu.com.</description>
-    </item>
     
     <item>
       <title>Contact</title>
@@ -1028,8 +980,7 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/contact/</guid>
-      <description>Saya, Muhammad Hanif, pemilik situs hanifmu.com. Untuk berkomunikasi dengan saya, silahkan menggunakan jalur komunikasi berikut ini:
- Telegram: t.me/hanifmu Email: moehammadhanif@gmail.com  Terima kasih.</description>
+      <description>Saya, Muhammad Hanif, pemilik situs hanifmu.com.</description>
     </item>
     
     <item>
@@ -1038,19 +989,9 @@ rm /etc/localtime     (adsbygoogle = window.adsbygoogle || []).push({});   ln -s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/privacy-policy/</guid>
-      <description>Informasi kebijakan privasi yang ditetapkan oleh hanifmu.com.
-Dengan mengunjungi hanifmu.com maka anda setuju dengan kebijakan privasi yang ditetapkan oleh hanifmu.com. Kami mungkin mengubah kebijakan privasi ini sewaktu-waktu. Kami berharap anda melakukan pengecekan kebijakan privasi di halaman ini secara berkala.
-Pranala ke Situs Pihak Ketiga hanifmu.com mungkin menyediakan pranala ke situs-situs pihak ketiga lainnya. Ketika anda mengunjungi pranala-pranala tersebut, hanifmu.com tidak bertanggung jawab atas informasi apapun yang anda berikan kepada situs-situs tersebut.</description>
+      <description>Kebijakan privasi di situs hanifmu.com</description>
     </item>
     
-    <item>
-      <title>Search</title>
-      <link>https://hanifmu.com/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hanifmu.com/search/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

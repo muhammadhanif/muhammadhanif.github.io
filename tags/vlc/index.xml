@@ -4,6 +4,10 @@
     <title>VLC on hanifmu.com</title>
     <link>https://hanifmu.com/tags/vlc/</link>
     <description>Recent content in VLC on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 08 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/vlc/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konversi-mp4-menjadi-mp3-menggunakan-vlc/</guid>
-      <description>&lt;p&gt;VLC merupakan aplikasi yang free dan open source dibuat oleh VideoLAN community yang digunakan untuk memutar audio/video berbagai format. Selain berfungsi sebagai media player, VLC juga memiliki fungsi lainnya diantaranya: encoder, streamer, network stream dan convert.&lt;/p&gt;</description>
+      <description>VLC merupakan aplikasi yang free dan open source dibuat oleh VideoLAN community yang digunakan untuk memutar audio/video berbagai format. </description>
     </item>
     
   </channel>

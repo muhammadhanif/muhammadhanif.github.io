@@ -4,6 +4,10 @@
     <title>Programming on hanifmu.com</title>
     <link>https://hanifmu.com/tags/programming/</link>
     <description>Recent content in Programming on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/program-hello-world-di-beberapa-bahasa-pemrograman/</guid>
-      <description>&lt;p&gt;Saya yakin, bagi anda yang &lt;a href=&#34;https://hanifmu.com/tags/profesi/&#34;&gt;berprofesi&lt;/a&gt; sebagai &lt;em&gt;Programmer&lt;/em&gt; atau saat ini sedang &lt;a href=&#34;https://hanifmu.com/posts/tips-belajar-bahasa-pemrograman-1/&#34;&gt;belajar bahasa pemrograman&lt;/a&gt; tentu tidak asing dengan program &lt;em&gt;Hello, World!&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>Program Hello, World! adalah program komputer yang sangat sederhana yang menampilkan tulisan atau pesan &amp;#39;Hello, World!&amp;#39;.</description>
     </item>
     
     <item>
@@ -21,7 +25,7 @@
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/aplikasi-berbasis-web-untuk-ip-address-lookup-memanfaatkan-api-ipapi-co/</guid>
-      <description>&lt;p&gt;Melanjutkan tradisi berbagi &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; hasil ngoding. Sebelumnya saya telah membagikan karya &lt;a href=&#34;https://hanifmu.com/posts/mendeteksi-ip-address-dan-lokasi-pengguna-memanfaatkan-api-ipinfo-io/&#34;&gt;Aplikasi Berbasis Web untuk Mendeteksi IP Address dan Lokasi Pengguna Memanfaatkan API ipinfo.io&lt;/a&gt;. Pada kesempatan kali ini saya membagikan aplikasi berbasis web untuk IP Address &lt;em&gt;lookup&lt;/em&gt; memanfaatkan API ipapi.co.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali ini saya membagikan aplikasi berbasis web untuk IP Address lookup memanfaatkan API ipapi.co.</description>
     </item>
     
     <item>
@@ -30,7 +34,7 @@
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mendeteksi-ip-address-dan-lokasi-pengguna-memanfaatkan-api-ipinfo-io/</guid>
-      <description>&lt;p&gt;Malam ini, 17 Januari 2021, saya kembali lagi melanjutkan tradisi berbagi &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; hasil ngoding. Di kesempatan kali ini saya berbagi aplikasi berbasis web untuk mendeteksi IP Address dan lokasi pengguna memanfaatkan API &lt;a href=&#34;https://ipinfo.io&#34;&gt;ipinfo.io&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Malam ini, 17 Januari 2021, saya membagikan tutorial bagaimana membuat aplikasi berbasis web untuk mendeteksi IP Address dan lokasi pengguna memanfaatkan API ipinfo.io.</description>
     </item>
     
     <item>
@@ -39,9 +43,7 @@
       <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/hackinscience-platform-interaktif-untuk-belajar-pemrograman-python/</guid>
-      <description>&lt;p&gt;Pagi ini, 13 Januari 2021, saya me-review secara singkat sebuah situs yang menurut saya bagus untuk mengasah skill pemrograman Python. Situs yang saya maksud tersebut adalah &lt;a href=&#34;https://www.hackinscience.org/&#34;&gt;Hackinscience&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;sekilas-tentang-hackinscience&#34;&gt;Sekilas Tentang Hackinscience&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Hackinscience&lt;/strong&gt; adalah sebuah platform daring interaktif berbasis web untuk mengasah skill pemrograman Python. Platform latihan pemrograman Python tersebut menyediakan banyak soal-soal latihan pemrograman Python. Dari soal latihan &amp;ldquo;Hello world!&amp;rdquo; sampai dengan soal latihan yang masuk kategori &lt;em&gt;advanced&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>Hackinscience adalah sebuah platform daring interaktif berbasis web untuk mengasah skill pemrograman Python.</description>
     </item>
     
     <item>
@@ -50,8 +52,7 @@
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/peta-jalan-menjadi-backend-developer/</guid>
-      <description>&lt;h2 id=&#34;apa-itu-back-end-developer&#34;&gt;Apa itu Back-End Developer?&lt;/h2&gt;
-&lt;p&gt;Back-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat arsitektur aplikasi dan logika atau alur kerja suatu aplikasi. Umumnya pekerjaan seorang Back-End Developer juga berkaitan dengan database dan server. Para Back-End Developer adalah orang-orang yang ada dibalik layar suatu aplikasi. Contoh hasil karya mereka adalah Web API (Application Programming Interface).&lt;/p&gt;</description>
+      <description>Back-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat arsitektur aplikasi dan logika atau alur kerja suatu aplikasi.</description>
     </item>
     
     <item>
@@ -60,8 +61,7 @@
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/peta-jalan-menjadi-frontend-developer/</guid>
-      <description>&lt;h2 id=&#34;apa-itu-front-end-developer&#34;&gt;Apa itu Front-End Developer?&lt;/h2&gt;
-&lt;p&gt;Front-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat tampilan atau interface suatu aplikasi baik itu aplikasi berbasis web, mobile, atau yang berbasis desktop. Jadi, mereka ini, para Front-End Developer, adalah garda depan suatu aplikasi karena hasil karya mereka berkaitan langsung dengan user atau pengguna aplikasi.&lt;/p&gt;</description>
+      <description>Front-End Developer adalah profesi programmer yang memiliki tanggung jawab membuat tampilan atau interface suatu aplikasi baik itu aplikasi berbasis web, mobile, atau yang berbasis desktop.</description>
     </item>
     
     <item>
@@ -70,7 +70,7 @@
       <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-golang-di-linux/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi bahasa pemrograman Golang di Linux. Berikut ini step by step instalasi Go di Linux:&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagaimana melakukan instalasi bahasa pemrograman Golang di Linux.</description>
     </item>
     
     <item>
@@ -79,7 +79,7 @@
       <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-json-python/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.bmkg.go.id/&#34;&gt;BMKG&lt;/a&gt; (Badan Meteorologi, Klimatologi, dan Geofisika) menyediakan data gempa bumi yang dapat diakses di laman &lt;a href=&#34;https://data.bmkg.go.id/gempabumi/&#34;&gt;https://data.bmkg.go.id/gempabumi/&lt;/a&gt;. Data gempa bumi tersebut disediakan dengan format data XML.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali saya kembali berbagi hasil karya ngoding yaitu pustaka python untuk konversi data gempa bumi BMKG dari XML ke JSON.</description>
     </item>
     
     <item>
@@ -88,16 +88,7 @@
       <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/codeigniter-bmkg-gempa-geojson/</guid>
-      <description>&lt;p&gt;Di bulan Juli kemarin saya sudah membagikan aplikasi &lt;a href=&#34;https://hanifmu.com/posts/codeigniter-bmkg-gempa/&#34;&gt;Codeigniter x BMKG x Gempa&lt;/a&gt; berbasis web yang menampilkan data gempa bumi yang bersumber dari BMKG. Tidak hanya menampilkan data gempa bumi, di aplikasi tersebut saya juga buatkan API data gempa bumi dengan format data JSON.&lt;/p&gt;
-&lt;p&gt;Nah, pada kesempatan kali ini saya kembali berbagi hasil &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; ngoding yaitu aplikasi berbasis web yang memiliki fungsi sama dengan aplikasi yang saya sebutkan di atas. Perbedaannya adalah terletak pada API data gempa bumi yang menggunakan format data GeoJSON.&lt;/p&gt;
-&lt;p&gt;Berdasarkan &lt;a href=&#34;https://tools.ietf.org/html/rfc7946&#34;&gt;RFC 7946&lt;/a&gt; tentang The GeoJSON Format, GeoJSON adalah&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents. GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Saya terjemahkan secara bebas sebagai berikut:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;GeoJSON adalah format pertukaran data geospasial berbasis JSON (JavaScript Object Notation). GeoJSON mendefinisikan beberapa objek JSON dan bagaimana objek-objek tersebut digabung untuk merepresentasikan atribut atau karakteristik suatu objek geografi dan data spasialnya. GeoJSON menggunakan sistem referensi koordinat geografis World Geodetic System 1984 dan satuan yang digunakan adalah satuan derajat desimal.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>Pada kesempatan kali ini saya kembali berbagi hasil karya ngoding yaitu aplikasi berbasis web yang menampilkan data gempa bumi yang terjadi di wilayah Indonesia dan API data gempa bumi dengan format data GeoJSON.</description>
     </item>
     
     <item>
@@ -106,7 +97,7 @@
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-geojson-php/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.bmkg.go.id/&#34;&gt;BMKG&lt;/a&gt; (Badan Meteorologi, Klimatologi, dan Geofisika) menyediakan data gempa bumi yang dapat diakses di laman &lt;a href=&#34;https://data.bmkg.go.id/gempabumi/&#34;&gt;data.bmkg.go.id/gempabumi/&lt;/a&gt;. Data gempa bumi tersebut disediakan dengan format data XML.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali ini saya berbagi hasil karya ngoding yaitu aplikasi berbasis PHP yang digunakan untuk konversi data gempa bumi yang bersumber dari BMKG dari XML ke GeoJSON.</description>
     </item>
     
     <item>
@@ -115,7 +106,7 @@
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/codeigniter-bmkg-gempa/</guid>
-      <description>&lt;p&gt;Saya sendiri bingung bagaimana seharusnya membuat judul artikel ini 😃. Jadinya saya beri judul Codeigniter x BMKG x Gempa. Intinya, pada kesempatan kali ini saya berbagi hasil &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; ngoding yaitu aplikasi berbasis web yang menampilkan data gempa bumi yang terjadi di wilayah Indonesia.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali ini saya berbagi hasil karya ngoding yaitu aplikasi berbasis web yang menampilkan data gempa bumi yang terjadi di wilayah Indonesia.</description>
     </item>
     
     <item>
@@ -124,7 +115,7 @@
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/mengirim-notifikasi-gempa-bumi-ke-telegram/</guid>
-      <description>&lt;p&gt;Pada kesempatan kali ini saya berbagi hasil &lt;a href=&#34;https://hanifmu.com/categories/karya&#34;&gt;karya&lt;/a&gt; ngoding yaitu aplikasi sederhana untuk mengirim notifikasi gempa bumi yang terjadi di wilayah Indonesia ke Telegram.&lt;/p&gt;</description>
+      <description>Pada kesempatan kali ini saya berbagi hasil karya yaitu aplikasi sederhana untuk mengirim notifikasi gempa bumi yang terjadi di wilayah Indonesia ke Telegram</description>
     </item>
     
     <item>
@@ -133,7 +124,7 @@
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/buku-pengantar-application-programming-interfaces-apis/</guid>
-      <description>&lt;p&gt;Buku ini layak dibaca bagi yang ingin mempelajari dasar-dasar Application Programming Interfaces (APIs). Buku ini ditulis oleh Brian Cooksey dan dirilis di situs &lt;a href=&#34;https://zapier.com.&#34;&gt;zapier.com&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Buku ini layak dibaca bagi yang ingin mempelajari dasar-dasar Application Programming Interfaces (APIs).</description>
     </item>
     
     <item>
@@ -142,7 +133,7 @@
       <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/script-python-untuk-kirim-email/</guid>
-      <description>&lt;p&gt;Mau kirim email pakai Python? Dengan memanfaatkan pustaka Python &lt;code&gt;smtplib&lt;/code&gt; kita dapat mengirim email dengan menggunakan Python.&lt;/p&gt;</description>
+      <description>Mau kirim email pakai Python? Dengan memanfaatkan pustaka Python smtplib kita dapat mengirim email dengan menggunakan Python.</description>
     </item>
     
     <item>
@@ -151,7 +142,7 @@
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/napalm-library-python-untuk-network-automation-dan-programmability/</guid>
-      <description>&lt;p&gt;NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support) adalah sebuah library atau pustaka Python yang dapat kita gunakan untuk keperluan Network Automation dan Programmability perangkat jaringan. NAPALM memiliki sejumlah fungsi yang dapat digunakan untuk memanipulasi konfigurasi atau untuk mengambil data dari perangkat jaringan.&lt;/p&gt;</description>
+      <description>NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support) adalah sebuah library atau pustaka Python yang dapat kita gunakan untuk keperluan Network Automation dan Programmability perangkat jaringan</description>
     </item>
     
     <item>
@@ -160,7 +151,7 @@
       <pubDate>Fri, 10 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cek-ip-address-server-menggunakan-python/</guid>
-      <description>&lt;p&gt;Di tutorial ini saya membuat script Python untuk mengetahui IP address suatu server. Untuk menjalankan aplikasi ini, kita membutuhkan Python (2 atau 3) dan library &lt;code&gt;socket&lt;/code&gt;. Anda cukup menginputkan domain dari suatu server. Selanjutnya aplikasi akan menampilkan IP address dari server tersebut.&lt;/p&gt;</description>
+      <description>Script Python untuk mengetahui IP address suatu server.</description>
     </item>
     
     <item>
@@ -169,7 +160,7 @@
       <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/aplikasi-crud-menggunakan-flask-dan-mysql/</guid>
-      <description>&lt;p&gt;Kali ini saya mau sharing aplikasi CRUD (create, read, update delete) yang saya bangun dengan menggunakan Flask (microframework Python) dan juga database MySQL. Untuk tampilannya saya menggunakan AdminLTE.&lt;/p&gt;</description>
+      <description>Kali ini saya mau sharing aplikasi CRUD (create, read, update delete) yang saya bangun dengan menggunakan Flask (microframework Python) dan juga database MySQL.</description>
     </item>
     
     <item>
@@ -178,8 +169,7 @@
       <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-flask-dan-contoh-program-hello-world/</guid>
-      <description>&lt;h3 id=&#34;apa-itu-flask&#34;&gt;APA ITU FLASK?&lt;/h3&gt;
-&lt;p&gt;Flask merupakan web framework (lebih tepatnya microframework) Python yang berbasis Werkzeug dan Jinja 2. Flask dilisensikan dengan BSD license. Flask dibuat oleh Armir Ronacher dan dirilis pada April 2010 dengan versi awal 0.10. Saat tutorial ini dibuat, versi terbaru dari Flask adalah versi 0.12.&lt;/p&gt;</description>
+      <description>Flask merupakan web framework (lebih tepatnya microframework) Python yang berbasis Werkzeug dan Jinja 2.</description>
     </item>
     
     <item>
@@ -188,7 +178,7 @@
       <pubDate>Fri, 10 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/how-to-use-php-built-in-web-server/</guid>
-      <description>&lt;p&gt;Since version 5.4, PHP has a built-in web server feature. But the feature is not intended to be a full-featured web server. We can use it for application development, testing purposes and application demonstration.&lt;/p&gt;</description>
+      <description>Since version 5.4, PHP has a built-in web server feature.</description>
     </item>
     
     <item>
@@ -197,7 +187,7 @@
       <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/komentar-dalam-bahasa-pemrograman-c/</guid>
-      <description>&lt;p&gt;Komentar dalam bahasa pemrograman umumnya berfungsi untuk menjelaskan sesuatu hal tentang program yang kita buat. Misalnya pada baris-baris perintah tertentu kita membuat komentar untuk menjelaskan kegunaan dari kode yang kita buat tersebut.&lt;/p&gt;</description>
+      <description>Komentar dalam bahasa pemrograman umumnya berfungsi untuk menjelaskan sesuatu hal tentang program yang kita buat. Misalnya pada baris-baris perintah tertentu kita membuat komentar untuk menjelaskan kegunaan dari kode yang kita buat tersebut.</description>
     </item>
     
     <item>
@@ -206,7 +196,7 @@
       <pubDate>Tue, 10 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/keyword-bahasa-pemrograman-c/</guid>
-      <description>&lt;p&gt;Pada postingan &lt;a href=&#34;https://hanifmu.com/post/sejarah-singkat-bahasa-pemrograman-c&#34;&gt;Sejarah Singkat Bahasa Pemgrograman C&lt;/a&gt;, sudah saya singgung mengenai keyword berjumlah 32 buah yang ada pada bahasa pemrograman C yang merupakan standar dari ANSI.&lt;/p&gt;</description>
+      <description>Keyword merupakan kata-kata yang digunakan oleh kompiler yang mempunyai kegunaan tertentu. Semua kata-kata kunci tersebut tidak boleh digunakan untuk nama pengenal (identifier name) contohnya seperti nama variabel dan nama fungsi.</description>
     </item>
     
     <item>
@@ -215,7 +205,7 @@
       <pubDate>Mon, 09 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/struktur-bahasa-pemrograman-c/</guid>
-      <description>&lt;p&gt;Bahasa pemrograman tak ubahnya seperti bahasa yang sering kita pakai dalam keseharian kita baik dalam bentuk tulisan maupun lisan. Tentu kita tahu bahwa setiap bahasa itu memiliki struktur (tata bahasa) yang harus dipelajari apabila kita ingin menggunakan bahasa tersebut.&lt;/p&gt;</description>
+      <description>Bahasa C memiliki ciri khas yakni adanya kumpulan dari satu atau lebih fungsi-fungsi. Fungsi yang harus ada dalam setiap program C ialah fungsi yang bernama main().</description>
     </item>
     
     <item>
@@ -224,7 +214,7 @@
       <pubDate>Sun, 08 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/sejarah-singkat-bahasa-pemrograman-c/</guid>
-      <description>&lt;p&gt;Sebelum mempelajari bahasa C lebih lanjut, alangkah lebih baik mengetahui sejarahnya terlebih dahulu. Berikut ini adalah sejarah singkat Bahasa C.&lt;/p&gt;</description>
+      <description>Sebelum mempelajari bahasa C lebih lanjut, alangkah lebih baik mengetahui sejarahnya terlebih dahulu. Berikut ini adalah sejarah singkat bahasa pemrograman C.</description>
     </item>
     
     <item>
@@ -233,8 +223,7 @@
       <pubDate>Wed, 05 Jun 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/tips-belajar-bahasa-pemrograman-2/</guid>
-      <description>&lt;p&gt;Melanjutkan tulisan &lt;a href=&#34;https://hanifmu.com/posts/tips-belajar-bahasa-pemrograman-1&#34;&gt;Tips Belajar Bahasa Pemrograman #1&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Di tulisan &lt;a href=&#34;https://hanifmu.com/posts/tips-belajar-bahasa-pemrograman-1&#34;&gt;Tips Belajar Bahasa Pemrograman #1&lt;/a&gt; sudah saya tulis bahwa mempelajari sebuah bahasa pemrograman itu seperti mempelajari suatu bahasa. Masing-masing bahasa memilik aturan-aturan atau yang biasa disebut &lt;em&gt;grammar&lt;/em&gt; yang berisi pedoman-pedoman bagaimana bahasa tersebut dipakai.&lt;/p&gt;</description>
+      <description>Di tulisan Tips Belajar Bahasa Pemrograman #1 sudah saya tulis bahwa mempelajari sebuah bahasa pemrograman itu seperti mempelajari suatu bahasa.</description>
     </item>
     
     <item>
@@ -243,7 +232,7 @@
       <pubDate>Sat, 01 Jun 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/tips-belajar-bahasa-pemrograman-1/</guid>
-      <description>&lt;p&gt;Mempelajari suatu bahasa pemrograman itu tak ubahnya seperi kita mempelajari sebuah bahasa. Dalam mempelajari suatu bahasa, misalnya bahasa Inggris, kita dituntut paling tidak mempelajari &lt;em&gt;grammar&lt;/em&gt; atau tata bahasa yang ada di bahasa tersebut. Begitu juga bila kita mempelajari bahasa pemrograman, kita harus mengetahui &lt;em&gt;&amp;ldquo;grammar&amp;rdquo;&lt;/em&gt; atau kaidah-kaidah penulisan kode yang ada di bahasa pemrograman tersebut.&lt;/p&gt;</description>
+      <description>Mempelajari suatu bahasa pemrograman itu tak ubahnya seperi kita mempelajari sebuah bahasa.</description>
     </item>
     
     <item>
@@ -252,7 +241,7 @@
       <pubDate>Mon, 08 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/program-penjumlahan-dua-buah-matriks-java/</guid>
-      <description>&lt;p&gt;Di tutorial ini saya berbagi contoh program atau aplikasi program penjumlahan dua buah matriks dengan menggunakan bahasa pemrograman Java.&lt;/p&gt;</description>
+      <description>Contoh program atau aplikasi program penjumlahan dua buah matriks dengan menggunakan bahasa pemrograman Java.</description>
     </item>
     
   </channel>

@@ -4,6 +4,10 @@
     <title>Keamanan on hanifmu.com</title>
     <link>https://hanifmu.com/tags/keamanan/</link>
     <description>Recent content in Keamanan on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/keamanan/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/jadi-korban-data-breach-cek-di-sini/</guid>
-      <description>&lt;p&gt;Menurut situs &lt;a href=&#34;https://www.kaspersky.com/resource-center/definitions/data-breach&#34;&gt;kaspersky.com&lt;/a&gt;, data breach atau pelanggaran data adalah suatu kejadian dimana informasi yang bersifat rahasia, sensitif, atau dilindungi dapat diakses dan/atau dibagikan (tanpa adanya izin) oleh orang yang tidak berwenang.&lt;/p&gt;</description>
+      <description>Data breach atau pelanggaran data adalah suatu kejadian dimana informasi yang bersifat rahasia, sensitif, atau dilindungi dapat diakses dan / atau dibagikan (tanpa adanya izin) oleh orang yang tidak berwenang.</description>
     </item>
     
     <item>
@@ -21,7 +25,7 @@
       <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/membuat-sertifikat-ssl-valid-untuk-localhost/</guid>
-      <description>&lt;p&gt;Dalam tutorial ini, saya tuliskan step by step bagaimana membuat sertifikat SSL valid untuk keperluan di localhost. Untuk keperluan ini, digunakan beberapa alat sebagai berikut:&lt;/p&gt;</description>
+      <description>Dalam tutorial ini, saya tuliskan step by step bagaimana membuat sertifikat SSL valid untuk keperluan di localhost.</description>
     </item>
     
     <item>
@@ -30,7 +34,7 @@
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/membatasi-akses-ke-perangkat-switch-dan-router-cisco/</guid>
-      <description>&lt;p&gt;Pada tutorial sebelumnya, &lt;a href=&#34;https://hanifmu.com/posts/konfigurasi-hostname-perangkat-cisco/&#34;&gt;Konfigurasi Hostname Perangkat Jaringan cisco&lt;/a&gt;, kita sudah mengetahui bagaimana memberi hostname pada perangkat jaringan seperti switch dan router yang dibuat oleh Cisco. Pada tutorial kali ini, kita akan mencoba untuk bagaimana mengamankan switch ataupun router buatan Cisco dari akses ilegal ke perangkat.&lt;/p&gt;</description>
+      <description>Di tutorial dijelaskan bagaimana mengamankan switch ataupun router buatan Cisco dari akses ilegal ke perangkat.</description>
     </item>
     
   </channel>

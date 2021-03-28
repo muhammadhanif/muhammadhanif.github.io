@@ -4,6 +4,10 @@
     <title>Java on hanifmu.com</title>
     <link>https://hanifmu.com/tags/java/</link>
     <description>Recent content in Java on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 27 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-java-di-ubuntu-18-04/</guid>
-      <description>&lt;p&gt;Di Tutoril ini dijelaskan bagaimana melakukan instalasi Java di Ubuntu 18.04.&lt;/p&gt;</description>
+      <description>Tutoril ini menjelaskan bagaimana melakukan instalasi Java di Ubuntu 18.04.</description>
     </item>
     
     <item>
@@ -21,7 +25,7 @@
       <pubDate>Tue, 17 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/installing-oracle-java-8-on-ubuntu-15-10/</guid>
-      <description>&lt;p&gt;This quick tutorial will guide you to install Oracle Java 8 in Ubuntu 15.10 using WebUpd8 PPA repository.&lt;/p&gt;</description>
+      <description>This quick tutorial will guide you to install Oracle Java 8 in Ubuntu 15.10 using WebUpd8 PPA repository.</description>
     </item>
     
     <item>
@@ -30,7 +34,7 @@
       <pubDate>Mon, 08 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/program-penjumlahan-dua-buah-matriks-java/</guid>
-      <description>&lt;p&gt;Di tutorial ini saya berbagi contoh program atau aplikasi program penjumlahan dua buah matriks dengan menggunakan bahasa pemrograman Java.&lt;/p&gt;</description>
+      <description>Contoh program atau aplikasi program penjumlahan dua buah matriks dengan menggunakan bahasa pemrograman Java.</description>
     </item>
     
   </channel>

@@ -4,6 +4,10 @@
     <title>KVM on hanifmu.com</title>
     <link>https://hanifmu.com/tags/kvm/</link>
     <description>Recent content in KVM on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 02 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/kvm/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/cara-detach-interface-dari-kvm-guest/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan step by step bagaimana melakukan detach interface dari KVM Guest. Apa itu detach interface? Bahasa mudahnya sih mencopot network interface dari virtual machine (guest) yang kita jalankan di atas KVM.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan step by step bagaimana melakukan detach interface dari KVM Guest.</description>
     </item>
     
   </channel>

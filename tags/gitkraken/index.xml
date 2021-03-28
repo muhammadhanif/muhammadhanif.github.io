@@ -4,6 +4,10 @@
     <title>GitKraken on hanifmu.com</title>
     <link>https://hanifmu.com/tags/gitkraken/</link>
     <description>Recent content in GitKraken on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/gitkraken/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-gitkraken-di-ubuntu-20-04-focal-fossa/</guid>
-      <description>&lt;p&gt;Tutorial ini menjelaskan bagaimana melakukan instalasi GitKraken di sistem operasi Ubuntu 20.04 (Focal Fossa). Bagi pengguna sistem operasi Ubuntu 16.04+ dan Debian 9+, anda juga bisa mengikuti tutorial ini untuk melakukan instalasi GitKraken di sistem operasi Ubuntu/Debian.&lt;/p&gt;</description>
+      <description>Tutorial ini menjelaskan bagaimana melakukan instalasi GitKraken di sistem operasi Ubuntu 20.04 (Focal Fossa). Bagi pengguna sistem operasi Ubuntu 16.04&#43; dan Debian 9&#43;, anda juga bisa mengikuti tutorial ini.</description>
     </item>
     
   </channel>

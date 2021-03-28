@@ -4,6 +4,10 @@
     <title>Text Editor on hanifmu.com</title>
     <link>https://hanifmu.com/tags/text-editor/</link>
     <description>Recent content in Text Editor on hanifmu.com</description>
+    <image>
+      <url>https://hanifmu.com/47</url>
+      <link>https://hanifmu.com/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 30 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/text-editor/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-visual-studio-code-di-linux/</guid>
-      <description>&lt;p&gt;Visual Studio Code adalah sebuah text editor yang dikembangkan oleh Microsoft. Kita tidak perlu membayar untuk menggunakannya karena Visual Studio Code is free. Siapapun bisa menggunakannya.&lt;/p&gt;</description>
+      <description>Visual Studio Code adalah sebuah text editor buatan Microsoft. </description>
     </item>
     
     <item>
@@ -21,7 +25,7 @@
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/posts/instalasi-text-editor-atom-di-linux/</guid>
-      <description>&lt;p&gt;Anda sedang mencari teks editor? Jika anda sedang mencarinya, saya sarankan untuk menggunakan teks editor Atom. &lt;a href=&#34;https://atom.io/&#34;&gt;Atom&lt;/a&gt; adalah text editor yang powerful, berbasis open source, dan berlisensi MIT.&lt;/p&gt;</description>
+      <description>Tutorial cara instalasi text editor Atom di berbagai distro Linux.</description>
     </item>
     
   </channel>
