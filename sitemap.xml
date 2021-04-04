@@ -245,7 +245,10 @@
     <loc>https://hanifmu.com/tags/monitoring/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hanifmu.com/posts/konfigurasi-dns-resolver-permanen-ubuntu/</loc>
+    <loc>https://hanifmu.com/posts/konfigurasi-dns-nameservers-permanen-ubuntu/</loc>
+    <lastmod>2020-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hanifmu.com/tags/nameservers/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hanifmu.com/tags/resolvconf/</loc>

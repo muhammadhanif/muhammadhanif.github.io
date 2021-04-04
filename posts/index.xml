@@ -263,12 +263,12 @@
     </item>
     
     <item>
-      <title>Konfigurasi DNS Resolver Permanen di Ubuntu</title>
-      <link>https://hanifmu.com/posts/konfigurasi-dns-resolver-permanen-ubuntu/</link>
+      <title>Konfigurasi DNS Nameservers Permanen di Ubuntu</title>
+      <link>https://hanifmu.com/posts/konfigurasi-dns-nameservers-permanen-ubuntu/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hanifmu.com/posts/konfigurasi-dns-resolver-permanen-ubuntu/</guid>
-      <description>Di tutorial singkat ini dijelaskan bagaimana melakukan konfigurasi DNS resolver secara permanen di sistem operasi Ubuntu.</description>
+      <guid>https://hanifmu.com/posts/konfigurasi-dns-nameservers-permanen-ubuntu/</guid>
+      <description>Di tutorial singkat ini dijelaskan bagaimana melakukan konfigurasi DNS nameservers secara permanen di sistem operasi Ubuntu.</description>
     </item>
     
     <item>
