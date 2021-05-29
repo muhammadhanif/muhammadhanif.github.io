@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Resolver on hanifmu.com</title>
     <link>https://hanifmu.com/tags/resolver/</link>
     <description>Recent content in Resolver on hanifmu.com</description>
     <image>
-      <url>https://hanifmu.com/47</url>
-      <link>https://hanifmu.com/47</link>
+      <url>https://hanifmu.com/hanifmu-socmed.webp</url>
+      <link>https://hanifmu.com/hanifmu-socmed.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/resolver/index.xml" rel="self" type="application/rss+xml" />
