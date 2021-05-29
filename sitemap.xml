@@ -2,25 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hanifmu.com/tags/bmkg/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hanifmu.com/categories/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hanifmu.com/tags/gempa-bumi/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hanifmu.com/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hanifmu.com/categories/informasi/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hanifmu.com/tags/jawa-timur/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hanifmu.com/posts/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hanifmu.com/tags/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hanifmu.com/tags/tsunami/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hanifmu.com/posts/kajian-dan-mitigasi-gempa-bumi-dan-tsunami-di-jawa-timur/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hanifmu.com/posts/berapa-jumlah-pengguna-internet-indonesia-tahun-2020/</loc>
     <lastmod>2021-04-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hanifmu.com/categories/</loc>
-    <lastmod>2021-04-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hanifmu.com/</loc>
-    <lastmod>2021-04-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hanifmu.com/categories/informasi/</loc>
-    <lastmod>2021-04-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hanifmu.com/tags/internet/</loc>
-    <lastmod>2021-04-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hanifmu.com/posts/</loc>
-    <lastmod>2021-04-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hanifmu.com/tags/</loc>
     <lastmod>2021-04-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hanifmu.com/posts/daftar-security-tools/</loc>
@@ -199,9 +214,6 @@
   </url><url>
     <loc>https://hanifmu.com/posts/instalasi-text-editor-atom-di-linux/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hanifmu.com/tags/bmkg/</loc>
-    <lastmod>2020-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hanifmu.com/tags/gempa/</loc>
     <lastmod>2020-11-29T00:00:00+00:00</lastmod>
