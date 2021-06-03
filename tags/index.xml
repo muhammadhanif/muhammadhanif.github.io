@@ -9,11 +9,29 @@
       <link>https://hanifmu.com/hanifmu-socmed.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Batu</title>
+      <link>https://hanifmu.com/tags/batu/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/batu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blitar</title>
+      <link>https://hanifmu.com/tags/blitar/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/blitar/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>BMKG</title>
       <link>https://hanifmu.com/tags/bmkg/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/tags/bmkg/</guid>
       <description></description>
@@ -22,45 +40,144 @@
     <item>
       <title>Cuaca</title>
       <link>https://hanifmu.com/tags/cuaca/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/tags/cuaca/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Gresik</title>
-      <link>https://hanifmu.com/tags/gresik/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hanifmu.com/tags/gresik/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jawa Timur</title>
       <link>https://hanifmu.com/tags/jawa-timur/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/tags/jawa-timur/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Surabaya</title>
-      <link>https://hanifmu.com/tags/surabaya/</link>
+      <title>Kediri</title>
+      <link>https://hanifmu.com/tags/kediri/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/kediri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tulungagung</title>
+      <link>https://hanifmu.com/tags/tulungagung/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/tulungagung/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lamongan</title>
+      <link>https://hanifmu.com/tags/lamongan/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hanifmu.com/tags/surabaya/</guid>
+      <guid>https://hanifmu.com/tags/lamongan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pacitan</title>
+      <link>https://hanifmu.com/tags/pacitan/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/pacitan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trenggalek</title>
+      <link>https://hanifmu.com/tags/trenggalek/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/trenggalek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magetan</title>
+      <link>https://hanifmu.com/tags/magetan/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/magetan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ngawi</title>
+      <link>https://hanifmu.com/tags/ngawi/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/ngawi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ponorogo</title>
+      <link>https://hanifmu.com/tags/ponorogo/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/ponorogo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Madiun</title>
+      <link>https://hanifmu.com/tags/madiun/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/madiun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nganjuk</title>
+      <link>https://hanifmu.com/tags/nganjuk/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/nganjuk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bojonegoro</title>
       <link>https://hanifmu.com/tags/bojonegoro/</link>
-      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/tags/bojonegoro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gresik</title>
+      <link>https://hanifmu.com/tags/gresik/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/gresik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surabaya</title>
+      <link>https://hanifmu.com/tags/surabaya/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/surabaya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tuban</title>
+      <link>https://hanifmu.com/tags/tuban/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/tuban/</guid>
       <description></description>
     </item>
     
@@ -74,11 +191,11 @@
     </item>
     
     <item>
-      <title>Lamongan</title>
-      <link>https://hanifmu.com/tags/lamongan/</link>
+      <title>Jombang</title>
+      <link>https://hanifmu.com/tags/jombang/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hanifmu.com/tags/lamongan/</guid>
+      <guid>https://hanifmu.com/tags/jombang/</guid>
       <description></description>
     </item>
     
@@ -88,15 +205,6 @@
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/tags/tsunami/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tuban</title>
-      <link>https://hanifmu.com/tags/tuban/</link>
-      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hanifmu.com/tags/tuban/</guid>
       <description></description>
     </item>
     
