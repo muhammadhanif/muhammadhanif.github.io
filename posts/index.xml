@@ -9,7 +9,16 @@
       <link>https://hanifmu.com/hanifmu-socmed.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3</title>
+      <link>https://hanifmu.com/posts/membuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/posts/membuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3/</guid>
+      <description>Di tutorial ini disajikan secara singkat tutorial tentang bagaimana membuat daftar dropdown (tarik-turun) dengan sumber data dari JSON API memanfaatkan Select2 dan Codeigniter 3.</description>
+    </item>
+    
     <item>
       <title>Tema dan Logo Peringatan HUT Ke-76 Kemerdekaan Republik Indonesia Tahun 2021</title>
       <link>https://hanifmu.com/posts/tema-dan-logo-peringatan-hut-ke-76-kemerdekaan-republik-indonesia-tahun-2021/</link>

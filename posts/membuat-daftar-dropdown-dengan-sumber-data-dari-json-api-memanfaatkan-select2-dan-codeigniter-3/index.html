@@ -1,0 +1,441 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3 | hanifmu.com</title><meta name=keywords content="Programming,Select2,Codeigniter 3"><meta name=description content="Di tutorial ini disajikan secara singkat tutorial tentang bagaimana membuat daftar dropdown (tarik-turun) dengan sumber data dari JSON API memanfaatkan Select2 dan Codeigniter 3."><meta name=author content="Muhammad Hanif"><link rel=canonical href=https://hanifmu.com/posts/membuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3/><link crossorigin=anonymous href=/assets/css/stylesheet.min.css rel="preload stylesheet" as=style><link rel=preload href=/hanifmu-ico.png as=image><script defer crossorigin=anonymous src=/assets/js/highlight.min.js onload=hljs.highlightAll()></script><link rel=icon href=https://hanifmu.com/hanifmu-ico.png><link rel=icon type=image/png sizes=16x16 href=https://hanifmu.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://hanifmu.com/favicon-32x32.png><link rel=apple-touch-icon href=https://hanifmu.com/apple-touch-icon.png><link rel=mask-icon href=https://hanifmu.com/apple-touch-icon.png><meta name=theme-color content="#1d1e20"><meta name=msapplication-TileColor content="#1d1e20"><meta name=generator content="Hugo 0.82.1"><link rel=manifest href=/manifest.json><link rel=preload href=https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js as=script><link rel=prefetch href=https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js as=script><script async src=https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-5KPSRYV8P0"></script><script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-5KPSRYV8P0',{anonymize_ip:!1})}</script><meta property="og:title" content="Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3"><meta property="og:description" content="Di tutorial ini disajikan secara singkat tutorial tentang bagaimana membuat daftar dropdown (tarik-turun) dengan sumber data dari JSON API memanfaatkan Select2 dan Codeigniter 3."><meta property="og:type" content="article"><meta property="og:url" content="https://hanifmu.com/posts/membuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3/"><meta property="og:image" content="https://hanifmu.com/images/select2-codeigniter-3.webp"><meta property="article:section" content="posts"><meta property="article:published_time" content="2021-07-07T00:00:00+00:00"><meta property="article:modified_time" content="2021-07-07T00:00:00+00:00"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://hanifmu.com/images/select2-codeigniter-3.webp"><meta name=twitter:title content="Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3"><meta name=twitter:description content="Di tutorial ini disajikan secara singkat tutorial tentang bagaimana membuat daftar dropdown (tarik-turun) dengan sumber data dari JSON API memanfaatkan Select2 dan Codeigniter 3."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://hanifmu.com/posts/"},{"@type":"ListItem","position":2,"name":"Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3","item":"https://hanifmu.com/posts/membuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3","name":"Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3","description":"Di tutorial ini disajikan secara singkat tutorial tentang bagaimana membuat daftar dropdown (tarik-turun) dengan sumber data dari JSON API memanfaatkan Select2 dan Codeigniter 3.","keywords":["Programming","Select2","Codeigniter 3"],"articleBody":"Di tutorial ini disajikan secara singkat tutorial tentang bagaimana membuat daftar dropdown (tarik-turun) dengan sumber data dari JSON API memanfaatkan Select2 dan Codeigniter 3.\nTeknologi Teknologi yang digunakan dalam tutorial ini adalah sebagai berikut:\n Codeigniter 3 Bootstrap 4 Select2 jQuery MySQL  Klik pada masing-masing daftar teknologi di atas untuk mendapatkan penjelasan terkait teknologi yang digunakan dalam tutorial ini.\nPersiapan Unduh terlebih dahulu Codeigniter 3 di codeigniter.com/download. Lanjutkan dengan mengekstrak file unduhan tersebut dan tempatkan di document root web server.\n Struktur framework Codeigniter 3  Database Database yang digunakan dalam tutorial ini adalah sebagai berikut:\n Tangkapan layar phpMyAdmin  Impor skrip SQL berikut ini ke MySQL:\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61  -- MySQL Script generated by MySQL Workbench -- Rab 07 Jul 2021 07:12:38 -- Model: New Model Version: 1.0 -- MySQL Workbench Forward Engineering SET @OLD_UNIQUE_CHECKS = @@UNIQUE_CHECKS, UNIQUE_CHECKS = 0; SET @OLD_FOREIGN_KEY_CHECKS = @@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS = 0; SET @OLD_SQL_MODE = @@SQL_MODE, SQL_MODE = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'; -- ----------------------------------------------------- -- Schema bahasa_pemrograman -- ----------------------------------------------------- DROP SCHEMA IF EXISTS `bahasa_pemrograman`; -- ----------------------------------------------------- -- Schema bahasa_pemrograman -- ----------------------------------------------------- CREATE SCHEMA IF NOT EXISTS `bahasa_pemrograman`; USE `bahasa_pemrograman`; -- ----------------------------------------------------- -- Table `bahasa_pemrograman`.`daftar` -- ----------------------------------------------------- CREATE TABLE IF NOT EXISTS `bahasa_pemrograman`.`daftar` ( `id` INT NOT NULL AUTO_INCREMENT, `nama` VARCHAR(255) NULL, `deskripsi` TEXT NULL, PRIMARY KEY (`id`) ) ENGINE = InnoDB; SET SQL_MODE = @OLD_SQL_MODE; SET FOREIGN_KEY_CHECKS = @OLD_FOREIGN_KEY_CHECKS; SET UNIQUE_CHECKS = @OLD_UNIQUE_CHECKS; -- ----------------------------------------------------- -- Data for table `bahasa_pemrograman`.`daftar` -- ----------------------------------------------------- START TRANSACTION; USE `bahasa_pemrograman`; INSERT INTO `bahasa_pemrograman`.`daftar` (`id`, `nama`, `deskripsi`) VALUES (1, 'C', 'Lorem ipsum dolor sit amet.'); INSERT INTO `bahasa_pemrograman`.`daftar` (`id`, `nama`, `deskripsi`) VALUES (2, 'C#', 'Lorem ipsum dolor sit amet.'); INSERT INTO `bahasa_pemrograman`.`daftar` (`id`, `nama`, `deskripsi`) VALUES (3, 'C++', 'Lorem ipsum dolor sit amet.'); INSERT INTO `bahasa_pemrograman`.`daftar` (`id`, `nama`, `deskripsi`) VALUES (4, 'Go', 'Lorem ipsum dolor sit amet.'); INSERT INTO `bahasa_pemrograman`.`daftar` (`id`, `nama`, `deskripsi`) VALUES (5, 'Java', 'Lorem ipsum dolor sit amet.'); INSERT INTO `bahasa_pemrograman`.`daftar` (`id`, `nama`, `deskripsi`) VALUES (6, 'Kotlin', 'Lorem ipsum dolor sit amet.'); INSERT INTO `bahasa_pemrograman`.`daftar` (`id`, `nama`, `deskripsi`) VALUES (7, 'Pascal', 'Lorem ipsum dolor sit amet.'); INSERT INTO `bahasa_pemrograman`.`daftar` (`id`, `nama`, `deskripsi`) VALUES (8, 'Perl', 'Lorem ipsum dolor sit amet.'); INSERT INTO `bahasa_pemrograman`.`daftar` (`id`, `nama`, `deskripsi`) VALUES (9, 'PHP', 'Lorem ipsum dolor sit amet.'); INSERT INTO `bahasa_pemrograman`.`daftar` (`id`, `nama`, `deskripsi`) VALUES (10, 'Python', 'Lorem ipsum dolor sit amet.'); INSERT INTO `bahasa_pemrograman`.`daftar` (`id`, `nama`, `deskripsi`) VALUES (11, 'R', 'Lorem ipsum dolor sit amet.'); INSERT INTO `bahasa_pemrograman`.`daftar` (`id`, `nama`, `deskripsi`) VALUES (12, 'Ruby', 'Lorem ipsum dolor sit amet.'); COMMIT;   Skrip SQL di atas dapat diunduh di pranala ini: Klik di sini.\nKonfigurasi Database pada Codeigniter 3 Agar Codeigniter 3 dapat terhubung ke database MySQL di atas, kita perlu melakukan konfigurasi koneksi database pada Codeigniter 3.\nUbah bagian-bagian berikut ini pada dokumen database.php yang ada di direktori /application/config/:\n76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96  $db['default'] = array( 'dsn'\t= '', 'hostname' = 'localhost', 'username' = 'demo', 'password' = 'demo', 'database' = 'bahasa_pemrograman', 'dbdriver' = 'mysqli', 'dbprefix' = '', 'pconnect' = FALSE, 'db_debug' = (ENVIRONMENT !== 'production'), 'cache_on' = FALSE, 'cachedir' = '', 'char_set' = 'utf8', 'dbcollat' = 'utf8_general_ci', 'swap_pre' = '', 'encrypt' = FALSE, 'compress' = FALSE, 'stricton' = FALSE, 'failover' = array(), 'save_queries' = TRUE );   Bagian-bagian yang perlu disesuaikan adalah\n hostname, username, password, dan database.  Sesuaikan dengan konfigurasi yang anda buat pada database.\nMembuat REST API Di tahap ini, kita membuat REST API dengan format data JSON dengan menggunakan Codeigniter 3.\nLangkah pertama adalah membuat model. Di Codeigniter, model adalah kelas PHP yang dirancang untuk hal-hal yang terkait dengan informasi yang ada di database. Dengan menggunakan model, kita bisa membuat fungsi untuk menyisipkan, memperbarui, dan mengambil data dari database.\nBuat dokumen dengan nama Bahasa_pemrograman_model.php dan simpan dokumen tersebut di direktori /application/models/.\nBerikut ini adalah skrip PHP dokumen Bahasa_pemrograman_model.php:\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30  php defined('BASEPATH') or exit('No direct script access allowed'); class Bahasa_pemrograman_model extends CI_Model { public function __construct() { parent::__construct(); $this-load-database(); } public function get_daftar_bahasa_pemrograman() { $this-db-select('*'); $this-db-from('daftar'); $this-db-order_by('nama', 'ASC'); return $this-db-get()-result(); } public function get_daftar_bahasa_pemrograman_like($searchTerm) { $this-db-select('*'); $this-db-from('daftar'); $this-db-like('nama', $searchTerm); $this-db-order_by('nama', 'ASC'); return $this-db-get()-result(); } }    Langkah kedua adalah membuat controller. Penjelasan terkait controller pada Codeigniter dapat dibaca di laman codeigniter.com/userguide3/general/controllers.html.\nBuat dokumen dengan nama Api_controller.php dan simpan dokumen tersebut di direktori /application/controllers/.\nBerikut ini adalah skrip PHP dokumen Api_controller.php:\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  php defined('BASEPATH') or exit('No direct script access allowed'); class Api_controller extends CI_Controller { public function daftar_bahasa_pemrograman() { $this-load-model(\"Bahasa_pemrograman_model\"); if ($this-input-get('searchTerm', TRUE)) { $data = $this-Bahasa_pemrograman_model-get_daftar_bahasa_pemrograman_like($this-input-get('searchTerm', TRUE)); } else { $data = $this-Bahasa_pemrograman_model-get_daftar_bahasa_pemrograman(); } $this-output-set_status_header(200)-set_content_type('application/json')-set_output(json_encode($data)); } }    Membuat Tampilan Di tahap ini kita akan membuat tampilan dari daftar dropdown.\nLangkah pertama adalah membuat view. Penjelasan terkait view pada Codeigniter dapat dibaca di laman codeigniter.com/userguide3/general/views.html.\nBuat dokumen dengan nama index.php dan simpan dokumen tersebut di direktori /application/views/bahasa_pemrograman/.\nBerikut ini adalah skrip PHP dokumen index.php:\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69  doctype html html lang=\"en\" head meta charset=\"utf-8\" meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\" meta name=\"description\" content=\"Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3\" meta name=\"author\" content=\"hanifmu.com\" link rel=\"icon\" href=\"https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico\" titleSelect2 \u0026 Codeigniter 3title link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css\" / link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css\" / link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@ttskch/select2-bootstrap4-theme@x.x.x/dist/select2-bootstrap4.min.css\" / head body class=\"bg-light\" div class=\"container\" style=\"padding-top:10%\" div class=\"text-center\" img class=\"d-block mx-auto mb-1\" src=\"https://raw.githubusercontent.com/muhammadhanif/muhammadhanif.github.io/master/assets/images/21122017/hanifmu-red.png\" alt=\"\" width=\"72\" height=\"72\" phanifmu.comp div div class=\"row\" div class=\"col-md-4\"div div class=\"col-md-4\" form select id=\"daftar\" name=\"daftar\" class=\"form-control select2bs4_daftar\" style=\"width: 100%;\" required optionoption select form div div class=\"col-md-4\"div div div script src=\"https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js\"script script src=\"https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js\"script script $('.select2bs4_daftar').select2({ placeholder: \"Pilih Bahasa Pemrograman\", theme: 'bootstrap4', ajax: { dataType: 'json', delay: 250, url: 'index.php/api/bahasa-pemrograman/daftar'); ?', data: function(params) { return { searchTerm: params.term } }, processResults: function(data) { return { results: $.map(data, function(obj) { return { id: obj.id, text: obj.nama }; }) }; } } }); script body html    Langkah kedua adalah membuat controller.\nBuat dokumen dengan nama Bahasa_pemrograman_controller.php dan simpan dokumen tersebut di direktori /application/controllers/.\nBerikut ini adalah skrip PHP dokumen Bahasa_pemrograman_controller.php:\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  php defined('BASEPATH') or exit('No direct script access allowed'); class Bahasa_pemrograman_controller extends CI_Controller { public function __construct() { parent::__construct(); $this-load-helper('url'); } public function index() { $this-load-view('bahasa_pemrograman/index'); } }    Mengatur Routing Penjelasan terkait routing pada Codeigniter dapat dibaca di laman codeigniter.com/userguide3/general/routing.html.\nEdit dokumen routes.php yang ada di direktori /application/config/. Tambah berikut ini ke dokumen tersebut:\n1 2  $route['bahasa-pemrograman'] = 'Bahasa_pemrograman_controller/index'; $route['api/bahasa-pemrograman/daftar'] = 'Api_controller/daftar_bahasa_pemrograman';    Penjelasan:\nAlamat URL untuk mengakses tampilan daftar dropdown adalah bahasa-pemrograman, misalnya\nhttp://localhost/select2-codeigniter-3-json-api/index.php/bahasa-pemrograman Sementara itu alamat URL untuk mengakses data daftar bahasa pemrograman dalam format JSON adalah api/bahasa-pemrograman/daftar, misalnya\nhttp://localhost/select2-codeigniter-3-json-api/index.php/api/bahasa-pemrograman/daftar Hasil  Tampilan daftar dropdown   Tampilan daftar dropdown   Tampilan daftar dropdown   Data daftar bahasa pemrograman dalam format JSON ","wordCount":"1259","inLanguage":"en","image":"https://hanifmu.com/images/select2-codeigniter-3.webp","datePublished":"2021-07-07T00:00:00Z","dateModified":"2021-07-07T00:00:00Z","author":{"@type":"Person","name":"Muhammad Hanif"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://hanifmu.com/posts/membuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3/"},"publisher":{"@type":"Organization","name":"hanifmu.com","logo":{"@type":"ImageObject","url":"https://hanifmu.com/hanifmu-ico.png"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"&&document.body.classList.add('dark')</script><noscript><style type=text/css>#theme-toggle,.top-link{display:none}</style></noscript><header class=header><nav class=nav><div class=logo><a href=https://hanifmu.com/ accesskey=h title="hanifmu.com (Alt + H)"><img src=/hanifmu-ico.png alt=logo aria-label=logo width=32px height=32px>hanifmu.com</a>
+<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></span></div><ul id=menu><li><a href=https://hanifmu.com/ title=Home><span>Home</span></a></li><li><a href=https://hanifmu.com/archives title=Archives><span>Archives</span></a></li><li><a href=https://hanifmu.com/contact title=Contact><span>Contact</span></a></li><li><a href=https://hanifmu.com/search title="Search (Alt + /)" accesskey=/><span>Search</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://hanifmu.com/>Home</a>&nbsp;»&nbsp;<a href=https://hanifmu.com/posts/>Posts</a></div><h1 class=post-title>Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3</h1><div class=post-meta>July 7, 2021&nbsp;·&nbsp;Muhammad Hanif</div></header><figure class=entry-cover><img data-sizes=auto data-src=https://hanifmu.com/images/select2-codeigniter-3.webp src=/images/bg-hanifmu.com.webp alt class=lazyload></figure><div class=margin-iklan-infeed><ins class="adsbygoogle iklan-infeed" data-ad-format=fluid data-ad-layout-key=-gw-3+1f-3d+2z data-ad-client=ca-pub-7178954393352893 data-ad-slot=1413898689></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script></div><div class=post-content><p>Di tutorial ini disajikan secara singkat tutorial tentang bagaimana membuat daftar <em>dropdown</em> (tarik-turun) dengan sumber data dari JSON API memanfaatkan Select2 dan Codeigniter 3.</p><h3 id=teknologi>Teknologi<a hidden class=anchor aria-hidden=true href=#teknologi>#</a></h3><p>Teknologi yang digunakan dalam tutorial ini adalah sebagai berikut:</p><ul><li><a href=https://codeigniter.com/userguide3/index.html>Codeigniter 3</a></li><li><a href=https://getbootstrap.com/docs/4.0/getting-started/introduction/>Bootstrap 4</a></li><li><a href=https://select2.org/>Select2</a></li><li><a href=https://jquery.com/>jQuery</a></li><li><a href=https://www.mysql.com/>MySQL</a></li></ul><p>Klik pada masing-masing daftar teknologi di atas untuk mendapatkan penjelasan terkait teknologi yang digunakan dalam tutorial ini.</p><h3 id=persiapan>Persiapan<a hidden class=anchor aria-hidden=true href=#persiapan>#</a></h3><p>Unduh terlebih dahulu Codeigniter 3 di <a href=https://codeigniter.com/download>codeigniter.com/download</a>. Lanjutkan dengan mengekstrak <em>file</em> unduhan tersebut dan tempatkan di <em>document root</em> web server.</p><div class=pic-center><img data-sizes=auto data-src=/images/struktur_codeigniter-3.webp src=/images/bg-hanifmu.com.webp class="lazyload pic-fluid" alt=" Struktur framework Codeigniter 3"><p>Struktur framework Codeigniter 3</p></div><h3 id=database>Database<a hidden class=anchor aria-hidden=true href=#database>#</a></h3><p>Database yang digunakan dalam tutorial ini adalah sebagai berikut:</p><div class=pic-center><img data-sizes=auto data-src=/images/database_bahasa_pemrograman.webp src=/images/bg-hanifmu.com.webp class="lazyload pic-fluid" alt=" Tangkapan layar phpMyAdmin"><p>Tangkapan layar phpMyAdmin</p></div><p>Impor skrip SQL berikut ini ke MySQL:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span><span class=lnt>57
+</span><span class=lnt>58
+</span><span class=lnt>59
+</span><span class=lnt>60
+</span><span class=lnt>61
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-sql data-lang=sql><span class=c1>-- MySQL Script generated by MySQL Workbench
+</span><span class=c1>-- Rab 07 Jul 2021 07:12:38 
+</span><span class=c1>-- Model: New Model    Version: 1.0
+</span><span class=c1>-- MySQL Workbench Forward Engineering
+</span><span class=c1></span><span class=k>SET</span> <span class=o>@</span><span class=n>OLD_UNIQUE_CHECKS</span> <span class=o>=</span> <span class=o>@@</span><span class=n>UNIQUE_CHECKS</span><span class=p>,</span>
+  <span class=n>UNIQUE_CHECKS</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span>
+<span class=k>SET</span> <span class=o>@</span><span class=n>OLD_FOREIGN_KEY_CHECKS</span> <span class=o>=</span> <span class=o>@@</span><span class=n>FOREIGN_KEY_CHECKS</span><span class=p>,</span>
+  <span class=n>FOREIGN_KEY_CHECKS</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span>
+<span class=k>SET</span> <span class=o>@</span><span class=n>OLD_SQL_MODE</span> <span class=o>=</span> <span class=o>@@</span><span class=n>SQL_MODE</span><span class=p>,</span>
+  <span class=n>SQL_MODE</span> <span class=o>=</span> <span class=s1>&#39;ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION&#39;</span><span class=p>;</span>
+<span class=c1>-- -----------------------------------------------------
+</span><span class=c1>-- Schema bahasa_pemrograman
+</span><span class=c1>-- -----------------------------------------------------
+</span><span class=c1></span><span class=k>DROP</span> <span class=k>SCHEMA</span> <span class=k>IF</span> <span class=k>EXISTS</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>;</span>
+<span class=c1>-- -----------------------------------------------------
+</span><span class=c1>-- Schema bahasa_pemrograman
+</span><span class=c1>-- -----------------------------------------------------
+</span><span class=c1></span><span class=k>CREATE</span> <span class=k>SCHEMA</span> <span class=k>IF</span> <span class=k>NOT</span> <span class=k>EXISTS</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>;</span>
+<span class=n>USE</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>;</span>
+<span class=c1>-- -----------------------------------------------------
+</span><span class=c1>-- Table `bahasa_pemrograman`.`daftar`
+</span><span class=c1>-- -----------------------------------------------------
+</span><span class=c1></span><span class=k>CREATE</span> <span class=k>TABLE</span> <span class=k>IF</span> <span class=k>NOT</span> <span class=k>EXISTS</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>.</span><span class=o>`</span><span class=n>daftar</span><span class=o>`</span> <span class=p>(</span>
+  <span class=o>`</span><span class=n>id</span><span class=o>`</span> <span class=nb>INT</span> <span class=k>NOT</span> <span class=k>NULL</span> <span class=n>AUTO_INCREMENT</span><span class=p>,</span>
+  <span class=o>`</span><span class=n>nama</span><span class=o>`</span> <span class=nb>VARCHAR</span><span class=p>(</span><span class=mi>255</span><span class=p>)</span> <span class=k>NULL</span><span class=p>,</span>
+  <span class=o>`</span><span class=n>deskripsi</span><span class=o>`</span> <span class=nb>TEXT</span> <span class=k>NULL</span><span class=p>,</span>
+  <span class=k>PRIMARY</span> <span class=k>KEY</span> <span class=p>(</span><span class=o>`</span><span class=n>id</span><span class=o>`</span><span class=p>)</span>
+<span class=p>)</span> <span class=n>ENGINE</span> <span class=o>=</span> <span class=n>InnoDB</span><span class=p>;</span>
+<span class=k>SET</span> <span class=n>SQL_MODE</span> <span class=o>=</span> <span class=o>@</span><span class=n>OLD_SQL_MODE</span><span class=p>;</span>
+<span class=k>SET</span> <span class=n>FOREIGN_KEY_CHECKS</span> <span class=o>=</span> <span class=o>@</span><span class=n>OLD_FOREIGN_KEY_CHECKS</span><span class=p>;</span>
+<span class=k>SET</span> <span class=n>UNIQUE_CHECKS</span> <span class=o>=</span> <span class=o>@</span><span class=n>OLD_UNIQUE_CHECKS</span><span class=p>;</span>
+<span class=c1>-- -----------------------------------------------------
+</span><span class=c1>-- Data for table `bahasa_pemrograman`.`daftar`
+</span><span class=c1>-- -----------------------------------------------------
+</span><span class=c1></span><span class=k>START</span> <span class=k>TRANSACTION</span><span class=p>;</span>
+<span class=n>USE</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>;</span>
+<span class=k>INSERT</span> <span class=k>INTO</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>.</span><span class=o>`</span><span class=n>daftar</span><span class=o>`</span> <span class=p>(</span><span class=o>`</span><span class=n>id</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>nama</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>deskripsi</span><span class=o>`</span><span class=p>)</span>
+<span class=k>VALUES</span> <span class=p>(</span><span class=mi>1</span><span class=p>,</span> <span class=s1>&#39;C&#39;</span><span class=p>,</span> <span class=s1>&#39;Lorem ipsum dolor sit amet.&#39;</span><span class=p>);</span>
+<span class=k>INSERT</span> <span class=k>INTO</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>.</span><span class=o>`</span><span class=n>daftar</span><span class=o>`</span> <span class=p>(</span><span class=o>`</span><span class=n>id</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>nama</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>deskripsi</span><span class=o>`</span><span class=p>)</span>
+<span class=k>VALUES</span> <span class=p>(</span><span class=mi>2</span><span class=p>,</span> <span class=s1>&#39;C#&#39;</span><span class=p>,</span> <span class=s1>&#39;Lorem ipsum dolor sit amet.&#39;</span><span class=p>);</span>
+<span class=k>INSERT</span> <span class=k>INTO</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>.</span><span class=o>`</span><span class=n>daftar</span><span class=o>`</span> <span class=p>(</span><span class=o>`</span><span class=n>id</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>nama</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>deskripsi</span><span class=o>`</span><span class=p>)</span>
+<span class=k>VALUES</span> <span class=p>(</span><span class=mi>3</span><span class=p>,</span> <span class=s1>&#39;C++&#39;</span><span class=p>,</span> <span class=s1>&#39;Lorem ipsum dolor sit amet.&#39;</span><span class=p>);</span>
+<span class=k>INSERT</span> <span class=k>INTO</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>.</span><span class=o>`</span><span class=n>daftar</span><span class=o>`</span> <span class=p>(</span><span class=o>`</span><span class=n>id</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>nama</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>deskripsi</span><span class=o>`</span><span class=p>)</span>
+<span class=k>VALUES</span> <span class=p>(</span><span class=mi>4</span><span class=p>,</span> <span class=s1>&#39;Go&#39;</span><span class=p>,</span> <span class=s1>&#39;Lorem ipsum dolor sit amet.&#39;</span><span class=p>);</span>
+<span class=k>INSERT</span> <span class=k>INTO</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>.</span><span class=o>`</span><span class=n>daftar</span><span class=o>`</span> <span class=p>(</span><span class=o>`</span><span class=n>id</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>nama</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>deskripsi</span><span class=o>`</span><span class=p>)</span>
+<span class=k>VALUES</span> <span class=p>(</span><span class=mi>5</span><span class=p>,</span> <span class=s1>&#39;Java&#39;</span><span class=p>,</span> <span class=s1>&#39;Lorem ipsum dolor sit amet.&#39;</span><span class=p>);</span>
+<span class=k>INSERT</span> <span class=k>INTO</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>.</span><span class=o>`</span><span class=n>daftar</span><span class=o>`</span> <span class=p>(</span><span class=o>`</span><span class=n>id</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>nama</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>deskripsi</span><span class=o>`</span><span class=p>)</span>
+<span class=k>VALUES</span> <span class=p>(</span><span class=mi>6</span><span class=p>,</span> <span class=s1>&#39;Kotlin&#39;</span><span class=p>,</span> <span class=s1>&#39;Lorem ipsum dolor sit amet.&#39;</span><span class=p>);</span>
+<span class=k>INSERT</span> <span class=k>INTO</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>.</span><span class=o>`</span><span class=n>daftar</span><span class=o>`</span> <span class=p>(</span><span class=o>`</span><span class=n>id</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>nama</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>deskripsi</span><span class=o>`</span><span class=p>)</span>
+<span class=k>VALUES</span> <span class=p>(</span><span class=mi>7</span><span class=p>,</span> <span class=s1>&#39;Pascal&#39;</span><span class=p>,</span> <span class=s1>&#39;Lorem ipsum dolor sit amet.&#39;</span><span class=p>);</span>
+<span class=k>INSERT</span> <span class=k>INTO</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>.</span><span class=o>`</span><span class=n>daftar</span><span class=o>`</span> <span class=p>(</span><span class=o>`</span><span class=n>id</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>nama</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>deskripsi</span><span class=o>`</span><span class=p>)</span>
+<span class=k>VALUES</span> <span class=p>(</span><span class=mi>8</span><span class=p>,</span> <span class=s1>&#39;Perl&#39;</span><span class=p>,</span> <span class=s1>&#39;Lorem ipsum dolor sit amet.&#39;</span><span class=p>);</span>
+<span class=k>INSERT</span> <span class=k>INTO</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>.</span><span class=o>`</span><span class=n>daftar</span><span class=o>`</span> <span class=p>(</span><span class=o>`</span><span class=n>id</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>nama</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>deskripsi</span><span class=o>`</span><span class=p>)</span>
+<span class=k>VALUES</span> <span class=p>(</span><span class=mi>9</span><span class=p>,</span> <span class=s1>&#39;PHP&#39;</span><span class=p>,</span> <span class=s1>&#39;Lorem ipsum dolor sit amet.&#39;</span><span class=p>);</span>
+<span class=k>INSERT</span> <span class=k>INTO</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>.</span><span class=o>`</span><span class=n>daftar</span><span class=o>`</span> <span class=p>(</span><span class=o>`</span><span class=n>id</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>nama</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>deskripsi</span><span class=o>`</span><span class=p>)</span>
+<span class=k>VALUES</span> <span class=p>(</span><span class=mi>10</span><span class=p>,</span> <span class=s1>&#39;Python&#39;</span><span class=p>,</span> <span class=s1>&#39;Lorem ipsum dolor sit amet.&#39;</span><span class=p>);</span>
+<span class=k>INSERT</span> <span class=k>INTO</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>.</span><span class=o>`</span><span class=n>daftar</span><span class=o>`</span> <span class=p>(</span><span class=o>`</span><span class=n>id</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>nama</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>deskripsi</span><span class=o>`</span><span class=p>)</span>
+<span class=k>VALUES</span> <span class=p>(</span><span class=mi>11</span><span class=p>,</span> <span class=s1>&#39;R&#39;</span><span class=p>,</span> <span class=s1>&#39;Lorem ipsum dolor sit amet.&#39;</span><span class=p>);</span>
+<span class=k>INSERT</span> <span class=k>INTO</span> <span class=o>`</span><span class=n>bahasa_pemrograman</span><span class=o>`</span><span class=p>.</span><span class=o>`</span><span class=n>daftar</span><span class=o>`</span> <span class=p>(</span><span class=o>`</span><span class=n>id</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>nama</span><span class=o>`</span><span class=p>,</span> <span class=o>`</span><span class=n>deskripsi</span><span class=o>`</span><span class=p>)</span>
+<span class=k>VALUES</span> <span class=p>(</span><span class=mi>12</span><span class=p>,</span> <span class=s1>&#39;Ruby&#39;</span><span class=p>,</span> <span class=s1>&#39;Lorem ipsum dolor sit amet.&#39;</span><span class=p>);</span>
+<span class=k>COMMIT</span><span class=p>;</span></code></pre></td></tr></table></div></div><p>Skrip SQL di atas dapat diunduh di pranala ini: <a href=/download/bahasa_pemrograman.sql>Klik di sini</a>.</p><h3 id=konfigurasi-database-pada-codeigniter-3>Konfigurasi Database pada Codeigniter 3<a hidden class=anchor aria-hidden=true href=#konfigurasi-database-pada-codeigniter-3>#</a></h3><p>Agar Codeigniter 3 dapat terhubung ke database MySQL di atas, kita perlu melakukan konfigurasi koneksi database pada Codeigniter 3.</p><p>Ubah bagian-bagian berikut ini pada dokumen <code>database.php</code> yang ada di direktori <code>/application/config/</code>:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>76
+</span><span class=lnt>77
+</span><span class=lnt>78
+</span><span class=lnt>79
+</span><span class=lnt>80
+</span><span class=lnt>81
+</span><span class=lnt>82
+</span><span class=lnt>83
+</span><span class=lnt>84
+</span><span class=lnt>85
+</span><span class=lnt>86
+</span><span class=lnt>87
+</span><span class=lnt>88
+</span><span class=lnt>89
+</span><span class=lnt>90
+</span><span class=lnt>91
+</span><span class=lnt>92
+</span><span class=lnt>93
+</span><span class=lnt>94
+</span><span class=lnt>95
+</span><span class=lnt>96
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-sql data-lang=sql><span class=err>$</span><span class=n>db</span><span class=p>[</span><span class=s1>&#39;default&#39;</span><span class=p>]</span> <span class=o>=</span> <span class=nb>array</span><span class=p>(</span>
+	<span class=s1>&#39;dsn&#39;</span>	<span class=o>=&gt;</span> <span class=s1>&#39;&#39;</span><span class=p>,</span>
+	<span class=s1>&#39;hostname&#39;</span> <span class=o>=&gt;</span> <span class=s1>&#39;localhost&#39;</span><span class=p>,</span>
+	<span class=s1>&#39;username&#39;</span> <span class=o>=&gt;</span> <span class=s1>&#39;demo&#39;</span><span class=p>,</span>
+	<span class=s1>&#39;password&#39;</span> <span class=o>=&gt;</span> <span class=s1>&#39;demo&#39;</span><span class=p>,</span>
+	<span class=s1>&#39;database&#39;</span> <span class=o>=&gt;</span> <span class=s1>&#39;bahasa_pemrograman&#39;</span><span class=p>,</span>
+	<span class=s1>&#39;dbdriver&#39;</span> <span class=o>=&gt;</span> <span class=s1>&#39;mysqli&#39;</span><span class=p>,</span>
+	<span class=s1>&#39;dbprefix&#39;</span> <span class=o>=&gt;</span> <span class=s1>&#39;&#39;</span><span class=p>,</span>
+	<span class=s1>&#39;pconnect&#39;</span> <span class=o>=&gt;</span> <span class=k>FALSE</span><span class=p>,</span>
+	<span class=s1>&#39;db_debug&#39;</span> <span class=o>=&gt;</span> <span class=p>(</span><span class=n>ENVIRONMENT</span> <span class=o>!==</span> <span class=s1>&#39;production&#39;</span><span class=p>),</span>
+	<span class=s1>&#39;cache_on&#39;</span> <span class=o>=&gt;</span> <span class=k>FALSE</span><span class=p>,</span>
+	<span class=s1>&#39;cachedir&#39;</span> <span class=o>=&gt;</span> <span class=s1>&#39;&#39;</span><span class=p>,</span>
+	<span class=s1>&#39;char_set&#39;</span> <span class=o>=&gt;</span> <span class=s1>&#39;utf8&#39;</span><span class=p>,</span>
+	<span class=s1>&#39;dbcollat&#39;</span> <span class=o>=&gt;</span> <span class=s1>&#39;utf8_general_ci&#39;</span><span class=p>,</span>
+	<span class=s1>&#39;swap_pre&#39;</span> <span class=o>=&gt;</span> <span class=s1>&#39;&#39;</span><span class=p>,</span>
+	<span class=s1>&#39;encrypt&#39;</span> <span class=o>=&gt;</span> <span class=k>FALSE</span><span class=p>,</span>
+	<span class=s1>&#39;compress&#39;</span> <span class=o>=&gt;</span> <span class=k>FALSE</span><span class=p>,</span>
+	<span class=s1>&#39;stricton&#39;</span> <span class=o>=&gt;</span> <span class=k>FALSE</span><span class=p>,</span>
+	<span class=s1>&#39;failover&#39;</span> <span class=o>=&gt;</span> <span class=nb>array</span><span class=p>(),</span>
+	<span class=s1>&#39;save_queries&#39;</span> <span class=o>=&gt;</span> <span class=k>TRUE</span>
+<span class=p>);</span></code></pre></td></tr></table></div></div><p>Bagian-bagian yang perlu disesuaikan adalah</p><ul><li>hostname,</li><li>username,</li><li>password, dan</li><li>database.</li></ul><p>Sesuaikan dengan konfigurasi yang anda buat pada database.</p><h3 id=membuat-rest-api>Membuat REST API<a hidden class=anchor aria-hidden=true href=#membuat-rest-api>#</a></h3><p>Di tahap ini, kita membuat REST API dengan format data JSON dengan menggunakan Codeigniter 3.</p><p>Langkah pertama adalah membuat <em>model</em>. Di Codeigniter, <em>model</em> adalah kelas PHP yang dirancang untuk hal-hal yang terkait dengan informasi yang ada di database. Dengan menggunakan model, kita bisa membuat fungsi untuk menyisipkan, memperbarui, dan mengambil data dari database.</p><p>Buat dokumen dengan nama <code>Bahasa_pemrograman_model.php</code> dan simpan dokumen tersebut di direktori <code>/application/models/</code>.</p><p>Berikut ini adalah skrip PHP dokumen <code>Bahasa_pemrograman_model.php</code>:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-php data-lang=php><span class=o>&lt;?</span><span class=nx>php</span>
+<span class=nx>defined</span><span class=p>(</span><span class=s1>&#39;BASEPATH&#39;</span><span class=p>)</span> <span class=k>or</span> <span class=k>exit</span><span class=p>(</span><span class=s1>&#39;No direct script access allowed&#39;</span><span class=p>);</span>
+
+<span class=k>class</span> <span class=nc>Bahasa_pemrograman_model</span> <span class=k>extends</span> <span class=nx>CI_Model</span>
+<span class=p>{</span>
+    <span class=k>public</span> <span class=k>function</span> <span class=fm>__construct</span><span class=p>()</span>
+    <span class=p>{</span>
+        <span class=k>parent</span><span class=o>::</span><span class=na>__construct</span><span class=p>();</span>
+        <span class=nv>$this</span><span class=o>-&gt;</span><span class=na>load</span><span class=o>-&gt;</span><span class=na>database</span><span class=p>();</span>
+    <span class=p>}</span>
+
+    <span class=k>public</span> <span class=k>function</span> <span class=nf>get_daftar_bahasa_pemrograman</span><span class=p>()</span>
+    <span class=p>{</span>
+        <span class=nv>$this</span><span class=o>-&gt;</span><span class=na>db</span><span class=o>-&gt;</span><span class=na>select</span><span class=p>(</span><span class=s1>&#39;*&#39;</span><span class=p>);</span>
+        <span class=nv>$this</span><span class=o>-&gt;</span><span class=na>db</span><span class=o>-&gt;</span><span class=na>from</span><span class=p>(</span><span class=s1>&#39;daftar&#39;</span><span class=p>);</span>
+        <span class=nv>$this</span><span class=o>-&gt;</span><span class=na>db</span><span class=o>-&gt;</span><span class=na>order_by</span><span class=p>(</span><span class=s1>&#39;nama&#39;</span><span class=p>,</span> <span class=s1>&#39;ASC&#39;</span><span class=p>);</span>
+
+        <span class=k>return</span> <span class=nv>$this</span><span class=o>-&gt;</span><span class=na>db</span><span class=o>-&gt;</span><span class=na>get</span><span class=p>()</span><span class=o>-&gt;</span><span class=na>result</span><span class=p>();</span>
+    <span class=p>}</span>
+
+    <span class=k>public</span> <span class=k>function</span> <span class=nf>get_daftar_bahasa_pemrograman_like</span><span class=p>(</span><span class=nv>$searchTerm</span><span class=p>)</span>
+    <span class=p>{</span>
+        <span class=nv>$this</span><span class=o>-&gt;</span><span class=na>db</span><span class=o>-&gt;</span><span class=na>select</span><span class=p>(</span><span class=s1>&#39;*&#39;</span><span class=p>);</span>
+        <span class=nv>$this</span><span class=o>-&gt;</span><span class=na>db</span><span class=o>-&gt;</span><span class=na>from</span><span class=p>(</span><span class=s1>&#39;daftar&#39;</span><span class=p>);</span>
+        <span class=nv>$this</span><span class=o>-&gt;</span><span class=na>db</span><span class=o>-&gt;</span><span class=na>like</span><span class=p>(</span><span class=s1>&#39;nama&#39;</span><span class=p>,</span> <span class=nv>$searchTerm</span><span class=p>);</span>
+        <span class=nv>$this</span><span class=o>-&gt;</span><span class=na>db</span><span class=o>-&gt;</span><span class=na>order_by</span><span class=p>(</span><span class=s1>&#39;nama&#39;</span><span class=p>,</span> <span class=s1>&#39;ASC&#39;</span><span class=p>);</span>
+
+        <span class=k>return</span> <span class=nv>$this</span><span class=o>-&gt;</span><span class=na>db</span><span class=o>-&gt;</span><span class=na>get</span><span class=p>()</span><span class=o>-&gt;</span><span class=na>result</span><span class=p>();</span>
+    <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></td></tr></table></div></div><p>Langkah kedua adalah membuat <em>controller</em>. Penjelasan terkait <em>controller</em> pada Codeigniter dapat dibaca di laman <a href=https://codeigniter.com/userguide3/general/controllers.html>codeigniter.com/userguide3/general/controllers.html</a>.</p><p>Buat dokumen dengan nama <code>Api_controller.php</code> dan simpan dokumen tersebut di direktori <code>/application/controllers/</code>.</p><p>Berikut ini adalah skrip PHP dokumen <code>Api_controller.php</code>:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-php data-lang=php><span class=o>&lt;?</span><span class=nx>php</span>
+<span class=nx>defined</span><span class=p>(</span><span class=s1>&#39;BASEPATH&#39;</span><span class=p>)</span> <span class=k>or</span> <span class=k>exit</span><span class=p>(</span><span class=s1>&#39;No direct script access allowed&#39;</span><span class=p>);</span>
+
+<span class=k>class</span> <span class=nc>Api_controller</span> <span class=k>extends</span> <span class=nx>CI_Controller</span>
+<span class=p>{</span>
+	<span class=k>public</span> <span class=k>function</span> <span class=nf>daftar_bahasa_pemrograman</span><span class=p>()</span>
+	<span class=p>{</span>
+		<span class=nv>$this</span><span class=o>-&gt;</span><span class=na>load</span><span class=o>-&gt;</span><span class=na>model</span><span class=p>(</span><span class=s2>&#34;Bahasa_pemrograman_model&#34;</span><span class=p>);</span>
+
+		<span class=k>if</span> <span class=p>(</span><span class=nv>$this</span><span class=o>-&gt;</span><span class=na>input</span><span class=o>-&gt;</span><span class=na>get</span><span class=p>(</span><span class=s1>&#39;searchTerm&#39;</span><span class=p>,</span> <span class=k>TRUE</span><span class=p>))</span> <span class=p>{</span>
+			<span class=nv>$data</span> <span class=o>=</span> <span class=nv>$this</span><span class=o>-&gt;</span><span class=na>Bahasa_pemrograman_model</span><span class=o>-&gt;</span><span class=na>get_daftar_bahasa_pemrograman_like</span><span class=p>(</span><span class=nv>$this</span><span class=o>-&gt;</span><span class=na>input</span><span class=o>-&gt;</span><span class=na>get</span><span class=p>(</span><span class=s1>&#39;searchTerm&#39;</span><span class=p>,</span> <span class=k>TRUE</span><span class=p>));</span>
+		<span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
+			<span class=nv>$data</span> <span class=o>=</span> <span class=nv>$this</span><span class=o>-&gt;</span><span class=na>Bahasa_pemrograman_model</span><span class=o>-&gt;</span><span class=na>get_daftar_bahasa_pemrograman</span><span class=p>();</span>
+		<span class=p>}</span>
+
+		<span class=nv>$this</span><span class=o>-&gt;</span><span class=na>output</span><span class=o>-&gt;</span><span class=na>set_status_header</span><span class=p>(</span><span class=mi>200</span><span class=p>)</span><span class=o>-&gt;</span><span class=na>set_content_type</span><span class=p>(</span><span class=s1>&#39;application/json&#39;</span><span class=p>)</span><span class=o>-&gt;</span><span class=na>set_output</span><span class=p>(</span><span class=nx>json_encode</span><span class=p>(</span><span class=nv>$data</span><span class=p>));</span>
+	<span class=p>}</span>
+<span class=p>}</span>
+</code></pre></td></tr></table></div></div><h3 id=membuat-tampilan>Membuat Tampilan<a hidden class=anchor aria-hidden=true href=#membuat-tampilan>#</a></h3><p>Di tahap ini kita akan membuat tampilan dari daftar <em>dropdown</em>.</p><p>Langkah pertama adalah membuat <em>view</em>. Penjelasan terkait <em>view</em> pada Codeigniter dapat dibaca di laman <a href=https://codeigniter.com/userguide3/general/views.html>codeigniter.com/userguide3/general/views.html</a>.</p><p>Buat dokumen dengan nama <code>index.php</code> dan simpan dokumen tersebut di direktori <code>/application/views/bahasa_pemrograman/</code>.</p><p>Berikut ini adalah skrip PHP dokumen <code>index.php</code>:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span><span class=lnt>57
+</span><span class=lnt>58
+</span><span class=lnt>59
+</span><span class=lnt>60
+</span><span class=lnt>61
+</span><span class=lnt>62
+</span><span class=lnt>63
+</span><span class=lnt>64
+</span><span class=lnt>65
+</span><span class=lnt>66
+</span><span class=lnt>67
+</span><span class=lnt>68
+</span><span class=lnt>69
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-php data-lang=php><span class=o>&lt;!</span><span class=nx>doctype</span> <span class=nx>html</span><span class=o>&gt;</span>
+<span class=o>&lt;</span><span class=nx>html</span> <span class=nx>lang</span><span class=o>=</span><span class=s2>&#34;en&#34;</span><span class=o>&gt;</span>
+
+<span class=o>&lt;</span><span class=nx>head</span><span class=o>&gt;</span>
+    <span class=o>&lt;</span><span class=nx>meta</span> <span class=nx>charset</span><span class=o>=</span><span class=s2>&#34;utf-8&#34;</span><span class=o>&gt;</span>
+    <span class=o>&lt;</span><span class=nx>meta</span> <span class=nx>name</span><span class=o>=</span><span class=s2>&#34;viewport&#34;</span> <span class=nx>content</span><span class=o>=</span><span class=s2>&#34;width=device-width, initial-scale=1, shrink-to-fit=no&#34;</span><span class=o>&gt;</span>
+    <span class=o>&lt;</span><span class=nx>meta</span> <span class=nx>name</span><span class=o>=</span><span class=s2>&#34;description&#34;</span> <span class=nx>content</span><span class=o>=</span><span class=s2>&#34;Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3&#34;</span><span class=o>&gt;</span>
+    <span class=o>&lt;</span><span class=nx>meta</span> <span class=nx>name</span><span class=o>=</span><span class=s2>&#34;author&#34;</span> <span class=nx>content</span><span class=o>=</span><span class=s2>&#34;hanifmu.com&#34;</span><span class=o>&gt;</span>
+    <span class=o>&lt;</span><span class=nx>link</span> <span class=nx>rel</span><span class=o>=</span><span class=s2>&#34;icon&#34;</span> <span class=nx>href</span><span class=o>=</span><span class=s2>&#34;https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico&#34;</span><span class=o>&gt;</span>
+
+    <span class=o>&lt;</span><span class=nx>title</span><span class=o>&gt;</span><span class=nx>Select2</span> <span class=o>&amp;</span> <span class=nx>Codeigniter</span> <span class=mi>3</span><span class=o>&lt;/</span><span class=nx>title</span><span class=o>&gt;</span>
+
+    <span class=o>&lt;</span><span class=nx>link</span> <span class=nx>rel</span><span class=o>=</span><span class=s2>&#34;stylesheet&#34;</span> <span class=nx>href</span><span class=o>=</span><span class=s2>&#34;https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css&#34;</span> <span class=o>/&gt;</span>
+    <span class=o>&lt;</span><span class=nx>link</span> <span class=nx>rel</span><span class=o>=</span><span class=s2>&#34;stylesheet&#34;</span> <span class=nx>href</span><span class=o>=</span><span class=s2>&#34;https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css&#34;</span> <span class=o>/&gt;</span>
+    <span class=o>&lt;</span><span class=nx>link</span> <span class=nx>rel</span><span class=o>=</span><span class=s2>&#34;stylesheet&#34;</span> <span class=nx>href</span><span class=o>=</span><span class=s2>&#34;https://cdn.jsdelivr.net/npm/@ttskch/select2-bootstrap4-theme@x.x.x/dist/select2-bootstrap4.min.css&#34;</span> <span class=o>/&gt;</span>
+<span class=o>&lt;/</span><span class=nx>head</span><span class=o>&gt;</span>
+
+<span class=o>&lt;</span><span class=nx>body</span> <span class=nx>class</span><span class=o>=</span><span class=s2>&#34;bg-light&#34;</span><span class=o>&gt;</span>
+    <span class=o>&lt;</span><span class=nx>div</span> <span class=nx>class</span><span class=o>=</span><span class=s2>&#34;container&#34;</span> <span class=nx>style</span><span class=o>=</span><span class=s2>&#34;padding-top:10%&#34;</span><span class=o>&gt;</span>
+        <span class=o>&lt;</span><span class=nx>div</span> <span class=nx>class</span><span class=o>=</span><span class=s2>&#34;text-center&#34;</span><span class=o>&gt;</span>
+            <span class=o>&lt;</span><span class=nx>img</span> <span class=nx>class</span><span class=o>=</span><span class=s2>&#34;d-block mx-auto mb-1&#34;</span> <span class=nx>src</span><span class=o>=</span><span class=s2>&#34;https://raw.githubusercontent.com/muhammadhanif/muhammadhanif.github.io/master/assets/images/21122017/hanifmu-red.png&#34;</span> <span class=nx>alt</span><span class=o>=</span><span class=s2>&#34;&#34;</span> <span class=nx>width</span><span class=o>=</span><span class=s2>&#34;72&#34;</span> <span class=nx>height</span><span class=o>=</span><span class=s2>&#34;72&#34;</span><span class=o>&gt;</span>
+            <span class=o>&lt;</span><span class=nx>p</span><span class=o>&gt;</span><span class=nx>hanifmu</span><span class=o>.</span><span class=nx>com</span><span class=o>&lt;/</span><span class=nx>p</span><span class=o>&gt;</span>
+        <span class=o>&lt;/</span><span class=nx>div</span><span class=o>&gt;</span>
+
+        <span class=o>&lt;</span><span class=nx>div</span> <span class=nx>class</span><span class=o>=</span><span class=s2>&#34;row&#34;</span><span class=o>&gt;</span>
+            <span class=o>&lt;</span><span class=nx>div</span> <span class=nx>class</span><span class=o>=</span><span class=s2>&#34;col-md-4&#34;</span><span class=o>&gt;&lt;/</span><span class=nx>div</span><span class=o>&gt;</span>
+            <span class=o>&lt;</span><span class=nx>div</span> <span class=nx>class</span><span class=o>=</span><span class=s2>&#34;col-md-4&#34;</span><span class=o>&gt;</span>
+                <span class=o>&lt;</span><span class=nx>form</span><span class=o>&gt;</span>
+                    <span class=o>&lt;</span><span class=nx>select</span> <span class=nx>id</span><span class=o>=</span><span class=s2>&#34;daftar&#34;</span> <span class=nx>name</span><span class=o>=</span><span class=s2>&#34;daftar&#34;</span> <span class=nx>class</span><span class=o>=</span><span class=s2>&#34;form-control select2bs4_daftar&#34;</span> <span class=nx>style</span><span class=o>=</span><span class=s2>&#34;width: 100%;&#34;</span> <span class=nx>required</span><span class=o>&gt;</span>
+                        <span class=o>&lt;</span><span class=nx>option</span><span class=o>&gt;&lt;/</span><span class=nx>option</span><span class=o>&gt;</span>
+                    <span class=o>&lt;/</span><span class=nx>select</span><span class=o>&gt;</span>
+                <span class=o>&lt;/</span><span class=nx>form</span><span class=o>&gt;</span>
+            <span class=o>&lt;/</span><span class=nx>div</span><span class=o>&gt;</span>
+            <span class=o>&lt;</span><span class=nx>div</span> <span class=nx>class</span><span class=o>=</span><span class=s2>&#34;col-md-4&#34;</span><span class=o>&gt;&lt;/</span><span class=nx>div</span><span class=o>&gt;</span>
+        <span class=o>&lt;/</span><span class=nx>div</span><span class=o>&gt;</span>
+
+    <span class=o>&lt;/</span><span class=nx>div</span><span class=o>&gt;</span>
+    <span class=o>&lt;</span><span class=nx>script</span> <span class=nx>src</span><span class=o>=</span><span class=s2>&#34;https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js&#34;</span><span class=o>&gt;&lt;/</span><span class=nx>script</span><span class=o>&gt;</span>
+    <span class=o>&lt;</span><span class=nx>script</span> <span class=nx>src</span><span class=o>=</span><span class=s2>&#34;https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js&#34;</span><span class=o>&gt;&lt;/</span><span class=nx>script</span><span class=o>&gt;</span>
+
+    <span class=o>&lt;</span><span class=nx>script</span><span class=o>&gt;</span>
+        <span class=err>$</span><span class=p>(</span><span class=s1>&#39;.select2bs4_daftar&#39;</span><span class=p>)</span><span class=o>.</span><span class=nx>select2</span><span class=p>({</span>
+            <span class=nx>placeholder</span><span class=o>:</span> <span class=s2>&#34;Pilih Bahasa Pemrograman&#34;</span><span class=p>,</span>
+            <span class=nx>theme</span><span class=o>:</span> <span class=s1>&#39;bootstrap4&#39;</span><span class=p>,</span>
+            <span class=nx>ajax</span><span class=o>:</span> <span class=p>{</span>
+                <span class=nx>dataType</span><span class=o>:</span> <span class=s1>&#39;json&#39;</span><span class=p>,</span>
+                <span class=nx>delay</span><span class=o>:</span> <span class=mi>250</span><span class=p>,</span>
+                <span class=nx>url</span><span class=o>:</span> <span class=s1>&#39;&lt;?php echo base_url(&#39;</span><span class=nx>index</span><span class=o>.</span><span class=nx>php</span><span class=o>/</span><span class=nx>api</span><span class=o>/</span><span class=nx>bahasa</span><span class=o>-</span><span class=nx>pemrograman</span><span class=o>/</span><span class=nx>daftar</span><span class=s1>&#39;); ?&gt;&#39;</span><span class=p>,</span>
+                <span class=nx>data</span><span class=o>:</span> <span class=k>function</span><span class=p>(</span><span class=nx>params</span><span class=p>)</span> <span class=p>{</span>
+                    <span class=k>return</span> <span class=p>{</span>
+                        <span class=nx>searchTerm</span><span class=o>:</span> <span class=nx>params</span><span class=o>.</span><span class=nx>term</span>
+                    <span class=p>}</span>
+                <span class=p>},</span>
+                <span class=nx>processResults</span><span class=o>:</span> <span class=k>function</span><span class=p>(</span><span class=nx>data</span><span class=p>)</span> <span class=p>{</span>
+                    <span class=k>return</span> <span class=p>{</span>
+                        <span class=nx>results</span><span class=o>:</span> <span class=err>$</span><span class=o>.</span><span class=nx>map</span><span class=p>(</span><span class=nx>data</span><span class=p>,</span> <span class=k>function</span><span class=p>(</span><span class=nx>obj</span><span class=p>)</span> <span class=p>{</span>
+                            <span class=k>return</span> <span class=p>{</span>
+                                <span class=nx>id</span><span class=o>:</span> <span class=nx>obj</span><span class=o>.</span><span class=nx>id</span><span class=p>,</span>
+                                <span class=nx>text</span><span class=o>:</span> <span class=nx>obj</span><span class=o>.</span><span class=nx>nama</span>
+                            <span class=p>};</span>
+                        <span class=p>})</span>
+                    <span class=p>};</span>
+                <span class=p>}</span>
+            <span class=p>}</span>
+        <span class=p>});</span>
+    <span class=o>&lt;/</span><span class=nx>script</span><span class=o>&gt;</span>
+<span class=o>&lt;/</span><span class=nx>body</span><span class=o>&gt;</span>
+
+<span class=o>&lt;/</span><span class=nx>html</span><span class=o>&gt;</span>
+</code></pre></td></tr></table></div></div><p>Langkah kedua adalah membuat <em>controller</em>.</p><p>Buat dokumen dengan nama <code>Bahasa_pemrograman_controller.php</code> dan simpan dokumen tersebut di direktori <code>/application/controllers/</code>.</p><p>Berikut ini adalah skrip PHP dokumen <code>Bahasa_pemrograman_controller.php</code>:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-php data-lang=php><span class=o>&lt;?</span><span class=nx>php</span>
+<span class=nx>defined</span><span class=p>(</span><span class=s1>&#39;BASEPATH&#39;</span><span class=p>)</span> <span class=k>or</span> <span class=k>exit</span><span class=p>(</span><span class=s1>&#39;No direct script access allowed&#39;</span><span class=p>);</span>
+
+<span class=k>class</span> <span class=nc>Bahasa_pemrograman_controller</span> <span class=k>extends</span> <span class=nx>CI_Controller</span>
+<span class=p>{</span>
+	<span class=k>public</span> <span class=k>function</span> <span class=fm>__construct</span><span class=p>()</span>
+	<span class=p>{</span>
+		<span class=k>parent</span><span class=o>::</span><span class=na>__construct</span><span class=p>();</span>
+		<span class=nv>$this</span><span class=o>-&gt;</span><span class=na>load</span><span class=o>-&gt;</span><span class=na>helper</span><span class=p>(</span><span class=s1>&#39;url&#39;</span><span class=p>);</span>
+	<span class=p>}</span>
+
+	<span class=k>public</span> <span class=k>function</span> <span class=nf>index</span><span class=p>()</span>
+	<span class=p>{</span>
+		<span class=nv>$this</span><span class=o>-&gt;</span><span class=na>load</span><span class=o>-&gt;</span><span class=na>view</span><span class=p>(</span><span class=s1>&#39;bahasa_pemrograman/index&#39;</span><span class=p>);</span>
+	<span class=p>}</span>
+<span class=p>}</span>
+</code></pre></td></tr></table></div></div><h3 id=mengatur-routing>Mengatur Routing<a hidden class=anchor aria-hidden=true href=#mengatur-routing>#</a></h3><p>Penjelasan terkait <em>routing</em> pada Codeigniter dapat dibaca di laman <a href=https://codeigniter.com/userguide3/general/routing.html>codeigniter.com/userguide3/general/routing.html</a>.</p><p><em>Edit</em> dokumen <code>routes.php</code> yang ada di direktori <code>/application/config/</code>. Tambah berikut ini ke dokumen tersebut:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-php data-lang=php><span class=nv>$route</span><span class=p>[</span><span class=s1>&#39;bahasa-pemrograman&#39;</span><span class=p>]</span> <span class=o>=</span> <span class=s1>&#39;Bahasa_pemrograman_controller/index&#39;</span><span class=p>;</span>
+<span class=nv>$route</span><span class=p>[</span><span class=s1>&#39;api/bahasa-pemrograman/daftar&#39;</span><span class=p>]</span> <span class=o>=</span> <span class=s1>&#39;Api_controller/daftar_bahasa_pemrograman&#39;</span><span class=p>;</span>
+</code></pre></td></tr></table></div></div><p><strong>Penjelasan</strong>:</p><p>Alamat URL untuk mengakses tampilan daftar <em>dropdown</em> adalah <code>bahasa-pemrograman</code>, misalnya</p><div class=highlight><pre class=chroma><code class=language-bash data-lang=bash>http://localhost/select2-codeigniter-3-json-api/index.php/bahasa-pemrograman
+</code></pre></div><p>Sementara itu alamat URL untuk mengakses data daftar bahasa pemrograman dalam format JSON adalah <code>api/bahasa-pemrograman/daftar</code>, misalnya</p><div class=highlight><pre class=chroma><code class=language-bash data-lang=bash>http://localhost/select2-codeigniter-3-json-api/index.php/api/bahasa-pemrograman/daftar
+</code></pre></div><h3 id=hasil>Hasil<a hidden class=anchor aria-hidden=true href=#hasil>#</a></h3><div class=pic-center><img data-sizes=auto data-src=/images/select2-codeigniter-3_0.webp src=/images/bg-hanifmu.com.webp class="lazyload pic-fluid" alt=" Tampilan daftar dropdown"><p>Tampilan daftar dropdown</p></div><div class=pic-center><img data-sizes=auto data-src=/images/select2-codeigniter-3_1.webp src=/images/bg-hanifmu.com.webp class="lazyload pic-fluid" alt=" Tampilan daftar dropdown"><p>Tampilan daftar dropdown</p></div><div class=pic-center><img data-sizes=auto data-src=/images/select2-codeigniter-3.webp src=/images/bg-hanifmu.com.webp class="lazyload pic-fluid" alt=" Tampilan daftar dropdown"><p>Tampilan daftar dropdown</p></div><div class=pic-center><img data-sizes=auto data-src=/images/select2-codeigniter-3_json.webp src=/images/bg-hanifmu.com.webp class="lazyload pic-fluid" alt=" Data daftar bahasa pemrograman dalam format JSON"><p>Data daftar bahasa pemrograman dalam format JSON</p></div></div><div class=margin-iklan-display><ins class="adsbygoogle iklan-display" data-ad-client=ca-pub-7178954393352893 data-ad-slot=4248957341 data-ad-format=auto data-full-width-responsive=true></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script></div><footer class=post-footer><ul class=post-tags><li><a href=https://hanifmu.com/tags/programming/>Programming</a></li><li><a href=https://hanifmu.com/tags/select2/>Select2</a></li><li><a href=https://hanifmu.com/tags/codeigniter-3/>Codeigniter 3</a></li></ul><div class=share-buttons><a target=_blank rel="noopener noreferrer" aria-label="share Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3 on twitter" href="https://twitter.com/intent/tweet/?text=Membuat%20Daftar%20Dropdown%20dengan%20Sumber%20Data%20dari%20JSON%20API%20Memanfaatkan%20Select2%20dan%20Codeigniter%203&url=https%3a%2f%2fhanifmu.com%2fposts%2fmembuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3%2f&hashtags=Programming%2cSelect2%2cCodeigniter3"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3 on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fhanifmu.com%2fposts%2fmembuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3%2f&title=Membuat%20Daftar%20Dropdown%20dengan%20Sumber%20Data%20dari%20JSON%20API%20Memanfaatkan%20Select2%20dan%20Codeigniter%203&summary=Membuat%20Daftar%20Dropdown%20dengan%20Sumber%20Data%20dari%20JSON%20API%20Memanfaatkan%20Select2%20dan%20Codeigniter%203&source=https%3a%2f%2fhanifmu.com%2fposts%2fmembuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3 on reddit" href="https://reddit.com/submit?url=https%3a%2f%2fhanifmu.com%2fposts%2fmembuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3%2f&title=Membuat%20Daftar%20Dropdown%20dengan%20Sumber%20Data%20dari%20JSON%20API%20Memanfaatkan%20Select2%20dan%20Codeigniter%203"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3 on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fhanifmu.com%2fposts%2fmembuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3 on whatsapp" href="https://api.whatsapp.com/send?text=Membuat%20Daftar%20Dropdown%20dengan%20Sumber%20Data%20dari%20JSON%20API%20Memanfaatkan%20Select2%20dan%20Codeigniter%203%20-%20https%3a%2f%2fhanifmu.com%2fposts%2fmembuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share Membuat Daftar Dropdown dengan Sumber Data dari JSON API Memanfaatkan Select2 dan Codeigniter 3 on telegram" href="https://telegram.me/share/url?text=Membuat%20Daftar%20Dropdown%20dengan%20Sumber%20Data%20dari%20JSON%20API%20Memanfaatkan%20Select2%20dan%20Codeigniter%203&url=https%3a%2f%2fhanifmu.com%2fposts%2fmembuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3%2f"><svg viewBox="2 2 28 28"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></div><div class=related-content><span class=title>Related Content</span><ul class=list><li><a href=/posts/program-hello-world-di-beberapa-bahasa-pemrograman/>Program Hello World di Beberapa Bahasa Pemrograman</a></li><li><a href=/posts/aplikasi-berbasis-web-untuk-ip-address-lookup-memanfaatkan-api-ipapi-co/>Aplikasi Berbasis Web untuk IP Address Lookup Memanfaatkan API ipapi.co</a></li><li><a href=/posts/mendeteksi-ip-address-dan-lokasi-pengguna-memanfaatkan-api-ipinfo-io/>Mendeteksi IP Address dan Lokasi Pengguna Memanfaatkan API ipinfo.io</a></li><li><a href=/posts/hackinscience-platform-interaktif-untuk-belajar-pemrograman-python/>Hackinscience: Platform Interaktif untuk Belajar Pemrograman Python</a></li><li><a href=/posts/peta-jalan-menjadi-backend-developer/>Peta Jalan Menjadi Back-End Developer</a></li><li><a href=/posts/peta-jalan-menjadi-frontend-developer/>Peta Jalan Menjadi Front-End Developer</a></li><li><a href=/posts/instalasi-golang-di-linux/>Instalasi Golang di Linux</a></li><li><a href=/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-json-python/>Konversi Data Gempa Bumi BMKG dari XML ke JSON - Python</a></li><li><a href=/posts/codeigniter-bmkg-gempa-geojson/>Codeigniter x BMKG x Gempa x GeoJSON</a></li><li><a href=/posts/konversi-data-gempa-bumi-bmkg-dari-xml-ke-geojson-php/>Konversi Data Gempa Bumi BMKG dari XML ke GeoJSON - PHP</a></li><li><a href=/posts/codeigniter-bmkg-gempa/>Codeigniter x BMKG x Gempa</a></li></ul></div><nav class=paginav><a class=prev href=https://hanifmu.com/posts/tema-dan-logo-peringatan-hut-ke-76-kemerdekaan-republik-indonesia-tahun-2021/><span class=title>« Prev Page</span><br><span>Tema dan Logo Peringatan HUT Ke-76 Kemerdekaan Republik Indonesia Tahun 2021</span></a></nav></footer><div id=disqus_thread></div><script>var disqus_config=function(){this.page.url="https://hanifmu.com/posts/membuat-daftar-dropdown-dengan-sumber-data-dari-json-api-memanfaatkan-select2-dan-codeigniter-3/",this.page.identifier="e60e4de0eb952a538039627e76cd30e6"},disqus_observer=new IntersectionObserver(function(a){a[0].isIntersecting&&(function(){var a=document,b=a.createElement('script');b.src='https://hanifmu.disqus.com/embed.js',b.setAttribute('data-timestamp',+new Date),(a.head||a.body).appendChild(b)}(),disqus_observer.disconnect())},{threshold:[0]});disqus_observer.observe(document.querySelector("#disqus_thread"))</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by
+Disqus.</a></noscript></article></main><footer class=footer><span>&copy; 2021 <a href=https://hanifmu.com/>hanifmu.com</a></span>
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)"><button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></button></a>
+<script data-ad-client=ca-pub-7178954393352893 async src=https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js></script><script src=/js/lazysizes.min.js async></script><script>'serviceWorker'in navigator&&(navigator.serviceWorker.register('/service-worker.js',{scope:'/'}).then(function(a){console.log('Service Worker Registered')}),navigator.serviceWorker.ready.then(function(a){console.log('Service Worker Ready')}))</script><script>let menu=document.getElementById('menu');menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)},document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script><script>document.querySelectorAll('pre > code').forEach(b=>{const c=b.parentNode.parentNode,a=document.createElement('button');a.classList.add('copy-code'),a.innerText='copy';function d(){a.innerText='copied!',setTimeout(()=>{a.innerText='copy'},2e3)}a.addEventListener('click',e=>{if('clipboard'in navigator){navigator.clipboard.writeText(b.textContent),d();return}const a=document.createRange();a.selectNodeContents(b);const c=window.getSelection();c.removeAllRanges(),c.addRange(a);try{document.execCommand('copy'),d()}catch(a){}c.removeRange(a)}),c.classList.contains("highlight")?c.appendChild(a):c.parentNode.firstChild==c||(b.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?b.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(a):b.parentNode.appendChild(a))})</script></body></html>
