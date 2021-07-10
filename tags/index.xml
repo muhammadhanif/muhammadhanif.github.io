@@ -9,7 +9,43 @@
       <link>https://hanifmu.com/hanifmu-socmed.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 07 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifmu.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BpyTOP</title>
+      <link>https://hanifmu.com/tags/bpytop/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/bpytop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monitoring</title>
+      <link>https://hanifmu.com/tags/monitoring/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://hanifmu.com/tags/ubuntu/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 20.04</title>
+      <link>https://hanifmu.com/tags/ubuntu-20.04/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hanifmu.com/tags/ubuntu-20.04/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Codeigniter 3</title>
       <link>https://hanifmu.com/tags/codeigniter-3/</link>
@@ -452,15 +488,6 @@
     </item>
     
     <item>
-      <title>Ubuntu</title>
-      <link>https://hanifmu.com/tags/ubuntu/</link>
-      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hanifmu.com/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Desain</title>
       <link>https://hanifmu.com/tags/desain/</link>
       <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
@@ -781,15 +808,6 @@
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hanifmu.com/tags/management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Monitoring</title>
-      <link>https://hanifmu.com/tags/monitoring/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hanifmu.com/tags/monitoring/</guid>
       <description></description>
     </item>
     
