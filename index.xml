@@ -1,0 +1,17 @@
+<rss
+	xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+	<channel>
+		<title>muhammadhanif.github.io</title>
+		<link>https://muhammadhanif.github.io/</link>
+		<description>This website is belongs to Muhammad Hanif.</description>
+		<atom:link href="https://muhammadhanif.github.io/index.xml" rel="self" type="application/rss+xml"/>
+		<item>
+			<title>Harga Emas Hari Ini | MAS</title>
+			<link>https://muhammadhanif.github.io/</link>
+			<guid>https://muhammadhanif.github.io/</guid>
+			<description>
+				<p>This website is belongs to Muhammad Hanif.</p>
+			</description>
+		</item>
+	</channel>
+</rss>
